@@ -51,15 +51,15 @@
       .col-md-6.p-2
         p.p-5 Con el paso de los años se digitalizaron todos los procesos, permitiendo que los expertos en tipografía (diseñadores gráficos) les den a las letras dos usos, comunicar por medio de imágenes y comunicar por medio de palabras, es decir, comunicar por medio de la palabra escrita apoyada de fotografías o imágenes; cada letra de una palabra puede verse como una ilustración, la labor de un diseñador gráfico consiste en determinar qué letras son las correctas para comunicar un mensaje coherente a una idea, durante muchos siglos la palabra escrita se convirtió en un escenario sofisticado del diseño gráfico, haciéndolo todo un arte.
 
-    .tarjeta.bgrspan.p-3.mb-5.position-relative.pt-5
+    .tarjeta.bgrspan.p-3.mb-5.position-relative.pt-4.mt-5
       .row.justify-content-between.align-items-center
-        .col-3
-          img.hijo-t(src="@/assets/curso/tema2/img_t.svg")
-        .col.mb-3.mb-sm-0
+        .col-sm-2.col-md-2.text-center
+          img.hijo-t(src="@/assets/curso/tema2/img_t.svg" style="display:inline;margin-top:-70px;")
+        .col-md-10.sm-10
           p Se conoce como tipografía la destreza, el oficio y la industria de la elección y el uso de tipos (las letras diseñadas con unidad de estilo) para desarrollar una labor de impresión. Se trata de una actividad que se encarga de todo lo referente a los símbolos, los números y las letras de un contenido que se imprime en soporte físico o digital. 
     
     LineaTiempoD.color-secundario.mb-4
-      .row(numero="1" titulo="Historia")
+      .row.p-3(numero="1" titulo="Historia")
         .row
           .col-md-8.mb-4.mb-md-0.p-4
             p Con el recurso del papel, los grabados tallados en madera y una elevada demanda de libros en países como Italia, Alemania y los Países Bajos se dan a la tarea de producir textos mediante la mecanización de textos móviles. 
@@ -75,7 +75,7 @@
 
         p Mientras Colines y Garamond perfeccionaban los rediseños de las formas itálicas y romanas, en Alemania la forma de Gutenberg dio un paso al costado y aparecen letras góticas alemanas con formas cursivas tales como la Fraktur y Schwabacher, se podrían nombrar dos muy importantes impresiones de la época (la Biblia del Rey James y el Quijote de la Mancha de Miguel de Cervantes); la más importante publicación fue la aparición del primer diario europeo  “Avisa Relation Oder Zeitung”, publicado en Augsburgo y Estrasburgo. 
 
-      .row(numero="2" titulo="La era industrial - el cambio de la tipografía")
+      .row.p-3(numero="2" titulo="La era industrial - el cambio de la tipografía")
         .row
           .col-md-8.mb-4.mb-md-0.p-4
             p Tal era la importancia de la tipografía que en 1692 el Rey Luis XIV ordenó la creación de un comité de estudiosos con el fin de diseñar un nuevo tipo que acogiera principios científicos, surgiendo el tipo Jaugeon, con un concepto racional contaba con letras que tenían un eje vertical perfecto, simétrico y horizontal. Phillippe Grandjean, que grabó los punzones, lo modificó guiándolos hacia un nuevo diseño en cursiva (primer tipo neoclásico romano por transición) conocido como Romain du roí Louis XIV.
@@ -88,7 +88,7 @@
 
         p.bgrlinet.p-4 Para 1800 surge otra innovación tecnológica determinante, el tipo sans serif en un comienzo bastante cuestionada porque era bastante simple conocida como (góticas americanas, sansurryphs, grotescas, dóricas), pero al poco tiempo se posicionan gracias a alta legibilidad y a su fácil uso, era utilizado en periódicos y medios impresos de lectura que abundaban por los progresos de la época en los temas de impresión en 1880, ya que se contaba con máquinas inventadas por Ottmar Mergenthaler (Linotype) y Tolbert Lanston (Monotype).
 
-      .row(numero="3" titulo="La revolución tipográfica - el Siglo XX")
+      .row.p-3(numero="3" titulo="La revolución tipográfica - el Siglo XX")
         .row
           .col-md-8.mb-4.mb-md-0.p-4
             p Un gran salto de la trascendencia y evolución de la tipografía fue gracias a Theodore Low De Vienne quien se encargó de realizar a finales del Siglo XIX un tipo especial para la impresión de la revista Century, fue el primer diseño creado especialmente para una publicación comercial.
@@ -108,9 +108,10 @@
     #t_2_2.titulo-segundo.color-secundario.mb-5
       h2 2.2 Clasificación y características tipográficas
     
-    
     span.bgrh3.text-black.position-relative Clasificación               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
+
+    p.mt-4 Las tipografías podrían clasificarse de varias formas; sin embargo, al observar su anatomía existen cuatro principales grupos donde se pueden encasillar de la siguiente manera: tipografías serif, tipografías sans serif, tipografías script y tipografías decorativas, que se mencionan a continuación:
     
     TabsA.color-acento-contenido.mb-5.mt-5
       .tarjeta.color-acento-contenido--borde.p-4(titulo="PASO 1: Tipografías Serif, Roman o con remate ")
@@ -165,42 +166,30 @@
               li
                 ul
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext Escriptas formales  
-                    | (caligráficas) se caracterizan por cumplir un patrón que tienen las tipografías de escritura, con trazos muy regulares que simulan tipografías cursivas, puesto que a simple vista parecen escritas con una pluma, dentro de estas tipografías se pueden destacar shelley script, lynotipe zapfino, snell roundhand, chopin script.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Encriptas formales:] (caligráficas) se caracterizan por cumplir un patrón que tienen las tipografías de escritura, con trazos muy regulares que simulan tipografías cursivas, puesto que a simple vista parecen escritas con una pluma, dentro de estas tipografías se pueden destacar shelley script, lynotipe zapfino, snell roundhand, chopin script.
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext Escriptas informales  
-                    | se conocen como escriptas personalizadas, ya que cuentan con trazos irregulares, estas a simple vista dan la impresión de ser escritas con una brocha, dentro de estas tipografías se pueden destacar Rage Italic, Mistral, Lucida Handwritting, Brush Script.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Encriptas informales:] se conocen como escriptas personalizadas, ya que cuentan con trazos irregulares, estas a simple vista dan la impresión de ser escritas con una brocha, dentro de estas tipografías se pueden destacar Rage Italic, Mistral, Lucida Handwritting, Brush Script.
     
     div.bgrlinet2.mb-5
       .row
-        .col-md-8.p-4
+        .col-md-8.p-5
           p.text-black Tipografía de escritura manual
           p En este tipo de tipografía escripta no se imitan las formas, puesto que estas cuentan con un trazado libre de escritura, por lo general sus caracteres no van enlazados, cabe resaltar que es muy complejo comprender acertadamente entre tipografías de escritura manual libre y tipografías de fantasía, dentro de estas tipografías se pueden destacar Comic Sans, Lucida Calligraphy, One Stroke, Tekton. 
-          span Cabe resaltar los cuatro aspectos importantes de la tipografía, los cuales se diferencian por:
+          h5 Cabe resaltar los cuatro aspectos importantes de la tipografía, los cuales se diferencian por:
 
             ul.lista-ul.p-3
               li
                 ul
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext Cuerpo:   
-                    | Se mide en puntos tipográficos, es el tamaño de la letra.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Cuerpo:] Se mide en puntos tipográficos, es el tamaño de la letra.
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext Anchura del trazo:    
-                    | De acuerdo con su anchura podrá catalogar en: redonda, fina, extrafina o negra o super negra.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Anchura del trazo:] De acuerdo con su anchura podrá catalogar en: redonda, fina, extrafina o negra o super negra.
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext Inclinación del eje vertical:     
-                    | Por lo general cuentan con una inclinación de 15%, Itálicas o cursivas. 
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Inclinación del eje vertical:] Por lo general cuentan con una inclinación de 15%, Itálicas o cursivas. 
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext Proporción:     
-                    | Cuenta con eje vertical y horizontal, se cataloga en expandida, estrecha y redonda.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Proporción:] Cuenta con eje vertical y horizontal, se cataloga en expandida, estrecha y redonda.
 
-        .col-md-4.p-4
+        .col-md-4.p-5
           figure
             img.imgmano(src='@/assets/curso/tema2/img-mano.svg', alt='imagen mano')
 
@@ -222,63 +211,61 @@
               img(src='@/assets/curso/tema2/img-axp.svg', alt='imagen Axpho')
               
           .tarjeta.color-acento-contenido.p-3(x="99%" y="33%" numero="1")
-            .h5.mb-2 Línea media
-            p Se encarga de dar el límite a la altura de las letras minúscula, por encima de esta línea se dan una o dos líneas paralelas que son las encargadas de determinar la altura de las mayúsculas y la alineación superior de las letras con características ascendentes, se conoce también como ojo medio.
+            .h5.mb-2(style="color:#12263F;") Línea media
+            p(style="color:#12263F;") Se encarga de dar el límite a la altura de las letras minúscula, por encima de esta línea se dan una o dos líneas paralelas que son las encargadas de determinar la altura de las mayúsculas y la alineación superior de las letras con características ascendentes, se conoce también como ojo medio.
           
           .tarjeta.color-acento-contenido.p-3(x="99%" y="78%" numero="2")
-            .h5.mb-2 Línea base
-            p Sobre ella se asienta el cuerpo principal de las letras minúsculas dando base a todas las mayúsculas, debajo de la line de referencia se encuentra la línea paralela que se conoce como alineación menor, la cual se encarga de los trazos descendentes delimitándolos.
+            .h5.mb-2(style="color:#12263F;") Línea base
+            p(style="color:#12263F;") Sobre ella se asienta el cuerpo principal de las letras minúsculas dando base a todas las mayúsculas, debajo de la line de referencia se encuentra la línea paralela que se conoce como alineación menor, la cual se encarga de los trazos descendentes delimitándolos.
 
     span.bgrh3.text-black.position-relative Partes y elementos de los caracteres               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
     div.mt-3.mb-3
-      p se diferencian de la siguiente manera:
+      p Se diferencian de la siguiente manera:
 
     .row
-      .col-md-1
-      .col-md-10
-        ImagenInfografica.color-primario.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema2/img_tipog.svg', alt='imagen Axpho')
-              
-          .tarjeta.color-acento-contenido.p-3(x="17.5%" y="67%" numero="1")
-            .h5.mb-2 Asta:
-            p es el trazo que delimita la estructura básica de la letra.
-          .tarjeta.color-acento-contenido.p-3(x="23%" y="73%" numero="2")
-            .h5.mb-2 Remate:
-            p es un trazo que se da muy breve al final y no sigue la dirección del trazo donde se asienta, ya que se cierra en sentido perpendicular, o con una inclinación.
-          .tarjeta.color-acento-contenido.p-3(x="29%" y="12%" numero="3")
-            .h5.mb-2 Ascendente:
-            p es la parte de las letras de caja baja la cual supera por arriba la línea media.
-          .tarjeta.color-acento-contenido.p-3(x="32%" y="79%" numero="4")
-            .h5.mb-2 Descendente:
-            p es la parte de las letras de caja baja que supera por debajo la línea media.
-          .tarjeta.color-acento-contenido.p-3(x="38%" y="15%" numero="5")
-            .h5.mb-2 Oreja:
-            p hace referencia a la terminación que se le añade a algunas letras, por ejemplo, la letra como (g).
-          .tarjeta.color-acento-contenido.p-3(x="46%" y="74%" numero="6")
-            .h5.mb-2 Ojal:
-            p parte inferior de la ‘g’ minúscula cuando esta es una forma cerrada.
-          .tarjeta.color-acento-contenido.p-3(x="49%" y="13%" numero="7")
-            .h5.mb-2 Vértice:
-            p es el punto que permite la unión entre dos astas inclinadas.
-          .tarjeta.color-acento-contenido.p-3(x="59%" y="64%" numero="8")
-            .h5.mb-2 Barra transversal o perfil:
-            p es la línea horizontal que se encuentra entre verticales, diagonales o curvas.
-          .tarjeta.color-acento-contenido.p-3(x="58.5%" y="11%" numero="9")
-            .h5.mb-2 Cruz o travesaño:
-            p es la línea horizontal que atraviesa por algún punto el trazo principal.
-          .tarjeta.color-acento-contenido.p-3(x="72.5%" y="15%" numero="10")
-            .h5.mb-2 Brazo:
-            p es un trazo el cual puede ser horizontal o diagonal y se da por un trazo vertical.
-          .tarjeta.color-acento-contenido.p-3(x="78%" y="66%" numero="11")
-            .h5.mb-2 Cola:
-            p es la continuación de la parte inferior de algunos rasgos.
+      ImagenInfografica.color-primario.mb-5
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema2/img_tipog.svg', alt='imagen Axpho')
+            
+        .tarjeta.color-acento-contenido.p-3(x="17.5%" y="67%" numero="1")
+          .h5.mb-2 Asta:
+          p es el trazo que delimita la estructura básica de la letra.
+        .tarjeta.color-acento-contenido.p-3(x="23%" y="73%" numero="2")
+          .h5.mb-2 Remate:
+          p es un trazo que se da muy breve al final y no sigue la dirección del trazo donde se asienta, ya que se cierra en sentido perpendicular, o con una inclinación.
+        .tarjeta.color-acento-contenido.p-3(x="29%" y="12%" numero="3")
+          .h5.mb-2 Ascendente:
+          p es la parte de las letras de caja baja la cual supera por arriba la línea media.
+        .tarjeta.color-acento-contenido.p-3(x="32%" y="79%" numero="4")
+          .h5.mb-2 Descendente:
+          p es la parte de las letras de caja baja que supera por debajo la línea media.
+        .tarjeta.color-acento-contenido.p-3(x="38%" y="15%" numero="5")
+          .h5.mb-2 Oreja:
+          p hace referencia a la terminación que se le añade a algunas letras, por ejemplo, la letra como (g).
+        .tarjeta.color-acento-contenido.p-3(x="46%" y="74%" numero="6")
+          .h5.mb-2 Ojal:
+          p parte inferior de la ‘g’ minúscula cuando esta es una forma cerrada.
+        .tarjeta.color-acento-contenido.p-3(x="49%" y="13%" numero="7")
+          .h5.mb-2 Vértice:
+          p es el punto que permite la unión entre dos astas inclinadas.
+        .tarjeta.color-acento-contenido.p-3(x="59%" y="64%" numero="8")
+          .h5.mb-2 Barra transversal o perfil:
+          p es la línea horizontal que se encuentra entre verticales, diagonales o curvas.
+        .tarjeta.color-acento-contenido.p-3(x="58.5%" y="11%" numero="9")
+          .h5.mb-2 Cruz o travesaño:
+          p es la línea horizontal que atraviesa por algún punto el trazo principal.
+        .tarjeta.color-acento-contenido.p-3(x="72.5%" y="15%" numero="10")
+          .h5.mb-2 Brazo:
+          p es un trazo el cual puede ser horizontal o diagonal y se da por un trazo vertical.
+        .tarjeta.color-acento-contenido.p-3(x="78%" y="66%" numero="11")
+          .h5.mb-2 Cola:
+          p es la continuación de la parte inferior de algunos rasgos.
 
     div.mb-5.bgrform    
-      p.text-center.pt-4 Existen diferentes tipos de remate, identificados como clásico, rectilíneo, filiforme, cuadrangular, lobulado, insinuado y sin remate.
+      p.text-center.pt-4(style="font-weight:bold") Existen diferentes tipos de remate, identificados como clásico, rectilíneo, filiforme, cuadrangular, lobulado, insinuado y sin remate.
       figure
         img.contenform.aling-items-center.mt-5(src='@/assets/curso/tema2/img-formas.svg', alt='imagen formas')
     
@@ -301,12 +288,11 @@
     span.bgrh3.text-black.position-relative Estilo de las romanas               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
-    p.mt-3 se conforman por fuentes que exponen atributos de la escritura manual asociadas a la caligrafía humanista del Siglo XV, de igual forma, de la práctica lapidaria romana, tratándose del grupo de letras más numeroso por las familias que la componen, son de modulación perceptible en sus trazos y cuentan con remates.
+    p.mt-3 Se conforman por fuentes que exponen atributos de la escritura manual asociadas a la caligrafía humanista del Siglo XV, de igual forma, de la práctica lapidaria romana, tratándose del grupo de letras más numeroso por las familias que la componen, son de modulación perceptible en sus trazos y cuentan con remates.
 
-    .titulo-quinto.color-secundario.mb-5
-      h3 Se representan de la siguiente manera:
+    h5.text-center.mt-5 Se representan de la siguiente manera:
     
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.mb-5.mt-4(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Subestilo humanas")
         .col-md-12.mb-4.mb-md-0
           p Aparecen entre los años 1460 y 1470 en Italia con los primeros tipos de letras redondas, para 1470 surge un nuevo conjunto de tipos referenciados por la escritura humanística, de allí se deriva el termino (romana), los tipos humanísticos se conocen también como (venecianos) Este estilo de tipografía es de composición ancha y gran peso, y caja alta y bastante grande, los tipos Humanísticos no se utilizan en la actualidad para aplicar a textos continuos, se utilizan para realizar publicidad y textos breves.
@@ -448,10 +434,11 @@
           figure
             img(src='@/assets/curso/tema2/img-abc5.svg', alt='imagen ABC5', width="703", height="230")
 
-    span.bgrh3.text-black.position-relative Estilo de las lineales o de palo seco                
+    br
+    span.bgrh3.text-black.position-relative.mt-5 Estilo de las lineales o de palo seco                
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
-    p.mb-5.mt-5 se caracterizan porque no presentan remates y están divididas en tres categorías.
+    p.mb-5.mt-3 Se caracterizan porque no presentan remates y están divididas en tres categorías.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Subestilos grotescos y neogrotescos")
@@ -513,7 +500,7 @@
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
     div.mt-4.mb-4   
-      p está dividida en dos tipos.
+      p Está dividida en dos tipos.
 
     .row.mt-4.mb-4
       .col-md-9
@@ -521,13 +508,9 @@
               li
                 ul
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext Caligráficas:
-                    | inspiradas en la escritura caligráfica, se connotan a la escritura personal e intercambios epistolares, como ejemplo de este tipo se puede mencionar la Mistral, se caracteriza por su trazo manual y por tener caracteres sueltos o enlazados.
+                    p.mb-0 #[strong.colortext Caligráficas:] inspiradas en la escritura caligráfica, se connotan a la escritura personal e intercambios epistolares, como ejemplo de este tipo se puede mencionar la Mistral, se caracteriza por su trazo manual y por tener caracteres sueltos o enlazados.
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext Manuales:
-                    | son formas de escritura manual normal y su apariencia final dependerá del instrumento con las que fueron trazadas, marcador o pincel, dan una apariencia de espontaneidad e informalidad, como ejemplo de este tipo se puede mencionar Comic sans.
+                    p.mb-0 #[strong.colortext Manuales:] son formas de escritura manual normal y su apariencia final dependerá del instrumento con las que fueron trazadas, marcador o pincel, dan una apariencia de espontaneidad e informalidad, como ejemplo de este tipo se puede mencionar Comic sans.
 
       .col-md-3
         figure
@@ -558,13 +541,9 @@
               li
                 ul
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext De diseño:
-                    | se elaboran partiendo de cualquier pretexto gráfico, de este tipo se pueden mencionar las esténcil o de plantilla.decorativos.
+                    p.mb-0 #[strong.colortext De diseño:] se elaboran partiendo de cualquier pretexto gráfico, de este tipo se pueden mencionar las esténcil o de plantilla.decorativos.
                   li 
-                    i.fas.fa-angle-right
-                    span.colortext Ornamentales:
-                    | se basan por la duplicidad de elementos que se les adiciona a los tipos decorativos.
+                    p.mb-0 #[strong.colortext Ornamentales:] se basan por la duplicidad de elementos que se les adiciona a los tipos decorativos.
 
     Separador
 
@@ -581,7 +560,7 @@
         p En el diseño de piezas gráficas con composiciones tipográficas se utilizan una serie de criterios que componen la maquetación, se podría decir que el más importante es el 
           span.bgrspan proceso de toma de decisiones al elegir el tipo de letra;  
           | en el uso de contrastes de cuerpo, estilo, tono y color; en el uso de signos y puntuación, de igual forma en la aplicación de diversas alineaciones y direccionalidad.
-        p Teniendo en cuenta lo anterior se hablará de tres criterios bases a la hora de crear una composición.
+        p(style="font-weight:bold;") Teniendo en cuenta lo anterior se hablará de tres criterios bases a la hora de crear una composición.
     
     .row
       .col-md-1
@@ -618,20 +597,6 @@
               p el tamaño de una letra está muy relacionado con el cuerpo de la fuente, aunque siempre hay que recordar que diferentes familias, dependiendo del diseño de cada fuente, pueden tener diferentes tamaños para un mismo cuerpo. Esta diferencia entre letra impresa y tipografía se debe a que el cuerpo tiene en cuenta el tamaño total de la fuente móvil, es decir, se suma a la altura real de la letra, el hombro superior y el hombro inferior de la pieza de metal. y estos varían, así como la altura X, dependiendo del diseño tipográfico. Aunque actualmente se trabaja muy poco con los tipos móviles en metal real, estos están presentes de forma virtual en todos los cálculos que realizan los programas informáticos que trabajan con la tipografía.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </template>
 
 <script>
@@ -650,5 +615,16 @@ export default {
   },
 }
 </script>
-
-<style lang="sass"></style>
+<style lang="sass">
+.tarjeta.color-acento-contenido--borde
+  background-color: #FFF3BF
+  color: #12263F
+  border: none
+.tabs-a__tab
+  background-color: #F6F6F6
+.img-infografica__card .tarjeta
+  background-color: white
+  border: 2px #FFAC57 solid
+.img-infografica__card .tarjeta *
+  color: #12263F
+</style>

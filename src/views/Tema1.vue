@@ -133,17 +133,17 @@
         span.bgrspan producción y diagramación de cualquier tipo de pieza literaria.  
         | Pueden ser libros, revistas, manuales, diarios, fanzines, folletos informativos, entre otros. Normalmente este tipo de piezas o documentos están compuestos por muchos pliegos o páginas y cuentan con diseños de composición y tipografías que son realizados de manera más regular que en otro tipo de diseños.
 
-    .tarjeta.bgrspan.p-3.mb-5.position-relative.pt-5
+    .tarjeta.bgrspan.p-3.mb-5.position-relative.pt-2
         .row.justify-content-between.align-items-center
-          .col-3
-          .col.mb-3.mb-sm-0
+          .col-md-3.col-sm-3.text-center
+            img.hijoacct(src="@/assets/curso/tema1/img-actio1.svg" style="display:inline;margin-top:-45px;")
+          .col-sm-5.col-md-5.mb-3.mb-sm-0
             h3.mb-1 Características del diseño editorial
             p.text-small A continuación, observe el video Conceptos básicos diseño editorial para tener una mayor contextualización de este tema, sus elementos, características, entre otros.  
-          .col-sm-auto
+          .col-md-3.col-sm-3
             a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
               span Descargar
               i.fas.fa-file-download
-          img.hijoacct(src="@/assets/curso/tema1/img-actio1.svg")
 
     p La función principal del diseño editorial es la de maquetación y al momento de desarrollar una pieza gráfica, que esta pueda pasar por las diferentes etapas de ajustes, correcciones de diseño y su entorno, con el fin de llegar al resultado esperado; el diseño editorial cuenta con tres características principales: el texto, imágenes y retícula, diferenciados así:
 
@@ -157,39 +157,39 @@
 
     .row.mb-5.brgflyp
       .col-sm-6.col-xl-4.mb-4.mb-xl-0.p-4.contenflip
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip.flip1.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
               img.brgflyp2.pt-5(src='@/assets/curso/tema1/imf_flyp1.svg', alt='intro tema1')
               h3.p-4.text-center.text-black El target
 
-            .tarjeta-flip__contenido.p-2.p-xl-5
-              h1.text-center El target
+            .tarjeta-flip__contenido.p-2.p-xl-4
+              h3.text-center El target
               p Se debe realizar un análisis del mercado cuantitativo y cualitativo, definiendo el consumidor final (o potencial), para ello es importante conocer el tipo de lector (sus intereses y gustos) al cual estará dirigido el diseño editorial.
  
       .col-sm-6.col-xl-4.mb-4.mb-xl-0.p-4.contenflip
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip.flip1.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
               img.brgflyp2.pt-5(src='@/assets/curso/tema1/imf_flyp2.svg', alt='intro tema1')
               h3.p-4.text-center.text-black La tipografía
-            .tarjeta-flip__contenido.p-2.p-xl-5
-              h1.text-center La tipografía
+            .tarjeta-flip__contenido.p-2.p-xl-4
+              h3.text-center La tipografía
               p Esta debe ser afín al público objetivo, coherente a un estilo o marca, importante que sea tendencia, novedosa y fresca a simple vista, el éxito del diseño editorial dependerá en gran parte del tipo de tipografía a utilizar, por ello es indispensable escoger correctamente fuentes y tamaños.
 
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0.p-4.contenflip
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip.flip1.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
               img.brgflyp2.pt-5(src='@/assets/curso/tema1/imf_flyp3.svg', alt='intro tema1')
               h3.p-4.text-center.text-black Los recursos económicos
 
-            .tarjeta-flip__contenido.p-2.p-xl-5
-              h1.text-center Los recursos económicos
+            .tarjeta-flip__contenido.p-2.p-xl-4
+              h3.text-center Los recursos económicos
               p Es necesario contar con un presupuesto adecuado para la creación del diseño editorial, si se cuenta con un buen presupuesto posiblemente tendrá un buen producto, el esperado, cabe resaltar que no se requiere tener un presupuesto robusto para la creación de un diseño optimo, sin embargo, en el caso de que se cuente con un presupuesto mínimo, no limitará a que sea un resultado negativo o sea un mal diseño.
  
     p.mb-5 El diseño editorial se encarga primordialmente de la estética y del aspecto que tendrán los diferentes conjuntos de textos e imágenes al momento de ser expuestos ante un público, ocupándose de que su exterior e interior cumplan detalladamente con el pedido específico, siendo un soporte de todo el contenido del diseño, apoyando la interpretación de la lectura dentro de una publicación.
@@ -458,7 +458,9 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/acor6.png', alt='Texto que describa la imagen')
 
-    SlyderC.mb-5(:datos="datosSlyder")
+    h5.text-center.mt-5(data-aos="fade-up") A continuación, se hará referencia a las partes que componen una revista:
+
+    SlyderC.mb-5.mt-4(:datos="datosSlyder")
 
     Separador
       
@@ -624,19 +626,11 @@
           li
             ul
               li 
-                i.fas.fa-angle-right
-                span.colortext Portada:  
-                | Debe llevar un título creativo, es importante agregarle imágenes. 
-
+                p.mb-0 #[i.fas.fa-angle-right(style="color:#26CCDA;")] #[strong.colortext Portada:] Debe llevar un título creativo, es importante agregarle imágenes. 
               li 
-                i.fas.fa-angle-right
-                span.colortext Desarrollo: 
-                | Se debe dejar la primera página para la presentación, en las páginas siguientes se posicionarán los productos de cada área específica, uno por página o sección, dependiendo la estructura organizativa, por lo general en la última página de la cartilla se recomendaría dejar las conclusiones del argumento de la cartilla.
-              
+                p.mb-0 #[i.fas.fa-angle-right(style="color:#26CCDA;")] #[strong.colortext Desarrollo:] Se debe dejar la primera página para la presentación, en las páginas siguientes se posicionarán los productos de cada área específica, uno por página o sección, dependiendo la estructura organizativa, por lo general en la última página de la cartilla se recomendaría dejar las conclusiones del argumento de la cartilla.
               li 
-                i.fas.fa-angle-right
-                span.colortext Contratapa: 
-                | De acuerdo con los productos que se publican en la cartilla, se debe escribir una idea o conclusión para que el público tenga de referencia.
+                p.mb-0 #[i.fas.fa-angle-right(style="color:#26CCDA;")] #[strong.colortext Contratapa:] De acuerdo con los productos que se publican en la cartilla, se debe escribir una idea o conclusión para que el público tenga de referencia.
         p Se recomendaría tener un texto instructivo para el diseño de la cartilla, el cual podría ser de esta forma:
 
       .col-md-5
@@ -745,17 +739,6 @@
             img.contenacord(src='@/assets/curso/tema1/img_sly2-8.png', alt='Texto que describa la imagen')
 
 
- 
- 
-
-
-
-
-
-      
-
-
-
 
 
 </template>
@@ -823,5 +806,43 @@ export default {
   },
 }
 </script>
-
-<style lang="sass"></style>
+<style lang="sass">
+.tarjeta-avatar > img
+  transform: translateY(80%) translateX(-50%)
+.tarjeta.color-secundario h2, .tarjeta.color-primario h2
+  margin-top: 50px
+.tarjeta-flip.color-secundario.flip1 .tarjeta-flip__img
+  background-color: #ffffff
+  box-shadow: 0px 0px 10px rgba(0,0,0,.08)
+.tarjeta-flip.color-secundario.flip1 .tarjeta-flip__contenido
+  background-color: #366592
+  color: #ffffff
+.tarjeta-flip__contenido
+  display: flex
+  flex-direction: column
+  place-content: center
+.flip1 .tarjeta-flip__contenido *
+  color: #ffffff !important
+  text-align: center !important
+.tarjeta-flip__contenido *
+  text-align: center !important
+.lista-ul li i.fas.fa-angle-right
+  color: #F57C00
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #B1F9FF
+  color: #12263F
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #B1F9FF !important
+  color: #12263F !important
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #1FA4AF
+  color: white
+  font-weight: bold
+.linea-tiempo-d__item__number
+  background-color: #1FA4AF
+  color: white
+  font-weight: bold
+.img-infografica__card .tarjeta
+  background-color: white
+  border: 2px #FFAC57 solid
+</style>
