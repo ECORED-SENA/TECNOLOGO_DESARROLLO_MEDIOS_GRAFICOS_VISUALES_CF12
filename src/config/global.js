@@ -116,6 +116,62 @@ export default {
         numero: '3',
         titulo: 'Diseño tipográfico',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: '3.1 Tipografía, rotulación y caligrafía',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: '3.2 Forma y función de la tipografía',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: '3.3 Factor lingüístico y gráfico',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: '3.4 Medidas tipográficas',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: '3.5 Tipografía digital',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: '3.6 Jerarquía y legibilidad',
+            hash: 't_3_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.7',
+            titulo: '3.7 Módulos y retícula',
+            hash: 't_3_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.8',
+            titulo: '3.8 Creación vectorial',
+            hash: 't_3_8',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.9',
+            titulo: '3.9 Correcciones',
+            hash: 't_3_9',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -261,14 +317,34 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto:
+        'Hernández, R. (2021). Los productos editoriales [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=NAJfveY2EdQ',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        'Hurtado, S. (2020). Estilos del diseño tipográfico [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=0k5_e1EHF40',
+    },
+    {
+      texto:
+        'Prieto, C. (2017). Producción Periódico El Tiempo [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=68KswFbM4F0',
+    },
+    {
+      texto:
+        'Salazar, P. (2021) La infografía: qué es, cuáles son sus elementos y cómo leerla [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=eYi_PApHKmc',
+    },
+    {
+      texto:
+        'Torres, B. (2020). La revista, partes y proceso para su elaboración [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Ugbk0YQCuYw',
     },
   ],
   creditos: {

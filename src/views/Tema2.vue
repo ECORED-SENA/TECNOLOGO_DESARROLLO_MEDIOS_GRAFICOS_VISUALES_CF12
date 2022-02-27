@@ -114,15 +114,15 @@
     p.mt-4 Las tipografías podrían clasificarse de varias formas; sin embargo, al observar su anatomía existen cuatro principales grupos donde se pueden encasillar de la siguiente manera: tipografías serif, tipografías sans serif, tipografías script y tipografías decorativas, que se mencionan a continuación:
     
     TabsA.color-acento-contenido.mb-5.mt-5
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="PASO 1: Tipografías Serif, Roman o con remate ")
-        h4 PASO 1: Tipografías Serif, Roman o con remate 
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías Serif, Roman o con remate ")
+        h4 Tipografías Serif, Roman o con remate 
         p El principal elemento de una tipografía es el remate, el cual es una decoración que siempre se sitúa al final de cada trazo principal el cual puede ser de una letra o un número, para referenciarla de mejor manera se puede decir que es un pie que permite que la fuente tenga una posición sobre la línea base de una forma decorativa, estas fuentes se utilizan mejor para bloques de texto largos y densos, puesto que son mucho más cómodas y ligeras de leer. El hecho de que tenga un pináculo al final de sus líneas favorece la lectura, ya que funciona como un pequeño vínculo visual entre las letras de una misma palabra. Si se toma como referencia su significado psicológico aplicado al diseño, podría asociarse a un contexto tradicional y clásico ya que permite dar autoridad, seriedad y antigüedad, como ejemplos de este tipo de tipografías serif se encuentran Garamond, Times New Roman, Palatino, Didot, Georgia.
 
         figure
           img.contentext(src='@/assets/curso/tema2/text1.svg', alt='Texto 1')
 
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="PASO 2: Tipografías Sans Serif, de palo seco o lineales")
-        h4 PASO 2: Tipografías Sans Serif, de palo seco o lineales
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías Sans Serif, de palo seco o lineales")
+        h4 Tipografías Sans Serif, de palo seco o lineales
 
         p Este tipo de fuentes se identifican porque carecen de remate en sus trazos, ya que son tipografías rectas y presentan trazos limpios y uniformes, su primera aparición es en la revolución industrial las cueles se manejaban en carteleras y embalajes, su principal uso es en textos cortos y no densos puesto que no son de buena legibilidad por ello su lectura es compleja. Están muy asociadas a contextos actuales y modernos dando un aspecto limpio y sobrio como ejemplos de este tipo de tipografías sans serif son Arial, Open Sans, Century Gothic, Calibri, Avenir, Futura, Frutiguer, entre otras.
 
@@ -130,16 +130,16 @@
         figure
           img.contentext(src='@/assets/curso/tema2/text2.svg', alt='Texto 2')
       
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="PASO 3: Tipografías Script o cursivas")
-        h4 PASO 3: Tipografías Script o cursivas
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías Script o cursivas")
+        h4 Tipografías Script o cursivas
 
         p Son llamadas así por su aspecto de forma manual, ya que tienden a semejar la escritura realizada a mano, por lo general cuentan con florituras o uniones lo que hace que se unan con otras letras, se utilizan comúnmente para realizar frases cortas o firmas, puesto que por su forma en un texto largo dificultaría su legibilidad y lectura, este tipo de fuentes brindan un aspecto de cercanía, creatividad y elegancia como ejemplos de este tipo de tipografías se pueden mencionar; Gótica, Gran Vives, Edwardian Script, Brush.
 
         figure
           img.contentext(src='@/assets/curso/tema2/text3.svg', alt='Texto 3')
       
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="PASO 4: Tipografías decorativas")
-        h4 PASO 4: Tipografías decorativas
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías decorativas")
+        h4 Tipografías decorativas
 
         p Cuentan con diseño concreto y un estilo propio con un fin decorativo, se utilizan para temas puntuales y aislados como frase de publicidad, los textos que se manejan no son amplios, ya que si se hacen en frases largas ese dificultara para su legibilidad cuentan con personalidad única y cada una de ellas representa un significado diferente, como ejemplos de este tipo de tipografías decorativas se pueden mencionar; Pop Art, Monotone, Bangers, Art Nouveau.
 
