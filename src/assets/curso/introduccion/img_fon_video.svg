@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1330" height="497" viewBox="0 0 1330 497">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_5167" data-name="Rectángulo 5167" width="1330" height="497" rx="20" transform="translate(-21381 -16237.543)" fill="#ffd1a2"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.211" cy="0.545" r="0.834" gradientTransform="matrix(0.995, 0.1, 0.1, -0.995, -0.049, 1.065)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffa726"/>
+      <stop offset="1" stop-color="#d06a01"/>
+    </radialGradient>
+    <filter id="Trazado_165266" x="842.564" y="381.652" width="155.658" height="150.027" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#a87310" flood-opacity="0.255"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.365" y1="0.655" x2="0.577" y2="0.93" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fdd835"/>
+      <stop offset="1" stop-color="#ffa726"/>
+    </linearGradient>
+    <filter id="Trazado_165267" x="745.35" y="61.163" width="646.143" height="478.517" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#a87310" flood-opacity="0.58"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.144" y1="0.709" x2="0.738" y2="0.88" xlink:href="#linear-gradient"/>
+    <filter id="Trazado_165268" x="1019.535" y="152.628" width="345.874" height="386.896" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-color="#a87310" flood-opacity="0.58"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.393" y1="0.309" x2="0.865" y2="0.5" xlink:href="#linear-gradient"/>
+    <filter id="Trazado_165270" x="1119.256" y="381.315" width="247.189" height="158.208" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-color="#a87310" flood-opacity="0.584"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-2" cx="0.354" cy="0.732" r="0.95" gradientTransform="matrix(0.979, 0.204, 0.204, -0.979, -0.142, 1.377)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b1f9ff"/>
+      <stop offset="0.468" stop-color="#24c2cf"/>
+      <stop offset="1" stop-color="#1fa4af"/>
+    </radialGradient>
+    <filter id="Trazado_165271" x="843.971" y="400.21" width="51.408" height="49.956" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-color="#a87310" flood-opacity="0.294"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Unión_6" x="1193.461" y="67.067" width="91.162" height="93.146" filterUnits="userSpaceOnUse">
+      <feOffset dx="-20" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Enmascarar_grupo_50" data-name="Enmascarar grupo 50" transform="translate(21381 16237.543)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, -21381, -16237.54)" filter="url(#Trazado_165266)">
+      <path id="Trazado_165266-2" data-name="Trazado 165266" d="M123.988,73.7c7.912-32.264-13.056-64.546-46.833-72.1S9.582,14.065,1.67,46.329s13.055,64.545,46.833,72.1a65.773,65.773,0,0,0,14.381,1.595c28.51,0,54.322-18.669,61.1-46.329" transform="translate(867.56 386.65)" fill="url(#radial-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -21381, -16237.54)" filter="url(#Trazado_165267)">
+      <path id="Trazado_165267-2" data-name="Trazado 165267" d="M434.862-35.86S336.74,11.3,374.325,85.9c36.846,73.13,1.455,138.172-80.319,124.654s-97.55,49.671-108.425,72.755c-18.98,40.287-60.606,44.315-101.226,31.223C34.42,298.434,0,356.226,0,356.226H560.062s58.682-407.365,0-416.856S434.862-35.86,434.862-35.86Z" transform="translate(775.35 150.46)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -21381, -16237.54)" filter="url(#Trazado_165268)">
+      <path id="Trazado_165268-2" data-name="Trazado 165268" d="M285.874,326.9V0c-82.913,4.145-99.391,47.821-100.361,79.2S229.2,206.834,104.73,204.027C-14.588,201.336.628,326.9.628,326.9Z" transform="translate(1049.54 179.63)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -21381, -16237.54)" filter="url(#Trazado_165270)">
+      <path id="Trazado_165270-2" data-name="Trazado 165270" d="M187.189,98.2V8.31C117.416-17.121,90.226,20.319,62.075,59.88,36.408,95.951,5.94,98.1.765,98.2ZM.765,98.2H0s.118,0,.344,0c.114,0,.254,0,.421,0" transform="translate(1149.26 408.32)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -21381, -16237.54)" filter="url(#Trazado_165271)">
+      <path id="Trazado_165271-2" data-name="Trazado 165271" d="M31.977,19.007C34.018,10.686,28.61,2.361,19.9.411S2.471,3.628.431,11.949,3.8,28.6,12.509,30.544a16.963,16.963,0,0,0,3.709.411A16.076,16.076,0,0,0,31.977,19.007" transform="translate(862.97 400.21)" fill="url(#radial-gradient-2)"/>
+    </g>
+    <g id="Grupo_56626" data-name="Grupo 56626" transform="translate(-21516.125 -16310.543)">
+      <g transform="matrix(1, 0, 0, 1, 135.13, 73)" filter="url(#Unión_6)">
+        <path id="Unión_6-2" data-name="Unión 6" d="M4.68,46.31,27.334,27.68l27.3,10.332L31.98,56.642ZM0,18.631,22.653,0l4.681,27.68L4.68,46.31ZM27.334,27.68,22.657,0l27.3,10.33,4.68,27.682Z" transform="translate(1229 68)" fill="#45eefc" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <g id="Grupo_54764" data-name="Grupo 54764" transform="translate(1364.125 141)">
+        <path id="Trazado_104210" data-name="Trazado 104210" d="M18.171,27.679l27.3,10.332-4.68-27.679L13.492,0Z" transform="translate(9.165 0)" fill="#45eefc"/>
+        <path id="Trazado_104211" data-name="Trazado 104211" d="M22.656,0,0,18.633,4.68,46.312,27.335,27.679Z" transform="translate(0 0.001)" fill="#26ccda"/>
+        <path id="Trazado_104212" data-name="Trazado 104212" d="M2.787,35.116l27.3,10.331L52.745,26.815l-27.3-10.332Z" transform="translate(1.893 11.197)" fill="#1fa4af"/>
+      </g>
+    </g>
+  </g>
+</svg>

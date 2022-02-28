@@ -27,5 +27,9 @@ export default {
   },
 }
 </script>
-
-<style lang="sass"></style>
+<style lang="sass">
+.titulo-segundo:after
+  border-left-color: #F57C00 !important
+.curso-main-container > .container
+  overflow-x: clip !important
+</style>
