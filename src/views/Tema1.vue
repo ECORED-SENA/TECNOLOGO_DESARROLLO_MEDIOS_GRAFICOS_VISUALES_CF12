@@ -123,7 +123,7 @@
             .p-4
               h2.text-center Equilibrio y armonía
 
-              p Antes de hacer la entrega del producto es importante verificar que esta contiene una sinergia en su totalidad dando un mensaje claro dentro de un contexto determinado, aquí se debe ser autocritico y realizar los ajustes necesarios con el fin de hacer de un entregable un contenido atractivo al público.
+              p Antes de hacer la entrega del producto es importante verificar que esta contiene una sinergia en su totalidad dando un mensaje claro dentro de un contexto determinado, aquí se debe ser autocrítico y realizar los ajustes necesarios con el fin de hacer de un entregable un contenido atractivo al público.
     
     span.bgrh3.text-black.position-relative El diseño editorial                 
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
@@ -196,6 +196,8 @@
 
     span.bgrh3.text-black.position-relative Elementos de un diseño editorial                
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
+
+    p.mt-4(data-aos="fade-up") El diseño editorial cuenta con algunos elementos que al momento de su creación y planeación se deben tener presentes, estos son:
     
     PasosA.color-acento-contenido.mb-5.mt-5(tipo="l")
       .row
@@ -250,7 +252,7 @@
       
     .bgrconten.mb-5
       div.p-5
-        p.text-center Se recomienda que al momento de crear un proyecto editorial se utilice el programa de diseño Adobe InDesign, ya que es el software con las mejores características de diseño de páginas, medios escritos y digitales.
+        p.text-center Se recomienda que al momento de crear un proyecto editorial se utilice el programa de diseño Adobe InDesign, ya que es el #[em software] con las mejores características de diseño de páginas, medios escritos y digitales.
         figure
           img.contenbgr(src='@/assets/curso/tema1/img-conte.svg', alt='paso 6')
 
@@ -344,7 +346,7 @@
         .row
           .col-md-7.mb-4.mb-md-0.p-5
             h2 Producción – Impresión
-            p Ya en la etapa de producción el libro es producido en físico y en los diversos formatos digitales, de igual forma, se sube a páginas web y tiendas en línea.
+            p Ya en la etapa de producción el libro es producido en físico y en los diversos formatos digitales, de igual forma, se sube a páginas #[em web] y tiendas en línea.
       
           .col-md-4
             figure
@@ -410,7 +412,7 @@
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
 
     AcordionA.mt-5.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Procesamiento de la información:")
+      .row(titulo="Procesamiento de la información")
         .col-md-6.mb-4.mb-md-0.p-5
           p Está determinada por las operaciones de elección, producción y distribución de la información. Esta tarea la desempeña el redactor quien almacena la información necesaria que se necesita para la creación de un contenido, se apoya de ser necesario en bases de datos almacenadas, al mismo tiempo realiza la mayor parte de labores de preparación, se encarga de la redacción de textos.
 
@@ -418,7 +420,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/acor1.png', alt='Texto que describa la imagen')
             
-      .row(titulo="Control y tratamiento de la información:")
+      .row(titulo="Control y tratamiento de la información")
         .col-md-6.mb-4.mb-md-0.p-5
           p Teniendo ya la información almacenada el redactor encargado de la sección examina y ajusta todos los contenidos que se encuentran guardados en el sistema, procede a fijar cada página y su sección de igual forma las columnas de interés, por otro lado, la publicidad se va fijando en las páginas que estén destinadas para tal función esto facilitará el proceso de maquetación de la revista a redacción, de esta función se encarga un coordinador de área. 
 
@@ -426,23 +428,23 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/acor2.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Montaje de la página:")
+      .row(titulo="Montaje de la página")
         .col-md-6.mb-4.mb-md-0.p-5
-          p Para la realización del diseño de la página se debe tener en cuenta que los contenidos estén ajustados, llevando el equilibrio entre ilustraciones y textos, para esta acción se debe contar con un ordenador y sus respectivos softwares de digitalización, los cuales permitan la manipulación de gráficos, fotos y textos.
+          p Para la realización del diseño de la página se debe tener en cuenta que los contenidos estén ajustados, llevando el equilibrio entre ilustraciones y textos, para esta acción se debe contar con un ordenador y sus respectivos #[em software]s de digitalización, los cuales permitan la manipulación de gráficos, fotos y textos.
 
         .col-md-6
           figure
             img.contenacord(src='@/assets/curso/tema1/acor3.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Desarrollo del soporte de impresión:")
+      .row(titulo="Desarrollo del soporte de impresión")
         .col-md-6.mb-4.mb-md-0.p-5
-          p Este es un mecanismo adecuado que está en medio de la fase de redacción e impresión, para la edición de revistas no es muy útil la técnica tipográfica, ya que sus propiedades de impresión son de gama intermedia, no dando una óptima calidad, por tal razón se recomienda que sea por plancha offset o cilindro en el hueco grabado.  
+          p Este es un mecanismo adecuado que está en medio de la fase de redacción e impresión, para la edición de revistas no es muy útil la técnica tipográfica, ya que sus propiedades de impresión son de gama intermedia, no dando una óptima calidad, por tal razón se recomienda que sea por plancha #[em offset] o cilindro en el hueco grabado.  
 
         .col-md-6
           figure
             img.contenacord(src='@/assets/curso/tema1/acor4.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Impresión:")
+      .row(titulo="Impresión")
         .col-md-6.mb-4.mb-md-0.p-5
           p Cuenta con un alto grado de automatización, lo cual hace que este sea muy complejo, por lo general se realiza por medio de la impresión rotativa.
 
@@ -450,7 +452,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/acor5.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Plegado y encuadernado:")
+      .row(titulo="Plegado y encuadernado")
         .col-md-6.mb-4.mb-md-0.p-5
           p Esta fase responsabilidad del departamento de distribución y producción, después del proceso de producción el cual es la fase final, se procede a realizar el cortado de páginas, inclusión de material publicitario, los pliegues y finalmente el encuadernado, pegado de etiquetas y embalaje, después de todo este proceso todo el material (ejemplares) se apilan de acuerdo con su destino, se cargan en estibas para facilitar su traslado a los vehículos encargados de su entrega final.
 
@@ -477,7 +479,7 @@
           | que busca dar cuenta de los sucesos más relevantes de la actualidad. 
         p La producción de un periódico se desarrolla por medio de un proceso de gestión editorial, que es el encargado de la redacción y del proceso de impresión, esta acción consta de dos etapas preimpresión e impresión, la preimpresión es la unión de procesos de elaboración de un contenido gráfico hasta que este es impreso.
         .cajon.color-secundario.p-4.mb-4
-          p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
+          p Es importante mencionar que cada periódico cuenta con una dinámica propia de producción, igual que su funcionamiento; sin embargo, existen varias etapas que se relacionan entre sí, cuentan con una dinámica de tiempos acordes al tipo de publicación, la cual puede ser diaria o semanal.
     
     span.bgrh3.text-black.position-relative Etapas de producción de un periódico                
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
@@ -490,21 +492,21 @@
       .col-md-1
       .col-md-10
         LineaTiempoD.color-acento-botones
-          p.text-small(numero="1" titulo="Consejo de redacción:") la creación de un consejo editorial es la primera etapa para crear un periódico u otro medio impreso. Aquí es donde se reúnen los órganos más importantes del medio, director, redactor jefe, editores de las secciones individuales, comité editorial. La tarea principal del equipo editorial es determinar qué noticias e información se publicarán, qué enfoque se propone de acuerdo con un tema determinado.
+          p.text-small(numero="1" titulo="Consejo de redacción") La creación de un consejo editorial es la primera etapa para crear un periódico u otro medio impreso. Aquí es donde se reúnen los órganos más importantes del medio, director, redactor jefe, editores de las secciones individuales, comité editorial. La tarea principal del equipo editorial es determinar qué noticias e información se publicarán, qué enfoque se propone de acuerdo con un tema determinado.
 
-          p.text-small(numero="2" titulo="Investigación:") en esta etapa de la estructura de un periódico, los periodistas son primordiales, de igual forma que los fotógrafos e ilustradores, en el proceso de investigación su principal herramienta es ubicar las fuentes, las cuales pueden ser directas o indirectas, y donde se recoge la mayor  cantidad posible de  información para escribir noticias, reportajes, crónicas , la actividad principal de los fotógrafos e ilustradores en el escenario investigativo es lograr el material e imágenes que soporten y complementen los textos.
+          p.text-small(numero="2" titulo="Investigación") En esta etapa de la estructura de un periódico, los periodistas son primordiales, de igual forma que los fotógrafos e ilustradores, en el proceso de investigación su principal herramienta es ubicar las fuentes, las cuales pueden ser directas o indirectas, y donde se recoge la mayor  cantidad posible de  información para escribir noticias, reportajes, crónicas , la actividad principal de los fotógrafos e ilustradores en el escenario investigativo es lograr el material e imágenes que soporten y complementen los textos.
 
-          p.text-small(numero="3" titulo="Redacción:") es el escenario donde todo periodista escribe una noticia, crónica, reportaje, columna, es una etapa de trabajo individual en el que el periódico debe estar provisto de títulos y subtítulos textuales, así como de cada una de sus secciones claramente definidas, dependerá del editor de cada sección la jerarquía asociada con el mensaje o la información.
+          p.text-small(numero="3" titulo="Redacción") Es el escenario donde todo periodista escribe una noticia, crónica, reportaje, columna, es una etapa de trabajo individual en el que el periódico debe estar provisto de títulos y subtítulos textuales, así como de cada una de sus secciones claramente definidas, dependerá del editor de cada sección la jerarquía asociada con el mensaje o la información.
 
-          p.text-small(numero="4" titulo="Edición:") en esta etapa del proceso los editores son los encargados de editar cada sección, ya que son ellos quienes conocen cada tema y pueden corroborar la veracidad de la información, después de esta acción el contenido se le entrega al director general, quien hace una última revisión y aprueba definitivamente los textos, en esta etapa se ajustan y determinan los textos del periódico. Es en esta fase se anexan puntos, tildes, signos de interrogación etc, se elimina información, se corroboran los datos y se estandariza la información sin perder el estilo que todo periodista ha impreso en ella.
+          p.text-small(numero="4" titulo="Edición") En esta etapa del proceso los editores son los encargados de editar cada sección, ya que son ellos quienes conocen cada tema y pueden corroborar la veracidad de la información, después de esta acción el contenido se le entrega al director general, quien hace una última revisión y aprueba definitivamente los textos, en esta etapa se ajustan y determinan los textos del periódico. Es en esta fase se anexan puntos, tildes, signos de interrogación etc, se elimina información, se corroboran los datos y se estandariza la información sin perder el estilo que todo periodista ha impreso en ella.
 
-          p.text-small(numero="5" titulo="Diagramación:") esta etapa tiende ser compleja, puesto que implica que todo contenido sea fácil de leer, que la estructura del texto sea correcta y proporcionada, que las imágenes sean comprensibles y coherentes con el texto o la información ya que son el apoyo, el responsable de esto es el departamento de diseño. Al crear la maquetación se deben tener en cuenta aspectos como el marco tipográfico, la paginación, el encabezado, el título, el subtítulo, la fuente (letra) y su tamaño, espacios, gráficos, fotos e ilustraciones.
+          p.text-small(numero="5" titulo="Diagramación") Esta etapa tiende ser compleja, puesto que implica que todo contenido sea fácil de leer, que la estructura del texto sea correcta y proporcionada, que las imágenes sean comprensibles y coherentes con el texto o la información ya que son el apoyo, el responsable de esto es el departamento de diseño. Al crear la maquetación se deben tener en cuenta aspectos como el marco tipográfico, la paginación, el encabezado, el título, el subtítulo, la fuente (letra) y su tamaño, espacios, gráficos, fotos e ilustraciones.
 
-          p.text-small(numero="6" titulo="Caja tipográfica:") este término se utiliza únicamente en el campo de los medios impresos; se refiere al marco de una página que contiene información, títulos e imágenes (semejante a los márgenes de un cuaderno), el marco tipográfico permite definir el espacio disponible y adecuado para un texto, una vez definida la caja tipográfica, es posible determinar la numeración de las páginas, el tamaño de la caja tipográfica varía de acuerdo con la orientación del diseñador y el contenido que se desee mostrar.
+          p.text-small(numero="6" titulo="Caja tipográfica") Este término se utiliza únicamente en el campo de los medios impresos; se refiere al marco de una página que contiene información, títulos e imágenes (semejante a los márgenes de un cuaderno), el marco tipográfico permite definir el espacio disponible y adecuado para un texto, una vez definida la caja tipográfica, es posible determinar la numeración de las páginas, el tamaño de la caja tipográfica varía de acuerdo con la orientación del diseñador y el contenido que se desee mostrar.
 
-          p.text-small(numero="7" titulo="Impresión:") en esta etapa se debe tener en cuenta la cantidad de colores con los que se va a producir el periódico “monocromo (un color) y policromía (más de dos colores), dicha información debe ser comunicada claramente a la persona encargada de realizar la impresión con el fin de tener claro qué tipo de máquina utilizar, determinando las tintas, colores y porcentajes requeridos. la impresión es un proceso rápido debido a la prisa asociada con la publicación, ya que se realiza a altas horas de la noche en anticipación a todas las noticias de última hora.
+          p.text-small(numero="7" titulo="Impresión") En esta etapa se debe tener en cuenta la cantidad de colores con los que se va a producir el periódico “monocromo (un color) y policromía (más de dos colores), dicha información debe ser comunicada claramente a la persona encargada de realizar la impresión con el fin de tener claro qué tipo de máquina utilizar, determinando las tintas, colores y porcentajes requeridos. la impresión es un proceso rápido debido a la prisa asociada con la publicación, ya que se realiza a altas horas de la noche en anticipación a todas las noticias de última hora.
 
-          p.text-small(numero="8" titulo="Distribución:") la etapa final y su objetivo principal es hacerlo llegar a todos los públicos, la distribución se puede realizar por; suscripción, en tiendas, librerías, supermercados, entre otros, la publicidad es una parte importante de la distribución, ya que es la manera en la que se da a conocer su existencia.
+          p.text-small(numero="8" titulo="Distribución") La etapa final y su objetivo principal es hacerlo llegar a todos los públicos, la distribución se puede realizar por; suscripción, en tiendas, librerías, supermercados, entre otros, la publicidad es una parte importante de la distribución, ya que es la manera en la que se da a conocer su existencia.
 
     Separador
 
@@ -531,32 +533,32 @@
           img.conten1-4-1.p-5(src='@/assets/curso/tema1/img-info.svg', alt='imagen 1-4')
 
       .tarjeta.color-acento-botones.p-3(x="23.8%" y="24%" numero="1")
-        .h5.mb-2 Briefing: 
-        p debe ser claro y explicito en sus contenidos, el planteamiento requiere ser organizado creando el equilibrio entre la parte gráfica y los textos.
+        .h5.mb-2 Briefing 
+        p.mt-3 Debe ser claro y explicito en sus contenidos, el planteamiento requiere ser organizado creando el equilibrio entre la parte gráfica y los textos.
       .tarjeta.color-acento-botones.p-3(x="29.8%" y="75%" numero="2")
-        .h5.mb-2 Conocer el producto y su entorno:  
-        p para que el catálogo cumpla con su objetivo, se debe conocer al detalle lo que se desea comunicar con el fin de hacerlo de mejor forma para un público objetivo.
+        .h5.mb-2 Conocer el producto y su entorno  
+        p.mt-3 Para que el catálogo cumpla con su objetivo, se debe conocer al detalle lo que se desea comunicar con el fin de hacerlo de mejor forma para un público objetivo.
       .tarjeta.color-acento-botones.p-3(x="36.5%" y="24%" numero="3")
-        .h5.mb-2 Análisis de contenido: 
-        p los contenidos no deben ser extensos ni con imágenes sobrecargadas, por el contrario, la información debe ser concreta, objetiva y de fácil interpretación para ser transmitida a su cliente final.
+        .h5.mb-2 Análisis de contenido 
+        p.mt-3 Los contenidos no deben ser extensos ni con imágenes sobrecargadas, por el contrario, la información debe ser concreta, objetiva y de fácil interpretación para ser transmitida a su cliente final.
       .tarjeta.color-acento-botones.p-3(x="42.8%" y="75%" numero="4")
-        .h5.mb-2 Diseño de estructura y formato: 
-        p estará determinado por el tipo de información (textos e imágenes) los diseñadores serán los encargados de establecer el número de páginas, el tipo de papel, peso, transparencia, legibilidad, al diseñar catálogos es crucial tener una buena estructura, estilo para el contenido.
+        .h5.mb-2 Diseño de estructura y formato 
+        p.mt-3 Estará determinado por el tipo de información (textos e imágenes) los diseñadores serán los encargados de establecer el número de páginas, el tipo de papel, peso, transparencia, legibilidad, al diseñar catálogos es crucial tener una buena estructura, estilo para el contenido.
       .tarjeta.color-acento-botones.p-3(x="49.5%" y="24%" numero="5")
-        .h5.mb-2 Selección tipográfica y de color: 
-        p al momento de realizar esta selección es importante tener en cuenta los detalles de las líneas guías, las cuales se deben ajustar de acuerdo con el tipo de proyecto, de igual forma se priorizan las gamas cromáticas facilitando la identidad del producto.
+        .h5.mb-2 Selección tipográfica y de color 
+        p.mt-3 Al momento de realizar esta selección es importante tener en cuenta los detalles de las líneas guías, las cuales se deben ajustar de acuerdo con el tipo de proyecto, de igual forma se priorizan las gamas cromáticas facilitando la identidad del producto.
       .tarjeta.color-acento-botones.p-3(x="55.8%" y="75%" numero="6")
-        .h5.mb-2 Volcado de contenidos: 
-        p al momento de tener claro el estilo, formato y estructura del catálogo, es el momento indicado para incorporar los contenidos, los cuales son analizados por el equipo de diseño con el fin de realizar ajustes, cambios y correcciones.
+        .h5.mb-2 Volcado de contenidos 
+        p.mt-3 Al momento de tener claro el estilo, formato y estructura del catálogo, es el momento indicado para incorporar los contenidos, los cuales son analizados por el equipo de diseño con el fin de realizar ajustes, cambios y correcciones.
       .tarjeta.color-acento-botones.p-3(x="62.2%" y="24%" numero="7")
-        .h5.mb-2 Gráficos e imágenes: 
-        p un catálogo siempre enseña su contenido visualmente con imágenes, infografías, tablas o gráficos, la portada es la cara visible de un catálogo, se podría decir que una parte muy significativa del proceso de diseño de un catálogo es obtener una portada la cual se muestre interesante y represente el contenido del catálogo.
+        .h5.mb-2 Gráficos e imágenes 
+        p.mt-3 Un catálogo siempre enseña su contenido visualmente con imágenes, infografías, tablas o gráficos, la portada es la cara visible de un catálogo, se podría decir que una parte muy significativa del proceso de diseño de un catálogo es obtener una portada la cual se muestre interesante y represente el contenido del catálogo.
       .tarjeta.color-acento-botones.p-3(x="68.5%" y="75%" numero="8")
-        .h5.mb-2 Revisiones con el cliente: 
-        p al momento de diseñar y realizar un catálogo es muy importante tener una buena comunicación entre el área de diseño y su cliente con el fin de restar errores y tener rapidez en el momento de poner en marcha la estrategia de creación. 
+        .h5.mb-2 Revisiones con el cliente 
+        p.mt-3 Al momento de diseñar y realizar un catálogo es muy importante tener una buena comunicación entre el área de diseño y su cliente con el fin de restar errores y tener rapidez en el momento de poner en marcha la estrategia de creación. 
       .tarjeta.color-acento-botones.p-3(x="74.9%" y="24%" numero="9")
-        .h5.mb-2 Cierre de archivos y envío a imprenta: 
-        p al momento de recibir el visto bueno por parte del cliente y dar su aprobación del material y su contenido, se hará una revisión final del archivo. Se enviará directamente al área encargada de la preimpresión de archivos PDF para el proceso de imprenta y producción, después de todo este proceso se tendrá el proyecto final de catálogo.
+        .h5.mb-2 Cierre de archivos y envío a imprenta 
+        p.mt-3 Al momento de recibir el visto bueno por parte del cliente y dar su aprobación del material y su contenido, se hará una revisión final del archivo. Se enviará directamente al área encargada de la preimpresión de archivos PDF para el proceso de imprenta y producción, después de todo este proceso se tendrá el proyecto final de catálogo.
 
     Separador
 
@@ -582,10 +584,10 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-4
               img.brgflyp3.pt-5(src='@/assets/curso/tema1/flyp1.png', alt='intro tema1')
-              h3.p-4.text-center.text-black Plegable a dos cuerpos:
+              h3.p-4.text-center.text-black Plegable a dos cuerpos
             .tarjeta-flip__contenido.p-4.p-xl-5.p-4
-              h1 Plegable a dos cuerpos:
-              p conocido principalmente como díptico, este tipo de folleto se hace con una sola hoja o folio con un solo pliegue en el medio. permitiéndole tener dos caras, delanteras y dos traseras, estas formas son similares a los libros, por lo que generalmente se usa un diseño similar en estos casos: una portada, dos lados con contenido y un reverso con un mensaje de cierre.
+              h1 Plegable a dos cuerpos
+              p Conocido principalmente como díptico, este tipo de folleto se hace con una sola hoja o folio con un solo pliegue en el medio. permitiéndole tener dos caras, delanteras y dos traseras, estas formas son similares a los libros, por lo que generalmente se usa un diseño similar en estos casos: una portada, dos lados con contenido y un reverso con un mensaje de cierre.
 
       .col-sm-4.col-md-4.col-xl-4.mb-4.mb-xl-0.contenflip
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
@@ -593,9 +595,9 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-4
               img.brgflyp3.pt-5(src='@/assets/curso/tema1/flyp2.png', alt='intro tema1')
-              h3.p-4.text-center.text-black Plegable a tres cuerpos:
+              h3.p-4.text-center.text-black Plegable a tres cuerpos
             .tarjeta-flip__contenido.p-4.p-xl-5.p-4
-              h1 Plegable a tres cuerpos:
+              h1 Plegable a tres cuerpos
               p.text-small Se conocen como trípticos, son aquellos que tienen tres pliegues que dan como resultado seis caras, lo que permite presentar bastante información, se podrá realizar de varias formas el pliegue, algunos de ellos son: sobre (las caras están dobladas hacia adentro), acordeón (las caras están dobladas hacia adentro y hacia afuera, dando la idea de un acordeón) y ventana (solo la primera y la última cara están dobladas hacia adentro, dando la forma) de una ventana.
 
       .col-sm-4.col-md-4.col-xl-4.mb-4.mb-xl-0.contenflip
@@ -604,10 +606,10 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-4
               img.brgflyp3.pt-5(src='@/assets/curso/tema1/flyp3.png', alt='intro tema1')
-              h3.p-4.text-center.text-black Plegable a cuatro cuerpos:
+              h3.p-4.text-center.text-black Plegable a cuatro cuerpos
             .tarjeta-flip__contenido.p-4.p-xl-5.p-4
-              h1 Plegable a cuatro cuerpos:
-              p también llamado cuadríptico, es uno de los tipos de plegado menos utilizados, ya que necesita cuatro pliegues para tener sus ocho caras. Por tal razón, puede contener más información que un pliegue de tres partes. 
+              h1 Plegable a cuatro cuerpos
+              p También llamado cuadríptico, es uno de los tipos de plegado menos utilizados, ya que necesita cuatro pliegues para tener sus ocho caras. Por tal razón, puede contener más información que un pliegue de tres partes. 
 
     p La impresión es un factor determinante, por medio de la calidad de la impresión el consumidor final tiene una experiencia de satisfacción a través de los colores que estén presentes. 
 
@@ -626,11 +628,11 @@
           li
             ul
               li 
-                p.mb-0 #[i.fas.fa-angle-right(style="color:#26CCDA;")] #[strong.colortext Portada:] Debe llevar un título creativo, es importante agregarle imágenes. 
+                p.mb-0 #[i.fas.fa-angle-right(style="color:#26CCDA;")] #[strong.colortext Portada:] debe llevar un título creativo, es importante agregarle imágenes. 
               li 
-                p.mb-0 #[i.fas.fa-angle-right(style="color:#26CCDA;")] #[strong.colortext Desarrollo:] Se debe dejar la primera página para la presentación, en las páginas siguientes se posicionarán los productos de cada área específica, uno por página o sección, dependiendo la estructura organizativa, por lo general en la última página de la cartilla se recomendaría dejar las conclusiones del argumento de la cartilla.
+                p.mb-0 #[i.fas.fa-angle-right(style="color:#26CCDA;")] #[strong.colortext Desarrollo:] se debe dejar la primera página para la presentación, en las páginas siguientes se posicionarán los productos de cada área específica, uno por página o sección, dependiendo la estructura organizativa, por lo general en la última página de la cartilla se recomendaría dejar las conclusiones del argumento de la cartilla.
               li 
-                p.mb-0 #[i.fas.fa-angle-right(style="color:#26CCDA;")] #[strong.colortext Contratapa:] De acuerdo con los productos que se publican en la cartilla, se debe escribir una idea o conclusión para que el público tenga de referencia.
+                p.mb-0 #[i.fas.fa-angle-right(style="color:#26CCDA;")] #[strong.colortext Contratapa:] de acuerdo con los productos que se publican en la cartilla, se debe escribir una idea o conclusión para que el público tenga de referencia.
         p Se recomendaría tener un texto instructivo para el diseño de la cartilla, el cual podría ser de esta forma:
 
       .col-md-5
@@ -659,7 +661,7 @@
         p.text-black Al momento de optimizar el proceso de creación se requiere seguir un planteamiento, el cual está estructurado en fases divididas así:
 
     AcordionA.mt-5.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Recopilación de la información:")
+      .row(titulo="Recopilación de la información")
         .col-md-6.mb-4.mb-md-0.p-5
           p Para la recolección de la información se deben tener claras las fuentes de investigación, definiendo ¿qué aspectos se deben representar? y ¿cuál es el mensaje para transmitir?, esto influye para determinar qué elementos actuarán como enlace conductor de acuerdo con la jerarquía de gráficos llevados a un guion.
 
@@ -667,9 +669,9 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-1.png', alt='Texto que describa la imagen')
             
-      .row(titulo="Determinar los objetivos:")
+      .row(titulo="Determinar los objetivos")
         .col-md-6.mb-4.mb-md-0.p-5
-          p Desde la creación de los contenidos se debe tener claro cuál es objetivo para cumplir en su interacción con el público, enfocados en;
+          p Desde la creación de los contenidos se debe tener claro cuál es objetivo para cumplir en su interacción con el público, enfocados en:
             ul.lista-ul.p-3
               li
                 ul
@@ -690,7 +692,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-2.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Medios y vías de difusión:")
+      .row(titulo="Medios y vías de difusión")
         .col-md-6.mb-4.mb-md-0.p-5
           p Esta fase es muy importante, ya que se deben escoger acertadamente los canales de comunicación (medios masivos) donde se propagará el contenido infográfico para llegar a un usuario o público objetivo, de igual forma, se debe considerar un formato en donde se podrán recopilar los elementos que se necesitarán tales como, textos, fotos, ilustraciones, diagramas, iconografías y más.
 
@@ -698,7 +700,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-3.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Soporte y formato:")
+      .row(titulo="Soporte y formato")
         .col-md-6.mb-4.mb-md-0.p-5
           p Se debe priorizar el tipo de material que se encargará de unir los diferentes elementos y el formato con sus respectivas dimensiones, ya que por medio de este se visualizara la información, es importante mencionar que el soporte puede ser físico o virtual, esto implicará que se tenga claro el mecanismo adecuado para la difusión.  
 
@@ -706,7 +708,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-4.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Croquis o bocetos:")
+      .row(titulo="Croquis o bocetos")
         .col-md-6.mb-4.mb-md-0.p-5
           p En el espacio proyectual de la infografía se habla de croquis y planos porque es donde se organizan los elementos para su visualización arquitectónica, por otro lado, el boceto se orienta a escenario artístico, aquí se busca tener el mejor canal de comunicación, el cual optimice la manera de narrar los hechos descritos gráficamente en la infografía.
 
@@ -714,15 +716,15 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-5.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Diseño de los elementos infográficos:")
+      .row(titulo="Diseño de los elementos infográficos")
         .col-md-6.mb-4.mb-md-0.p-5
-          p Para el desarrollo de esta etapa es importante contar con el apoyo de software de diseño y aplicaciones de diseño que utilizaran los actores en las respectivas escenas, los gráficos, textos, ilustraciones, diagramas, fotos e iconografías, son detalladamente elaboradas, con el fin de representar la información en sus lugares correspondientes anteriormente localizados en el espacio adecuado gracias al boceto.
+          p Para el desarrollo de esta etapa es importante contar con el apoyo de #[em software] de diseño y aplicaciones de diseño que utilizaran los actores en las respectivas escenas, los gráficos, textos, ilustraciones, diagramas, fotos e iconografías, son detalladamente elaboradas, con el fin de representar la información en sus lugares correspondientes anteriormente localizados en el espacio adecuado gracias al boceto.
 
         .col-md-6
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-6.png', alt='Texto que describa la imagen')
 
-      .row(titulo="Presentación y reflexión:")
+      .row(titulo="Presentación y reflexión")
         .col-md-6.mb-4.mb-md-0.p-5
           p En esta etapa la infografía sale a escena, se hace un chequeo final para que no falte detalle alguno, y que la información que se da es percibida de manera clara, fluida y sin interrupciones, con el fin de ayudar su comprensión.
 
@@ -730,7 +732,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-7.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Difusión, seguimiento y medición :")
+      .row(titulo="Difusión, seguimiento y medición")
         .col-md-6.mb-4.mb-md-0.p-5
           p Los medios de comunicación anteriormente determinados (medios visuales y difusión) servirán de estandarte para dar circulación al material infográfico, con el fin de obtener óptimos resultados de acuerdo con los lugares de difusión del material, la difusión además podrá ser física o virtual de acuerdo con los medios offline u online que se utilicen para llevarla a cabo.
 
@@ -845,4 +847,10 @@ export default {
 .img-infografica__card .tarjeta
   background-color: white
   border: 2px #FFAC57 solid
+.tarjeta.tarjeta--azul.acordion__activo
+  background-color: #FFDCB9 !important
+.cajon.color-secundario
+  background-color: #ffd1a2
+.cajon.color-secundario:before
+  background-color: #FFAC57
 </style>

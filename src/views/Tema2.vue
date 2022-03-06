@@ -19,23 +19,13 @@
       .col-md-7
         p La tipografía se puede entender como la 
           span.bgrspan expresión visual del lenguaje  
-          | que tiene relación directa con la Lingüística, esta es de fácil acceso gracias a las tecnologías digitales, día a día se utiliza de diversas formas pequeñas, grandes, bold, serif, párrafos compuestos y alineados de izquierda y al centro, en todo momento se utiliza por cualquier persona y para cualquier oficio, es parte inherente de las diferentes culturas a nivel mundial; la tipografía puede llegar a transformar y definir a un individuo, al igual que todo el lenguaje demanda un aprendizaje y conocimiento de reglas para poder interactuar con ella (tipografía se define como un estilo o apariencia de un grupo completo de caracteres, números y signos, regidos por unas características comunes). 
-        p Es una profesión dedicada a la representación de cada una de las letras que componen el alfabeto y sus tipologías gráficas, la cual permite crear la estructura que se encarga de definir los tipos de  letras, estas pueden ser con serif (remates) o san serif (sin remates) y partiendo de ellas podría hacerse una clasificación por estilo, prevenecianas (las góticas y las incisas), las venecianas o humanistas, romanas antiguas, las mecanas y de transición.
+          | que tiene relación directa con la Lingüística, esta es de fácil acceso gracias a las tecnologías digitales, día a día se utiliza de diversas formas pequeñas, grandes, #[em bold], #[em serif], párrafos compuestos y alineados de izquierda y al centro, en todo momento se utiliza por cualquier persona y para cualquier oficio, es parte inherente de las diferentes culturas a nivel mundial; la tipografía puede llegar a transformar y definir a un individuo, al igual que todo el lenguaje demanda un aprendizaje y conocimiento de reglas para poder interactuar con ella (tipografía se define como un estilo o apariencia de un grupo completo de caracteres, números y signos, regidos por unas características comunes). 
+        p Es una profesión dedicada a la representación de cada una de las letras que componen el alfabeto y sus tipologías gráficas, la cual permite crear la estructura que se encarga de definir los tipos de  letras, estas pueden ser con #[em serif] (remates) o san #[em serif] (sin remates) y partiendo de ellas podría hacerse una clasificación por estilo, prevenecianas (las góticas y las incisas), las venecianas o humanistas, romanas antiguas, las mecanas y de transición.
 
       .col-md-5
         figure
           img.conten1-1(src='@/assets/curso/tema2/img-2-1.png', alt='imagen 2-1')
     
-    .cajon.color-secundario.p-4.mb-4
-      .row
-        .col-md-2
-          figure
-            img.img2-1(src='@/assets/curso/tema2/img-2.svg', alt='imagen 2-1-1')
-        .col-md-10
-          p La composición en el área de las artes visuales logra satisfacer algunas necesidades prácticas y estéticas, es la manera en la que se comunica y se ordenan los diferentes elementos conceptuales, técnicos y visuales con los que un creador (diseñador, ilustrador, escritor, entre otros) necesita para la creación de una estructura visual en el diseño de piezas gráficas impresas, conformadas por la estructura compositiva y la planeación.
-
-          p La composición comprende la relación y las diferentes elecciones entre tamaños, colores, texturas, alineamientos, pesos.
-
     p Los tipos proceden de la letra manuscrita personificando sonidos, los cuales con el tiempo se volvieron de uso genérico, de allí se crean las letras con las que se forman las palabras.
 
     p El tipo es la técnica y el arte de instaurar y componer tipos (letras), con el fin de comunicar un mensaje, de igual forma, se encarga del estudio y categorización de las distintas fuentes tipográficas. 
@@ -51,7 +41,7 @@
       .col-md-6.p-2
         p.p-5 Con el paso de los años se digitalizaron todos los procesos, permitiendo que los expertos en tipografía (diseñadores gráficos) les den a las letras dos usos, comunicar por medio de imágenes y comunicar por medio de palabras, es decir, comunicar por medio de la palabra escrita apoyada de fotografías o imágenes; cada letra de una palabra puede verse como una ilustración, la labor de un diseñador gráfico consiste en determinar qué letras son las correctas para comunicar un mensaje coherente a una idea, durante muchos siglos la palabra escrita se convirtió en un escenario sofisticado del diseño gráfico, haciéndolo todo un arte.
 
-    .tarjeta.bgrspan.p-3.mb-5.position-relative.pt-4.mt-5
+    .tarjeta.bgrspan.p-3.mb-5.position-relative.pt-4.mt-5(style="background-color:#FFD1A2;")
       .row.justify-content-between.align-items-center
         .col-sm-2.col-md-2.text-center
           img.hijo-t(src="@/assets/curso/tema2/img_t.svg" style="display:inline;margin-top:-70px;")
@@ -71,7 +61,7 @@
             figure
               img.imglin1(src='@/assets/curso/tema2/img-lint1.png', alt='Texto que describa la imagen')
 
-        p.bgrlinet.p-4 En el Siglo XVI comienza la época de oro de la tipografía francesa, con destacados trabajos de Henri y Robert Estienne y especialmente de Simón de Colines, quien se encargó de grabar varios tipos itálicos, versalitas, romanos, griegos y latinos, y no menos importante se encuentran Geoffroy Tory y Claude Garamond por su contribución y técnicas de elegancia y legibilidad, cabe resaltar que Claude Garamond apoyó con el tipo de letra que aún hoy en día lleva su nombre. 
+        p.bgrlinet.p-4.text-white En el Siglo XVI comienza la época de oro de la tipografía francesa, con destacados trabajos de Henri y Robert Estienne y especialmente de Simón de Colines, quien se encargó de grabar varios tipos itálicos, versalitas, romanos, griegos y latinos, y no menos importante se encuentran Geoffroy Tory y Claude Garamond por su contribución y técnicas de elegancia y legibilidad, cabe resaltar que Claude Garamond apoyó con el tipo de letra que aún hoy en día lleva su nombre. 
 
         p Mientras Colines y Garamond perfeccionaban los rediseños de las formas itálicas y romanas, en Alemania la forma de Gutenberg dio un paso al costado y aparecen letras góticas alemanas con formas cursivas tales como la Fraktur y Schwabacher, se podrían nombrar dos muy importantes impresiones de la época (la Biblia del Rey James y el Quijote de la Mancha de Miguel de Cervantes); la más importante publicación fue la aparición del primer diario europeo  “Avisa Relation Oder Zeitung”, publicado en Augsburgo y Estrasburgo. 
 
@@ -86,22 +76,22 @@
             figure
               img.imglin2(src='@/assets/curso/tema2/img-lint2.png', alt='Texto que describa la imagen')
 
-        p.bgrlinet.p-4 Para 1800 surge otra innovación tecnológica determinante, el tipo sans serif en un comienzo bastante cuestionada porque era bastante simple conocida como (góticas americanas, sansurryphs, grotescas, dóricas), pero al poco tiempo se posicionan gracias a alta legibilidad y a su fácil uso, era utilizado en periódicos y medios impresos de lectura que abundaban por los progresos de la época en los temas de impresión en 1880, ya que se contaba con máquinas inventadas por Ottmar Mergenthaler (Linotype) y Tolbert Lanston (Monotype).
+        p.bgrlinet.p-4.text-white Para 1800 surge otra innovación tecnológica determinante, el tipo #[em sans serif] en un comienzo bastante cuestionada porque era bastante simple conocida como (góticas americanas, #[em sansurryphs], grotescas, dóricas), pero al poco tiempo se posicionan gracias a alta legibilidad y a su fácil uso, era utilizado en periódicos y medios impresos de lectura que abundaban por los progresos de la época en los temas de impresión en 1880, ya que se contaba con máquinas inventadas por Ottmar Mergenthaler (Linotype) y Tolbert Lanston (#[em Monotype]).
 
       .row.p-3(numero="3" titulo="La revolución tipográfica - el Siglo XX")
         .row
           .col-md-8.mb-4.mb-md-0.p-4
             p Un gran salto de la trascendencia y evolución de la tipografía fue gracias a Theodore Low De Vienne quien se encargó de realizar a finales del Siglo XIX un tipo especial para la impresión de la revista Century, fue el primer diseño creado especialmente para una publicación comercial.
 
-            p Con los progresos en las impresoras Monotype, la industria de la tipografía y la impresión maduran en los talleres de las familias tipográficas más conocidas (Arial, Times, Avant Garde, Futura, Trade Gotic, Palatino, Memphis, Beton, Cairo, Karnak, Garamond, Helvética) entre otras, dando paso a una prestigiosa industria de medios de comunicación impresa.
+            p Con los progresos en las impresoras #[em Monotype], la industria de la tipografía y la impresión maduran en los talleres de las familias tipográficas más conocidas (Arial, Times, Avant Garde, Futura, Trade Gotic, Palatino, Memphis, Beton, Cairo, Karnak, Garamond, Helvética) entre otras, dando paso a una prestigiosa industria de medios de comunicación impresa.
             
           .col-md-4
             figure
               img.imglin3(src='@/assets/curso/tema2/img-lint3.png', alt='Texto que describa la imagen')
 
-        p.bgrlinet.p-4 El rápido crecimiento de la televisión y los avances en la tecnología de composición impulsaron una reinvención de la esencia de la tipografía; además los cambios científicos, sociales y políticos de la década de 1960 tuvieron un impacto directo en la tipografía; sin embargo, fue la aparición de las computadoras y de los sistemas informáticos lo que lo cambió todo para siempre. La litografía offset provocó la eliminación gradual de las fuentes de metal fundido, y la venta de Apple Macintosh en 1982 se convirtió en el primer sistema operativo en mostrar varias fuentes para seleccionarlas y aplicarlas a hojas de texto, lo que supuso una revolución.
+        p.bgrlinet.p-4.text-white El rápido crecimiento de la televisión y los avances en la tecnología de composición impulsaron una reinvención de la esencia de la tipografía; además los cambios científicos, sociales y políticos de la década de 1960 tuvieron un impacto directo en la tipografía; sin embargo, fue la aparición de las computadoras y de los sistemas informáticos lo que lo cambió todo para siempre. La litografía #[em offset] provocó la eliminación gradual de las fuentes de metal fundido, y la venta de Apple Macintosh en 1982 se convirtió en el primer sistema operativo en mostrar varias fuentes para seleccionarlas y aplicarlas a hojas de texto, lo que supuso una revolución.
 
-        p Desde entonces las computadoras han llevado a los diseñadores a ordenar cada vez más tipos de letras para cubrir sus diseños creativos y programas de diseño de tipografía profesional, es decir, mientras que las fuentes metálicas pasaron décadas en prevalecer y la fotocomposición tardó veinte años en componerse, la revolución digital se afianzó en solo una década. Con la llegada de Internet la tipografía y sus miles de creaciones han pasado a una nueva fase, la Web, de la que continúan sus fructíferas repercusiones.  
+        p Desde entonces las computadoras han llevado a los diseñadores a ordenar cada vez más tipos de letras para cubrir sus diseños creativos y programas de diseño de tipografía profesional, es decir, mientras que las fuentes metálicas pasaron décadas en prevalecer y la fotocomposición tardó veinte años en componerse, la revolución digital se afianzó en solo una década. Con la llegada de Internet la tipografía y sus miles de creaciones han pasado a una nueva fase, la #[em Web], de la que continúan sus fructíferas repercusiones.  
 
     Separador
 
@@ -111,20 +101,20 @@
     span.bgrh3.text-black.position-relative Clasificación               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
 
-    p.mt-4 Las tipografías podrían clasificarse de varias formas; sin embargo, al observar su anatomía existen cuatro principales grupos donde se pueden encasillar de la siguiente manera: tipografías serif, tipografías sans serif, tipografías script y tipografías decorativas, que se mencionan a continuación:
+    p.mt-4 Las tipografías podrían clasificarse de varias formas; sin embargo, al observar su anatomía existen cuatro principales grupos donde se pueden encasillar de la siguiente manera: tipografías #[em serif], tipografías #[em sans serif], tipografías script y tipografías decorativas, que se mencionan a continuación:
     
     TabsA.color-acento-contenido.mb-5.mt-5
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías Serif, Roman o con remate ")
-        h4 Tipografías Serif, Roman o con remate 
-        p El principal elemento de una tipografía es el remate, el cual es una decoración que siempre se sitúa al final de cada trazo principal el cual puede ser de una letra o un número, para referenciarla de mejor manera se puede decir que es un pie que permite que la fuente tenga una posición sobre la línea base de una forma decorativa, estas fuentes se utilizan mejor para bloques de texto largos y densos, puesto que son mucho más cómodas y ligeras de leer. El hecho de que tenga un pináculo al final de sus líneas favorece la lectura, ya que funciona como un pequeño vínculo visual entre las letras de una misma palabra. Si se toma como referencia su significado psicológico aplicado al diseño, podría asociarse a un contexto tradicional y clásico ya que permite dar autoridad, seriedad y antigüedad, como ejemplos de este tipo de tipografías serif se encuentran Garamond, Times New Roman, Palatino, Didot, Georgia.
+        h4 Tipografías #[em Serif], Roman o con remate 
+        p El principal elemento de una tipografía es el remate, el cual es una decoración que siempre se sitúa al final de cada trazo principal el cual puede ser de una letra o un número, para referenciarla de mejor manera se puede decir que es un pie que permite que la fuente tenga una posición sobre la línea base de una forma decorativa, estas fuentes se utilizan mejor para bloques de texto largos y densos, puesto que son mucho más cómodas y ligeras de leer. El hecho de que tenga un pináculo al final de sus líneas favorece la lectura, ya que funciona como un pequeño vínculo visual entre las letras de una misma palabra. Si se toma como referencia su significado psicológico aplicado al diseño, podría asociarse a un contexto tradicional y clásico ya que permite dar autoridad, seriedad y antigüedad, como ejemplos de este tipo de tipografías #[em serif] se encuentran Garamond, Times New Roman, Palatino, Didot, Georgia.
 
         figure
           img.contentext(src='@/assets/curso/tema2/text1.svg', alt='Texto 1')
 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías Sans Serif, de palo seco o lineales")
-        h4 Tipografías Sans Serif, de palo seco o lineales
+        h4 Tipografías #[em sans serif], de palo seco o lineales
 
-        p Este tipo de fuentes se identifican porque carecen de remate en sus trazos, ya que son tipografías rectas y presentan trazos limpios y uniformes, su primera aparición es en la revolución industrial las cueles se manejaban en carteleras y embalajes, su principal uso es en textos cortos y no densos puesto que no son de buena legibilidad por ello su lectura es compleja. Están muy asociadas a contextos actuales y modernos dando un aspecto limpio y sobrio como ejemplos de este tipo de tipografías sans serif son Arial, Open Sans, Century Gothic, Calibri, Avenir, Futura, Frutiguer, entre otras.
+        p Este tipo de fuentes se identifican porque carecen de remate en sus trazos, ya que son tipografías rectas y presentan trazos limpios y uniformes, su primera aparición es en la revolución industrial las cueles se manejaban en carteleras y embalajes, su principal uso es en textos cortos y no densos puesto que no son de buena legibilidad por ello su lectura es compleja. Están muy asociadas a contextos actuales y modernos dando un aspecto limpio y sobrio como ejemplos de este tipo de tipografías #[em sans serif] son Arial, Open Sans, Century Gothic, Calibri, Avenir, Futura, Frutiguer, entre otras.
 
 
         figure
@@ -141,7 +131,7 @@
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías decorativas")
         h4 Tipografías decorativas
 
-        p Cuentan con diseño concreto y un estilo propio con un fin decorativo, se utilizan para temas puntuales y aislados como frase de publicidad, los textos que se manejan no son amplios, ya que si se hacen en frases largas ese dificultara para su legibilidad cuentan con personalidad única y cada una de ellas representa un significado diferente, como ejemplos de este tipo de tipografías decorativas se pueden mencionar; Pop Art, Monotone, Bangers, Art Nouveau.
+        p Cuentan con diseño concreto y un estilo propio con un fin decorativo, se utilizan para temas puntuales y aislados como frase de publicidad, los textos que se manejan no son amplios, ya que si se hacen en frases largas se dificultará para su legibilidad cuentan con personalidad única y cada una de ellas representa un significado diferente, como ejemplos de este tipo de tipografías decorativas se pueden mencionar; Pop Art, Monotone, Bangers, Art Nouveau.
 
         figure
           img.contentext(src='@/assets/curso/tema2/text4.svg', alt='Texto 4')
@@ -166,7 +156,7 @@
               li
                 ul
                   li 
-                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Encriptas formales:] (caligráficas) se caracterizan por cumplir un patrón que tienen las tipografías de escritura, con trazos muy regulares que simulan tipografías cursivas, puesto que a simple vista parecen escritas con una pluma, dentro de estas tipografías se pueden destacar shelley script, lynotipe zapfino, snell roundhand, chopin script.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Encriptas formales:] (caligráficas) se caracterizan por cumplir un patrón que tienen las tipografías de escritura, con trazos muy regulares que simulan tipografías cursivas, puesto que a simple vista parecen escritas con una pluma, dentro de estas tipografías se pueden destacar #[em shelley script], #[em lynotipe zapfino], #[em snell roundhand], #[em chopin script].
                   li 
                     p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Encriptas informales:] se conocen como escriptas personalizadas, ya que cuentan con trazos irregulares, estas a simple vista dan la impresión de ser escritas con una brocha, dentro de estas tipografías se pueden destacar Rage Italic, Mistral, Lucida Handwritting, Brush Script.
     
@@ -231,38 +221,38 @@
             img(src='@/assets/curso/tema2/img_tipog.svg', alt='imagen Axpho')
             
         .tarjeta.color-acento-contenido.p-3(x="17.5%" y="67%" numero="1")
-          .h5.mb-2 Asta:
-          p es el trazo que delimita la estructura básica de la letra.
+          .h5.mb-2 Asta
+          p Es el trazo que delimita la estructura básica de la letra.
         .tarjeta.color-acento-contenido.p-3(x="23%" y="73%" numero="2")
-          .h5.mb-2 Remate:
-          p es un trazo que se da muy breve al final y no sigue la dirección del trazo donde se asienta, ya que se cierra en sentido perpendicular, o con una inclinación.
+          .h5.mb-2 Remate
+          p Es un trazo que se da muy breve al final y no sigue la dirección del trazo donde se asienta, ya que se cierra en sentido perpendicular, o con una inclinación.
         .tarjeta.color-acento-contenido.p-3(x="29%" y="12%" numero="3")
-          .h5.mb-2 Ascendente:
-          p es la parte de las letras de caja baja la cual supera por arriba la línea media.
+          .h5.mb-2 Ascendente
+          p Es la parte de las letras de caja baja la cual supera por arriba la línea media.
         .tarjeta.color-acento-contenido.p-3(x="32%" y="79%" numero="4")
-          .h5.mb-2 Descendente:
-          p es la parte de las letras de caja baja que supera por debajo la línea media.
+          .h5.mb-2 Descendente
+          p Es la parte de las letras de caja baja que supera por debajo la línea media.
         .tarjeta.color-acento-contenido.p-3(x="38%" y="15%" numero="5")
-          .h5.mb-2 Oreja:
-          p hace referencia a la terminación que se le añade a algunas letras, por ejemplo, la letra como (g).
+          .h5.mb-2 Oreja
+          p Hace referencia a la terminación que se le añade a algunas letras, por ejemplo, la letra como (g).
         .tarjeta.color-acento-contenido.p-3(x="46%" y="74%" numero="6")
-          .h5.mb-2 Ojal:
-          p parte inferior de la ‘g’ minúscula cuando esta es una forma cerrada.
+          .h5.mb-2 Ojal
+          p Parte inferior de la ‘g’ minúscula cuando esta es una forma cerrada.
         .tarjeta.color-acento-contenido.p-3(x="49%" y="13%" numero="7")
-          .h5.mb-2 Vértice:
-          p es el punto que permite la unión entre dos astas inclinadas.
+          .h5.mb-2 Vértice
+          p Es el punto que permite la unión entre dos astas inclinadas.
         .tarjeta.color-acento-contenido.p-3(x="59%" y="64%" numero="8")
-          .h5.mb-2 Barra transversal o perfil:
-          p es la línea horizontal que se encuentra entre verticales, diagonales o curvas.
+          .h5.mb-2 Barra transversal o perfil
+          p Es la línea horizontal que se encuentra entre verticales, diagonales o curvas.
         .tarjeta.color-acento-contenido.p-3(x="58.5%" y="11%" numero="9")
-          .h5.mb-2 Cruz o travesaño:
-          p es la línea horizontal que atraviesa por algún punto el trazo principal.
+          .h5.mb-2 Cruz o travesaño
+          p Es la línea horizontal que atraviesa por algún punto el trazo principal.
         .tarjeta.color-acento-contenido.p-3(x="72.5%" y="15%" numero="10")
-          .h5.mb-2 Brazo:
-          p es un trazo el cual puede ser horizontal o diagonal y se da por un trazo vertical.
+          .h5.mb-2 Brazo
+          p Es un trazo el cual puede ser horizontal o diagonal y se da por un trazo vertical.
         .tarjeta.color-acento-contenido.p-3(x="78%" y="66%" numero="11")
-          .h5.mb-2 Cola:
-          p es la continuación de la parte inferior de algunos rasgos.
+          .h5.mb-2 Cola
+          p Es la continuación de la parte inferior de algunos rasgos.
 
     div.mb-5.bgrform    
       p.text-center.pt-4(style="font-weight:bold") Existen diferentes tipos de remate, identificados como clásico, rectilíneo, filiforme, cuadrangular, lobulado, insinuado y sin remate.
@@ -326,7 +316,7 @@
 
       .row(titulo="Subestilo antiguas o garaldas")
         .col-md-12.mb-4.mb-md-0
-          p Se identifican como tipografías diseñadas durante el siglo XV y hasta finales del siglo XVII, allí se crearán los tipos legibles y muy populares que en la actualidad se utilizan para hacer un texto continuo, esta creación inicia en Italia y terminara en Inglaterra, estos tipos se conocen como “Old Face” o “Garalde”.
+          p Se identifican como tipografías diseñadas durante el siglo XV y hasta finales del siglo XVII, allí se crearán los tipos legibles y muy populares que en la actualidad se utilizan para hacer un texto continuo, esta creación inicia en Italia y termina en Inglaterra, estos tipos se conocen como “Old Face” o “Garalde”.
           p Principales características de las tipografías Antiguas o Garaldas:
             ul.lista-ul.p-3
               li
@@ -357,7 +347,7 @@
         
       .row(titulo="Subestilo de las reales o de transición")
         .col-md-12.mb-4.mb-md-0
-          p Surgen en la última década del siglo XV, en 1692 se crea un nuevo tipo romano siendo pionero ya que de este tipo se creó sobre una cuadricula, mostraba una serie de características novedosas en sus trazos y terminales planos, una menor anchura y excelente contraste entre trazos, a estos tipos se les denomino transición puesto que cuentan con características de las Garaldas y de las Didonas. Nace un nuevo diseño de fuente redonda, el tipo Baskerville.
+          p Surgen en la última década del siglo XV, en 1692 se crea un nuevo tipo romano siendo pionero ya que de este tipo se creó sobre una cuadrícula, mostraba una serie de características novedosas en sus trazos y terminales planos, una menor anchura y excelente contraste entre trazos, a estos tipos se les denomino transición puesto que cuentan con características de las Garaldas y de las Didonas. Nace un nuevo diseño de fuente redonda, el tipo Baskerville.
           p Principales características de los tipos de transición:
             ul.lista-ul.p-3
               li
@@ -377,14 +367,14 @@
                     span Los trazos finales por lo general son encuadrados y angulosos.
                   li 
                     i.fas.fa-angle-right
-                    span Se pueden referenciar los siguientes estilos de fuentes reales o de transición: ITC Stone Serif, Century Schoolbook, Cochin, Cheltenham, Baskerville, Olympian, Corona, Melior, meridien.
+                    span Se pueden referenciar los siguientes estilos de fuentes reales o de transición: ITC Stone #[em Serif], Century Schoolbook, Cochin, Cheltenham, Baskerville, Olympian, Corona, Melior, meridien.
                  
           figure
             img(src='@/assets/curso/tema2/img-abc3.svg', alt='imagen ABC3', width="639", height="222")
       
       .row(titulo="Subestilo de las didonas o modernas")
         .col-md-12.mb-4.mb-md-0
-          p Los nuevos materiales y la tecnología de la época permiten un refinamiento en el diseño y la creación de tipos, para 1784 la influencia del tipo Baskerville permite realizar una serie de cambios en sus trazos terminales rectos, Unos años después aparece el tipo Bodini que fácilmente impresiono por majestuoso estilo neoclásico y su elegancia, haciendo de los textos cortos una cualidad de belleza clásica, sin embargo, no se apropió para los textos largos por sus trazos débiles y su fuerte modulación.
+          p Los nuevos materiales y la tecnología de la época permiten un refinamiento en el diseño y la creación de tipos, para 1784 la influencia del tipo Baskerville permite realizar una serie de cambios en sus trazos terminales rectos. Unos años después aparece el tipo Bodini que fácilmente impresionó por su majestuoso estilo neoclásico y su elegancia, haciendo de los textos cortos una cualidad de belleza clásica, sin embargo, no se apropió para los textos largos por sus trazos débiles y su fuerte modulación.
           p Principales características de los tipos Didones:
             ul.lista-ul.p-3
               li
@@ -413,7 +403,7 @@
       
       .row(titulo="Subestilo de las mecanas o egipcias")
         .col-md-12.mb-4.mb-md-0
-          p Nacen en 1817 en Inglaterra, se conocen también como (Mecanas o San Serif) de acuerdo con su tipo de rotulación fueron pensadas para trabajos netamente publicitarios por su estructura y trazos, su popularidad duro hasta el último cuarto del siglo XIX.  Para 1845 aparece un nuevo tipo egipcio llamado Clarendon presentando trazos finales enlazados llegando a representar un subgrupo muy pequeño dentro de los tipos de estilo egipcio, este tipo se utilizó bastante en la edición de periódicos. 
+          p Nacen en 1817 en Inglaterra, se conocen también como (Mecanas o San #[em Serif]) de acuerdo con su tipo de rotulación fueron pensadas para trabajos netamente publicitarios por su estructura y trazos, su popularidad duro hasta el último cuarto del siglo XIX.  Para 1845 aparece un nuevo tipo egipcio llamado Clarendon presentando trazos finales enlazados llegando a representar un subgrupo muy pequeño dentro de los tipos de estilo egipcio, este tipo se utilizó bastante en la edición de periódicos. 
           p Principales características de los tipos egipcios:
             ul.lista-ul.p-3
               li
@@ -463,7 +453,7 @@
 
       .row(titulo="Subestilo de geométricos")
         .col-md-12.mb-4.mb-md-0
-          p Para 1920 surge un estilo de Palo Seco sobrio bastante funcional él fue conocido como geométrico, constituidos a partir de figuras geométricas básicas y líneas rectas tales como el rectángulo y el circulo, el tipo más referenciado es el Futura, ya que cuenta con una buena gama de pesos, cursivas y anchos haciéndose muy popular en publicaciones educativas y publicaciones infantiles, otro ejemplo de tipo es Avant Garde.
+          p Para 1920 surge un estilo de Palo Seco sobrio bastante funcional él fue conocido como geométrico, constituidos a partir de figuras geométricas básicas y líneas rectas tales como el rectángulo y el círculo, el tipo más referenciado es el Futura, ya que cuenta con una buena gama de pesos, cursivas y anchos haciéndose muy popular en publicaciones educativas y publicaciones infantiles, otro ejemplo de tipo es Avant Garde.
           p Principales características de los tipos geométricos:
             ul.lista-ul.p-3
               li
@@ -481,7 +471,7 @@
 
       .row(titulo="Subestilo de los humanísticos")
         .col-md-12.mb-4.mb-md-0
-          p Se basa en letras romanas, los cuales presentan trazos ligeros haciendo similitud a la caligrafía, lo cual hacía que se contrastaran con los tipos de palo seco del momento, como ejemplo de este tipo se puede nombrar el tipo Gill Sans siendo su primer róotulo una tienda de libros.
+          p Se basa en letras romanas, los cuales presentan trazos ligeros haciendo similitud a la caligrafía, lo cual hacía que se contrastaran con los tipos de palo seco del momento, como ejemplo de este tipo se puede nombrar el tipo Gill Sans siendo su primer rótulo una tienda de libros.
                
           figure
             img(src='@/assets/curso/tema2/img-abc2-3.svg', alt='imagen ABC2-3', width="601", height="246") 
@@ -491,7 +481,7 @@
     
     .row.mt-4.mb-4
       .col-md-9
-        p Son formas intermedias entre las tradicionales romanas y las del palo seco. Son los asientos de la letra mayúscula y se reducen a una forma triangular muy fina, lo mismo ocurre en minúsculas, no se puede hablar de serif, sino de un valor gráfico que hace referencia a un ensanchamiento de la línea al final de la línea, la cursiva, como en las lineales, se diferencia de las rectas por una simple inclinación, es decir, no hay cursiva, como ejemplo de este tipo se puede nombrar Óptima, Albertus, Formata.
+        p Son formas intermedias entre las tradicionales romanas y las del palo seco. Son los asientos de la letra mayúscula y se reducen a una forma triangular muy fina, lo mismo ocurre en minúsculas, no se puede hablar de #[em serif], sino de un valor gráfico que hace referencia a un ensanchamiento de la línea al final de la línea, la cursiva, como en las lineales, se diferencia de las rectas por una simple inclinación, es decir, no hay cursiva, como ejemplo de este tipo se puede nombrar Óptima, Albertus, Formata.
       .col-md-3
         figure
           img(src='@/assets/curso/tema2/img-tipo1.svg', alt='tipo 1', width="295", height="100" )
@@ -531,12 +521,12 @@
     span.bgrh3.text-black.position-relative No latinas               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
-    p.mt-4.mb-4 este grupo de letras es exclusivamente heterogéneo, ya que se encarga de agrupar las versiones tipográficas de las escrituras que no son establecidas en los caracteres latinos. 
+    p.mt-4.mb-4 Este grupo de letras es exclusivamente heterogéneo, ya que se encarga de agrupar las versiones tipográficas de las escrituras que no son establecidas en los caracteres latinos. 
 
     span.bgrh3.text-black.position-relative De fantasía               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
-    p.mt-4.mb-4 están divididos en dos tipos, se caracterizan porque están fuera de normas, por lo general incorporan elementos variables de diversa naturaleza, se diferencian así:
+    p.mt-4.mb-4 Están divididos en dos tipos, se caracterizan porque están fuera de normas, por lo general incorporan elementos variables de diversa naturaleza, se diferencian así:
       ul.lista-ul.p-3
               li
                 ul
@@ -568,10 +558,10 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img-texto1.svg' alt='AvatarTop')
-          .tarjeta.color-acento-botones
+          .tarjeta.color-acento-botones(style="background-color:#B1F9FF;")
             .p-4
-              h2 Elección tipográfica:
-              p la elección de la fuente, como la forma en que se distribuye en la pieza gráfica, puede ayudar a reforzar o contradecir el mensaje, todos los personajes tienen su propia "personalidad", algunos, como los personajes gestuales, pueden servir para denotar informalidad y suelen estar vinculados a la desintegración de estructuras y la rebelión típica de la juventud. Otras, como las romanas, pueden servir para denotar formalidades y en algunos casos pueden incluso ser autoritarias. 
+              h2(style="color: #12263F") Elección tipográfica:
+              p(style="color: #12263F") La elección de la fuente, como la forma en que se distribuye en la pieza gráfica, puede ayudar a reforzar o contradecir el mensaje, todos los personajes tienen su propia "personalidad", algunos, como los personajes gestuales, pueden servir para denotar informalidad y suelen estar vinculados a la desintegración de estructuras y la rebelión típica de la juventud. Otras, como las romanas, pueden servir para denotar formalidades y en algunos casos pueden incluso ser autoritarias. 
               span En cuanto a los personajes de estilo fantástico, existe tal variedad y diversidad de morfologías que es difícil encasillarlos o determinar posibles relaciones de temperamento. los tipos tienen características que apoyan y aclaran el contenido de las palabras que representan. estos tienen personalidades y aptitudes, son capaces de tener una amplia gama de expresiones. En términos de legibilidad, los textos de largo alcance se consideran más fáciles de leer cuando se presentan en un recuadro bajo y en una antigua familia de fuentes de estilo romano como Garamond. Sin embargo, para las palabras o frases cortas de una señalización, las familias tipográficas recomendadas son las del grupo neogrotesco o con modulaciones en el trazo, como la tipografía Helvética. Entre estos dos extremos paradigmáticos de las actividades de diseño hay toda una serie de posibilidades en el uso tipográfico.
 
     .row
@@ -580,10 +570,10 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img-texto2.svg' alt='AvatarTop')
-          .tarjeta.color-acento-contenido
+          .tarjeta.color-acento-contenido(style="background-color:#FFD1A2;")
             .p-4
-              h2 Contrastes tipográficos:
-              p la variedad de variables que ofrece una familia de fuentes puede ser suficiente para jerarquizar el texto en ciertos trabajos de diseño, pero la combinación de dos o más familias aumenta el espectro morfológico y permite una gama mucho más amplia de contrastes. Diseñar piezas gráficas con combinaciones tipográficas, con un contraste de estilo y tamaño, requiere un altísimo nivel de prueba y experimentación, ya que no existen reglas que puedan guiar de manera confiable el trabajo del diseñado.
+              h2(style="color: #12263F") Contrastes tipográficos:
+              p(style="color: #12263F") La variedad de variables que ofrece una familia de fuentes puede ser suficiente para jerarquizar el texto en ciertos trabajos de diseño, pero la combinación de dos o más familias aumenta el espectro morfológico y permite una gama mucho más amplia de contrastes. Diseñar piezas gráficas con combinaciones tipográficas, con un contraste de estilo y tamaño, requiere un altísimo nivel de prueba y experimentación, ya que no existen reglas que puedan guiar de manera confiable el trabajo del diseñado.
     
     .row
       .col-md-1
@@ -591,10 +581,10 @@
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img-texto3.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
+          .tarjeta.color-secundario(style="background-color:#FFF3BF;")
             .p-4
-              h2 Contraste de tamaño:
-              p el tamaño de una letra está muy relacionado con el cuerpo de la fuente, aunque siempre hay que recordar que diferentes familias, dependiendo del diseño de cada fuente, pueden tener diferentes tamaños para un mismo cuerpo. Esta diferencia entre letra impresa y tipografía se debe a que el cuerpo tiene en cuenta el tamaño total de la fuente móvil, es decir, se suma a la altura real de la letra, el hombro superior y el hombro inferior de la pieza de metal. y estos varían, así como la altura X, dependiendo del diseño tipográfico. Aunque actualmente se trabaja muy poco con los tipos móviles en metal real, estos están presentes de forma virtual en todos los cálculos que realizan los programas informáticos que trabajan con la tipografía.
+              h2(style="color: #12263F") Contraste de tamaño:
+              p(style="color: #12263F") El tamaño de una letra está muy relacionado con el cuerpo de la fuente, aunque siempre hay que recordar que diferentes familias, dependiendo del diseño de cada fuente, pueden tener diferentes tamaños para un mismo cuerpo. Esta diferencia entre letra impresa y tipografía se debe a que el cuerpo tiene en cuenta el tamaño total de la fuente móvil, es decir, se suma a la altura real de la letra, el hombro superior y el hombro inferior de la pieza de metal. y estos varían, así como la altura X, dependiendo del diseño tipográfico. Aunque actualmente se trabaja muy poco con los tipos móviles en metal real, estos están presentes de forma virtual en todos los cálculos que realizan los programas informáticos que trabajan con la tipografía.
 
 
 </template>
@@ -627,4 +617,10 @@ export default {
   border: 2px #FFAC57 solid
 .img-infografica__card .tarjeta *
   color: #12263F
+.tarjeta.tarjeta--azul.acordion__activo
+  background-color: #FFDCB9 !important
+.cajon.color-secundario
+  background-color: #ffd1a2
+.cajon.color-secundario:before
+  background-color: #FFAC57
 </style>
