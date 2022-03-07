@@ -19,7 +19,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             p Los caracteres incluyen un conjunto de letras, números y símbolos que están diseñados y programados para su uso en computadoras, esto es lo que se ve todos los días en los libros y en estas mismas líneas, de momento, surgen dudas porque en el entorno hay muchos casos de uso de una tipografía de computadora, con trazos que imitan la escritura a mano, se pueden apreciar  ejemplos todo el tiempo en los medios de comunicación, publicidad, moda, etc., para comprobar si una palabra se genera específicamente o no o si es una fuente predefinida, se harían coincidir las mismas letras de la palabra.
-            p.mt-3 Por ejemplo, si la letra "a" es exactamente la misma donde quiera que aparezca, será un tipo de letra, si difieren, cada letra "A" se dibuja de forma independiente y específicamente para este propósito, luego se indicara la fuente o tipo de letra (dependiendo del proceso mediante el cual se creó el diseño de la letra). 
+            p.mt-3 Por ejemplo, si la letra "a" es exactamente la misma donde quiera que aparezca, será un tipo de letra, si difieren, cada letra "A" se dibuja de forma independiente y específicamente para este propósito, luego se indicará la fuente o tipo de letra (dependiendo del proceso mediante el cual se creó el diseño de la letra). 
           .col-md-6
             figure
               img(src='@/assets/curso/tema3/3.png', alt='Tipografía')
@@ -28,7 +28,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             p Mientras que en la definición de caligrafía, la palabra clave es "escritura", y las letras son el dibujo de letras, esta práctica no se hace de una sola vez y de un solo golpe, se puede retocar, borrar, añadir más o menos capas y mejorar la letra si se considera necesario, teniendo en cuenta que hay muchas fuentes que dependen de la imaginación o creatividad, es un arte puramente personal, siendo otra herramienta de comunicación, pero, a diferencia de la caligrafía, no es una herramienta que se utilice para anotar información, sino para ilustrar información de una determinada manera.
-            p Por ejemplo, si se quiere dibujar un texto para invitaciones de cumpleaños e invitaciones de boda, la forma y los detalles de las letras son diferentes, en el primer caso se utilizarían formas más formales y sencillas, y se aplicaran colores vivos, en el segundo caso, las letras serán diseñadas más finas y elegantes, con detalles románticos y colores suaves.
+            p Por ejemplo, si se quiere dibujar un texto para invitaciones de cumpleaños e invitaciones de boda, la forma y los detalles de las letras son diferentes, en el primer caso se utilizarían formas más formales y sencillas, y se aplicarán colores vivos, en el segundo caso, las letras serán diseñadas más finas y elegantes, con detalles románticos y colores suaves.
           .col-md-6
             figure
               img(src='@/assets/curso/tema3/5.png', alt='Rotulación')
@@ -59,18 +59,18 @@
       h2#t_3_2 3.2 Forma y función de la tipografía
 
     .row.cont_magic2
-      .col-md-9.p-4
+      .col-md-8.p-4
         p.p-2.mb-0.mt-2(data-aos="fade-up") Cualquier tipo de letra se expresa, por su apariencia, entonces se puede decir que el tipo de letra de una persona comunica su apariencia, a menudo, en la práctica del diseño, la carga semántica o "mensaje" de un tipo de letra debe corresponder en gran medida a lo que el proyecto pretende transmitir; sin embargo, en muchos casos esta compatibilidad de comunicación no se presenta con toda claridad.
         p.p-2 Este manejo de la morfología del tipo de letra se puede realizar con diversos grados de interferencia, la capacidad de tratar cualquier cosa, desde una sola letra, dando totalidad y unicidad, hasta el diseño completo de la fuente, como un elemento de identidad corporativa. Asimismo, existe una gran diferencia en el enfoque de diseño entre el diseño de fuente o etiqueta decorativa y el diseño de fuente legible.
         br
         br
-      .col-md-3
-        img(src="@/assets/curso/tema3/9.svg" data-aos="fade-right")
+      .col-md-4
+        img(src="@/assets/curso/tema3/9.png" data-aos="fade-right" style="height: 100%;width: 103%;max-width: none;")
 
     .row.mt-5
-      .col-md-4
+      .col-md-5
         img(src="@/assets/curso/tema3/10.png" data-aos="fade-left")
-      .col-md-8
+      .col-md-7
         span.bgrh3.text-black.position-relative Forma                
           img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='')
         p.mt-4(data-aos="fade-up") Imprimir el alfabeto, en el que cada letra está hecha de una pieza de metal separada, es un avance psicológico sin precedentes, el periodismo organiza las palabras en un espacio mucho más poderoso que nunca, la escritura traslada las palabras del mundo del sonido al mundo del espacio visual, pero la tipografía las traslada a este espacio. (Ong, W. en Lupton, 2011, pág. 91).
@@ -82,14 +82,14 @@
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='')
 
     .row.mt-4
-      .col-md-7
+      .col-md-6
         p(data-aos="fade-up") El texto puede ser sólido, líquido, cadáver o sangre, como activo, el texto tiene más integridad y entidad que los elementos que lo rodean, ya sean imágenes, pies de página, encabezados, números de página o botones, logotipos y menús, los diseñadores a menudo tratan el contenido del texto como coherente, dándole la apariencia de material cohesivo distribuido en áreas de un documento, en los medios digitales, los textos largos a menudo se dividen en partes más pequeñas que pueden ser traducidas por motores de búsqueda o por hipervínculos. (Lupton, 2011, pág. 87).
 
         p.mt-4(data-aos="fade-up") En la función existen dos formas de orientar las fuentes según su función: el editor de tipos, figuras de acción y Ia impresión creativa, para este caso la atención se centrara principalmente en la redacción de tipografías o caracteres comerciales: la regla, en el mejor de los casos, se debe aplicar a la redacción de tipografías, porque es difícil restringir la libertad de expresión que la tipografía debe ser creativa, es cierto que en la tipografía creativa no se puede actuar libremente y sin ningún control, porque al final el resultado es siempre el resultado lógico de la aplicación de conocimientos y de una condición particular que inspira la creatividad adecuada,  (Montesinos Hortona, 2000, pág. 121).
-      .col-md-5
+      .col-md-6
         img(src="@/assets/curso/tema3/11.png" data-aos="fade-right")
 
-    p.mt-5(data-aos="fade-up") En términos tipográficos, las formas se refieren a letras, líneas, palabras o logotipos, en su mayor parte, los diseñadores gráficos dedican tiempo a manipular las fuentes existentes para crear un diseño original, estos diseños distintivos pueden ser una palabra única para identidad corporativa, títulos de revistas, títulos de películas, logotipos de camisetas, eslóganes promocionales, carteles gráficos y más, (Montesinos Hortona, 2005, pág. 18).
+    p.mt-2(data-aos="fade-up") En términos tipográficos, las formas se refieren a letras, líneas, palabras o logotipos, en su mayor parte, los diseñadores gráficos dedican tiempo a manipular las fuentes existentes para crear un diseño original, estos diseños distintivos pueden ser una palabra única para identidad corporativa, títulos de revistas, títulos de películas, logotipos de camisetas, eslóganes promocionales, carteles gráficos y más, (Montesinos Hortona, 2005, pág. 18).
 
     p.mt-4(data-aos="fade-up") Un lector experimentado ingresará formas de palabras completas (o partes de ellas) pero no una sola letra, de esta forma, se puede comprender fácilmente la importancia de las palabras en el proceso de lectura, en los espacios de impresión, los caracteres aislados que siempre se diseñan con respecto a su efecto en la forma de la palabra (Hochuli, 2007).
 
@@ -105,7 +105,8 @@
       .col-md-4
         img(src="@/assets/curso/tema3/12.png" data-aos="fade-right" style="height:100%;")
 
-    p.mt-5(data-aos="fade-up") Por ejemplo, al observar un libro, la portada y otros elementos como el título se pueden clasificar como tipografía creativa, mientras que la disposición interna, el contenido o el texto operativo es más adecuado para lo que se llama tipo de edición, porque sigue las reglas generales aceptadas por la mayoría de los grandes diseñadores y máquinas de escribir para ser totalmente legible, el objetivo del desplazamiento es que el contenido se puede guardar fácil y rápidamente, mientras que la prioridad en un anuncio, portada, póster o título es captar la atención del lector por encima de cualquier otra cosa y viceversa: si la fuente del texto tiene una entidad o carácter muy fuerte, formas inusuales o muy prominentes, puede interferir con la lectura fluida.
+    .cajon.color-primario.p-5.mt-5
+      p(data-aos="fade-up") Por ejemplo, al observar un libro, la portada y otros elementos como el título se pueden clasificar como tipografía creativa, mientras que la disposición interna, el contenido o el texto operativo es más adecuado para lo que se llama tipo de edición, porque sigue las reglas generales aceptadas por la mayoría de los grandes diseñadores y máquinas de escribir para ser totalmente legible, el objetivo del desplazamiento es que el contenido se puede guardar fácil y rápidamente, mientras que la prioridad en un anuncio, portada, póster o título es captar la atención del lector por encima de cualquier otra cosa y viceversa: si la fuente del texto tiene una entidad o carácter muy fuerte, formas inusuales o muy prominentes, puede interferir con la lectura fluida.
 
     Separador
 
@@ -124,7 +125,7 @@
     .cajon.color-primario.p-5.mt-4
       .row
         .col-md-2.text-center
-          img(src="@/assets/curso/tema3/14.png" data-aos="fade-right" style="max-width:100px;display:inline;")
+          img(src="@/assets/curso/tema3/14.png" data-aos="fade-right" style="max-width:130px;display:inline;")
         .col-md-10
           p.mb-0(data-aos="fade-left") El sistema de medición tipográfico se basa en puntos (pt) y lleva el nombre de escritura parisina de Firmin Didot (1764-1836), que fue mejorada según el sistema de puntos inventado por Fournier en 1675, el sistema de Didot se extendió por toda Europa, este sistema se adapta a los 30 cm de longitud del pie francés, la máquina de escribir corresponde al pie francés, tiene 30 cm de largo y 798 puntos de impresión, en 1898 se asignó a las tipografías una altura unitaria (la profundidad de la letra entre la placa de presión y el papel) de 62 2/3 puntos.
 
@@ -140,7 +141,7 @@
         img(src="@/assets/curso/tema3/15.png" data-aos="fade-right")
       .col-md-7
         p(data-aos="fade-up") Es un conjunto de gráficos vectoriales que se pueden escalar sin perder calidad, gracias a la información adicional codificada en la propia fuente, el origen de los caracteres electrónicos se remonta a 1965 cuando se encajó el tubo de rayos catódicos como fuente de iluminación y el escalado de letras pasó de óptico a electrónico. Este sistema, que no funcionaba para la integración de imágenes y texto, pronto quedó en el olvido puesto que no permitía ver en la pantalla lo que salía a través de la impresora.
-        p.mt-4(data-aos="fade-up") En 1985 se marca una revolución a nivel mundial en el entorno de los gráficos y la tipografía con la aparición del lenguaje Adobe #[em postscript], el computador personal con interfaz gráfica Macintosh, la impresora Apple LaserWriter y la aplicación Aldus de PageMaker. Esto marcaría el inicio de lo que se conoce como autoedición, también conocida como publicación electrónica o autoedición, consistente en el uso conjunto de una computadora personal, un programa, un lenguaje y una impresora.
+        p.mt-4(data-aos="fade-up") En 1985 se marca una revolución a nivel mundial en el entorno de los gráficos y la tipografía con la aparición del lenguaje Adobe #[em postscript], el computador personal con interfaz gráfica #[em Macintosh], la impresora #[em Apple LaserWriter] y la aplicación Aldus de #[em PageMaker]. Esto marcaría el inicio de lo que se conoce como autoedición, también conocida como publicación electrónica o autoedición, consistente en el uso conjunto de una computadora personal, un programa, un lenguaje y una impresora.
 
     p.mt-5(data-aos="fade-up") #[em Postscript] es un lenguaje de representación de páginas para crear gráficos vectoriales en la autoedición, fue diseñado para transmitir cualquier tipo de contexto gráfico a un dispositivo de salida porque trata el texto, los gráficos vectoriales y las imágenes fotográficas como datos del mismo tipo, es la tecnología que permite que todo el #[em software] involucrado en el proceso de autoedición hable y comprenda el mismo idioma.
     p.mt-4(data-aos="fade-up") Aunque las primeras fuentes digitales fueron mapas de bits, es decir, matrices de píxeles o imágenes rasterizadas, las fuentes actuales son todas fuentes vectoriales. En la actualidad se encuentran los siguientes formatos de fuentes digitales:
@@ -171,7 +172,7 @@
     .titulo-segundo.mt-5
       h2#t_3_6 3.6 Jerarquía y legibilidad
 
-    .row
+    .row.col-md-11.m-auto
       .col-md-6(style="place-self:center")
         p(data-aos="fade-up") Cada proyecto #[em web] que se diseñe requiere una jerarquía visual, cuando este sistema se aplica a textos se denomina jerarquía tipográfica y se refiere a la selección de fuentes y cambios de formato aplicados a todos los textos para obtener una lectura correcta, es decir, los usuarios deben saber qué texto es el más importante y qué texto llamará su atención la primera vez que accedan al sitio #[em web].
       .col-md-5
@@ -183,7 +184,7 @@
 
     LineaTiempoD.color-acento-botones.mt-4
       p.text-small(numero="1" titulo="Cuerpo del texto") Aunque el título suele ser el texto más llamativo de la página de inicio, es una buena idea poner el punto de fuente en el cuerpo primero, se debe iniciar con esta manera porque el contenido de texto constituye el porcentaje más alto de texto en todo el sitio, de esta manera, no solo elige la sección de texto ideal, sino también la cantidad de caracteres por línea, el número ideal de caracteres por línea suele estar entre 50 y 60, según el tipo de fuente que esté utilizando, tenga en cuenta este valor al elegir el paso de fuente para mejorar la legibilidad de su texto. #[br] #[br] Una vez que se haya determinado el tamaño de la fuente para el texto del cuerpo, es pertinente  comenzar a pensar en otros estilos que se pueden usar en la página #[em web], como títulos, leyendas, notas al pie, citas, artículos y más, orientación, pie de página, etc., todos estos elementos tienen un estilo específico, ya sea tipografía, tamaño o formato, por ende, decidir sobre estos aspectos es importante para determinar el tipo de jerarquía. Se debe  tener en cuenta el espacio en blanco ya que este juega un papel importante en la organización y la legibilidad de una página #[em web], lo mismo ocurre con la tipografía, debe asegurarse de verificar los espacios alrededor de la letra, en los editores, se pueden cambiar algunos valores de espaciado, como interletraje, sangría y alineación, en algunos casos también hay una forma de cambiar estos valores en el diseño, lo ideal, por supuesto, es encontrar una fuente que funcione perfectamente sin cambiar, disminuir o aumentar automáticamente la alteración.
-      p.text-small(numero="2" titulo="Pesos visuales") El tamaño no es el único factor que entra en juego al determinar el tamaño de un elemento en particular en la pantalla, por lo cual, para lograr una mejor jerarquía visual en su tipografía, se debe considerar los siguientes factores: Si hay palos gruesos, si hay decoraciones, si es automático y si tiene altura X mayor en comparación con otras fuentes y solo este escrito en mayúsculas. Por lo general, las líneas se ven más grandes cuando tienes palos gruesos, por esta razón, las fuentes de título a menudo tienen esta característica, dado que el título es una oración corta y tiende a ocupar más espacio en la publicación, esto no es un problema si se usan fuentes pesadas o se escribe todo en mayúsculas, por otro lado, para el cuerpo del texto, no es realmente una buena idea, es mejor elegir una fuente con letras mayúsculas y minúsculas, ya sea delgada o condensada.
+      p.text-small(numero="2" titulo="Pesos visuales") El tamaño no es el único factor que entra en juego al determinar el tamaño de un elemento en particular en la pantalla, por lo cual, para lograr una mejor jerarquía visual en su tipografía, se debe considerar los siguientes factores: si hay palos gruesos, si hay decoraciones, si es automático y si tiene altura X mayor en comparación con otras fuentes y solo este escrito en mayúsculas. Por lo general, las líneas se ven más grandes cuando tienes palos gruesos, por esta razón, las fuentes de título a menudo tienen esta característica, dado que el título es una oración corta y tiende a ocupar más espacio en la publicación, esto no es un problema si se usan fuentes pesadas o se escribe todo en mayúsculas, por otro lado, para el cuerpo del texto, no es realmente una buena idea, es mejor elegir una fuente con letras mayúsculas y minúsculas, ya sea delgada o condensada.
       p.text-small(numero="3" titulo="Diseñe un punto culminante") Si se desea resaltar una palabra en particular, hay varias formas de hacerlo con algunos de los métodos comunes que son: Usar un color diferente, subrayar la palabra mencionada, pegar la palabra en el cuadro o de alguna otra forma, hacer verbos, cambiar el estilo de las palabras, por ejemplo, con cursiva, usar otra fuente, ajustar el tamaño a uno más grande y si el texto está en minúsculas, se debe escribir la palabra en mayúscula. Incluso si no se puede usar otras fuentes debido a sus limitaciones, se puede crear y resaltar etiquetas de palabras usando cualquiera de los otros métodos mencionados, dado que esta es una palabra que tiene cierta influencia, estas técnicas deben usarse con moderación, si se usan signos diacríticos en más de una parte del texto, el contraste no será suficiente.
       p.text-small(numero="4" titulo="Compruebe cómo se ve la versión final del texto") Para asegurarse de llegar a la jerarquía tipográfica correcta, la mejor opción es revisar los resultados de las decisiones, se debe probar la configuración en el hardware para el que está diseñando y vea si hay problemas de legibilidad y si funciona sin problemas, en caso de que existan detalles que no  convencen en absoluto, se deben hacer los ajustes necesarios, se puede obtener toda la teoría que necesita y aplicarla a la perfección, pero nada mejor que probar fuentes que se vean vivas y sencillas. #[br] #[br] Se puede apoyar en que otra persona realice el ejercicio, dado que se ha estado trabajando con una fuente durante un tiempo, es posible que conozca algunas características que pueden dificultar la lectura, entonces, para asegurarse es mejor que otras personas que no están involucradas en el proyecto vean la construcción y desde allí analicen si hay algún tipo de problema que deba resolverse. #[br] #[br] En resumen, la jerarquía típica es otro tipo de jerarquía visual en la que se aplican algunas de las mismas reglas, pero además de mirar los colores y cómo los elementos se relacionan con otros, se deben tener en cuenta las características de la fuente, el uso razonable del espacio en blanco y la creación de diseños de imágenes.
 
@@ -284,7 +285,7 @@
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='')
 
     .row.mt-5
-      .col-md-4
+      .col-md-4(style="place-self:center;")
         img(src='@/assets/curso/tema3/22.png' data-aos="fade-right")
       .col-md-8
         p(data="fade-up") Hay varias formas de crear una ilustración digital, la base de todo es crear diseños basados en líneas rectas y curvas, además, cuando se pretenda realizar dibujos en color mediante el uso de vectores se pueden crear formas geométricas, interiores de color o líneas.
@@ -300,11 +301,14 @@
 
     AcordionA.mt-4(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Corregir errores ortográficos de textos literarios y no literarios")
-        p Se aplica en documentos donde el autor quiere comprobar que la caligrafía cumple con las reglas de ortografía y tipografía, con el fin de tener un acabado limpio y profesional antes de publicar el texto.
+        .ps-5
+          p Se aplica en documentos donde el autor quiere comprobar que la caligrafía cumple con las reglas de ortografía y tipografía, con el fin de tener un acabado limpio y profesional antes de publicar el texto.
       .row(titulo="Impresión y distribución")
-        p En este apartado también se incluyen textos que no requieren ninguna intervención adicional por parte del lector y editores, si el autor no desea modificar el original, este será el paso inicial e imprescindible antes de seleccionar un premio literario, y trasladar el texto a un agente literario, editor, revista, etc.
+        .ps-5
+          p En este apartado también se incluyen textos que no requieren ninguna intervención adicional por parte del lector y editores, si el autor no desea modificar el original, este será el paso inicial e imprescindible antes de seleccionar un premio literario, y trasladar el texto a un agente literario, editor, revista, etc.
       .row(titulo="Corrección de errores ortográficos y estilísticos de textos literarios y no literarios")
-        p Este segundo método de encuadre está destinado a garantizar errores ortográficos y tipográficos correctos para un artículo, pero también a garantizar su gramática en el sentido amplio, esto incluye la detección y corrección o corrección de errores en la aplicación del estándar de lenguaje escrito: errores tipográficos (puntuación, movimientos omitidos o innecesarios), errores morfológicos, inconsistencias semánticas, inexactitudes, etc., los errores se anotan en el texto y las correcciones aparecen en los márgenes, las modificaciones se envían con el control de cambios habilitado y también con los cambios aceptados (dos copias), se incluye una guía de control de cambios, la cita del mediador está sujeta a disponibilidad.
+        .ps-5
+          p Este segundo método de encuadre está destinado a garantizar errores ortográficos y tipográficos correctos para un artículo, pero también a garantizar su gramática en el sentido amplio, esto incluye la detección y corrección o corrección de errores en la aplicación del estándar de lenguaje escrito: errores tipográficos (puntuación, movimientos omitidos o innecesarios), errores morfológicos, inconsistencias semánticas, inexactitudes, etc., los errores se anotan en el texto y las correcciones aparecen en los márgenes, las modificaciones se envían con el control de cambios habilitado y también con los cambios aceptados (dos copias), se incluye una guía de control de cambios, la cita del mediador está sujeta a disponibilidad.
 
     h6.mt-5(data-aos="fade-up") Con esta información se da por concluida la parte teórica del componente formativo 012 (Producción de editoriales y tipografía), felicidades en este nuevo aprendizaje.
 
@@ -385,4 +389,6 @@ export default {
   background-color: #1FA4AF
   color: white
   font-weight: bold
+.tabs-a.color-acento-contenido .col-lg-8.col-xl-9
+  place-self: center
 </style>

@@ -21,7 +21,7 @@
       p La composición en el área de las artes visuales logra satisfacer algunas necesidades prácticas y estéticas, es la manera en la que se comunica y se ordenan los diferentes elementos conceptuales, técnicos y visuales con los que un creador (diseñador, ilustrador, escritor, entre otros) necesita para la creación de una estructura visual en el diseño de piezas gráficas impresas, conformadas por la estructura compositiva y la planeación.
       sapn La composición comprende la relación y las diferentes elecciones entre tamaños, coleres, texturas, alineamientos, pesos.
     
-    p.text-center.mb-4 Al momento de diseñar una composición es importante tener en cuenta los siguientes elementos:
+    p.text-center.mb-4(style="font-weight:bold;") Al momento de diseñar una composición es importante tener en cuenta los siguientes elementos:
 
     .row.mb-5
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -31,7 +31,7 @@
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color-primario
-            .text-white.p-4
+            .p-4
               h2.text-center El texto
               p Es un conjunto tipográfico determinado, el cual hace parte de toda publicación y se caracteriza por hacer parte de un estilo propio o familia tipográfica, es importante mencionar que cada uno de los diferentes estilos tipográficos se encarga de expresar conceptos definidos. (se debe tener en cuenta que los textos tipográficos dentro de una composición deben ser legibles y claros para el lector).
 
@@ -80,8 +80,8 @@
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
-          .tarjeta.color-primario
-            .text-white.p-4
+          .tarjeta.color-secundario
+            .p-4
               h2.text-center Espacios en blanco
 
               p Cabe resaltar que cada publicación cuenta con espacios vacíos, los cuales permiten generar una impresión de alivio, de calma, de tranquilidad, a la vista de un espectador, no se trata de saturar un espacio visual grafico de textos e imágenes para mostrar un contenido, siempre debe ser equilibrado, para que este sea agradable a la vista.
@@ -93,7 +93,7 @@
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
-          .tarjeta.color-secundario
+          .tarjeta.color-primario
             .p-4
               h2.text-center El contexto o concepto
 
@@ -106,7 +106,7 @@
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
-          .tarjeta.color-primario
+          .tarjeta.color-secundario
             .p-4
               h2.text-center Color
 
@@ -119,7 +119,7 @@
           //- .tarjeta debe ir acompañado de una de una de estas clases => 
           //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
           //- estas clases tambien tienen un modificador --borde
-          .tarjeta.color-secundario
+          .tarjeta.color-primario
             .p-4
               h2.text-center Equilibrio y armonía
 
@@ -190,7 +190,7 @@
 
             .tarjeta-flip__contenido.p-2.p-xl-4
               h3.text-center Los recursos económicos
-              p Es necesario contar con un presupuesto adecuado para la creación del diseño editorial, si se cuenta con un buen presupuesto posiblemente tendrá un buen producto, el esperado, cabe resaltar que no se requiere tener un presupuesto robusto para la creación de un diseño optimo, sin embargo, en el caso de que se cuente con un presupuesto mínimo, no limitará a que sea un resultado negativo o sea un mal diseño.
+              p Es necesario contar con un presupuesto adecuado para la creación del diseño editorial, si se cuenta con un buen presupuesto posiblemente tendrá un buen producto, el esperado, cabe resaltar que no se requiere tener un presupuesto robusto para la creación de un diseño óptimo, sin embargo, en el caso de que se cuente con un presupuesto mínimo, no limitará a que sea un resultado negativo o sea un mal diseño.
  
     p.mb-5 El diseño editorial se encarga primordialmente de la estética y del aspecto que tendrán los diferentes conjuntos de textos e imágenes al momento de ser expuestos ante un público, ocupándose de que su exterior e interior cumplan detalladamente con el pedido específico, siendo un soporte de todo el contenido del diseño, apoyando la interpretación de la lectura dentro de una publicación.
 
@@ -245,7 +245,7 @@
       .row
         .col-md-10
           h3 Retícula editorial
-          p Es el instrumento que se maneja para acomodar el contenido de la publicación de modo organizado de acuerdo con el diseño, se puede decir que son unas líneas imaginarias dentro de las cueles se podrá bocetar dentro de la publicación. 
+          p Es el instrumento que se maneja para acomodar el contenido de la publicación de modo organizado de acuerdo con el diseño, se puede decir que son unas líneas imaginarias dentro de las cuales se podrá bocetar dentro de la publicación. 
         .col-md-2
           figure
           img.contenpaso(src='@/assets/curso/tema1/img-paso6.svg', alt='paso 6')
@@ -328,7 +328,7 @@
         .row
           .col-md-7.mb-4.mb-md-0.p-5
             h2 Corrección de pruebas
-            p Aquí se hace énfasis en revisar con cautela los textos adecuados a los formatos de páginas, es decir, los espacios, la ubicación de elementos textuales y no textuales, los cortes de palabras los recursos gráficos entre otros, esta corrección de pruebas está a cargo de un corrector de estilo quien es supervisado por el editor.
+            p Aquí se hace énfasis en revisar con cautela los textos adecuados a los formatos de páginas, es decir, los espacios, la ubicación de elementos textuales y no textuales, los cortes de palabras los recursos gráficos entre otros, esta corrección de pruebas está a cargo de un corrector de estilo quíen es supervisado por el editor.
       
           .col-md-4
             figure
@@ -337,7 +337,7 @@
         .row
           .col-md-7.mb-4.mb-md-0.p-5
             h2 Diseño y revisión final
-            p Para el tema del diseño externo se debe tener en cuenta la cubierta y contra cubierta, lomo y solapas, luego de pasar por los procesos anteriores y determinar qué tipo de diseño es el adecuado para la publicación final se pasa de un original a un libro, cabe resaltar que esta labor puede realizarse en paralelo a la maquetación, correcciones de estilo o a la edición del contenido.
+            p Para el tema del diseño externo se debe tener en cuenta la cubierta y contracubierta, lomo y solapas, luego de pasar por los procesos anteriores y determinar qué tipo de diseño es el adecuado para la publicación final se pasa de un original a un libro, cabe resaltar que esta labor puede realizarse en paralelo a la maquetación, correcciones de estilo o a la edición del contenido.
       
           .col-md-4
             figure
@@ -368,7 +368,7 @@
             img.contenbgr2(src='@/assets/curso/tema1/img-banneinter.svg', alt='Slyder 8')
         .col-md-9.p-5
           p Cabe resaltar las gestiones legales que le competen a un libro son:
-          p El ISBN (International Standard Book Number) es un sistema internacional de numeración para publicaciones «tipo-libro» certificado por Normas ISO que identifica cada título, impreso y/o digital, de acuerdo con su procedencia (región, país o área idiomática) y número del editor. Está conformado por trece dígitos precedidos por las siglas ISBN.
+          p El #[strong ISBN] (International Standard Book Number) es un sistema internacional de numeración para publicaciones «tipo-libro» certificado por Normas ISO que identifica cada título, impreso y/o digital, de acuerdo con su procedencia (región, país o área idiomática) y número del editor. Está conformado por trece dígitos precedidos por las siglas ISBN.
     
     .row.mb-5
       .col-md-5
@@ -534,7 +534,7 @@
 
       .tarjeta.color-acento-botones.p-3(x="23.8%" y="24%" numero="1")
         .h5.mb-2 Briefing 
-        p.mt-3 Debe ser claro y explicito en sus contenidos, el planteamiento requiere ser organizado creando el equilibrio entre la parte gráfica y los textos.
+        p.mt-3 Debe ser claro y explícito en sus contenidos, el planteamiento requiere ser organizado creando el equilibrio entre la parte gráfica y los textos.
       .tarjeta.color-acento-botones.p-3(x="29.8%" y="75%" numero="2")
         .h5.mb-2 Conocer el producto y su entorno  
         p.mt-3 Para que el catálogo cumpla con su objetivo, se debe conocer al detalle lo que se desea comunicar con el fin de hacerlo de mejor forma para un público objetivo.
@@ -568,7 +568,7 @@
     .row
       .col-md-6
         figure
-          img.conten1-3(src='@/assets/curso/tema1/img-1-3.png', alt='imagen 1-3')
+          img(src='@/assets/curso/tema1/img-1-3.png', alt='imagen 1-3')
       .col-md-6
         p Un plegable se puede utilizar como carta de presentación para una empresa o para un producto específico, 
           span.bgrspan con este se puede difundir información sobre un tema determinado,  
@@ -598,7 +598,7 @@
               h3.p-4.text-center.text-black Plegable a tres cuerpos
             .tarjeta-flip__contenido.p-4.p-xl-5.p-4
               h1 Plegable a tres cuerpos
-              p.text-small Se conocen como trípticos, son aquellos que tienen tres pliegues que dan como resultado seis caras, lo que permite presentar bastante información, se podrá realizar de varias formas el pliegue, algunos de ellos son: sobre (las caras están dobladas hacia adentro), acordeón (las caras están dobladas hacia adentro y hacia afuera, dando la idea de un acordeón) y ventana (solo la primera y la última cara están dobladas hacia adentro, dando la forma) de una ventana.
+              p Se conocen como trípticos, son aquellos que tienen tres pliegues que dan como resultado seis caras, lo que permite presentar bastante información, se podrá realizar de varias formas el pliegue, algunos de ellos son: sobre (las caras están dobladas hacia adentro), acordeón (las caras están dobladas hacia adentro y hacia afuera, dando la idea de un acordeón) y ventana (solo la primera y la última cara están dobladas hacia adentro, dando la forma) de una ventana.
 
       .col-sm-4.col-md-4.col-xl-4.mb-4.mb-xl-0.contenflip
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
@@ -623,7 +623,7 @@
         p Se puede decir que la cartilla es una 
           span.bgrspan revista corta de un tema determinado,  
           | cuyo propósito es orientar sobre un argumento de interés de un público objetivo.
-        p La cartilla tiene tres partes importantes diferenciadas así:
+        p(style="font-weight:bold;") La cartilla tiene tres partes importantes diferenciadas así:
         ul.lista-ul.p-3
           li
             ul
@@ -639,7 +639,7 @@
         figure
           img.conten1-3(src='@/assets/curso/tema1/img-1-6.png', alt='imagen 1-6')
 
-    .cajon.color-secundario.p-4.mb-4
+    .cajon.color-secundario.p-4.mb-4.mt-3
       p Qué características debe tener la cartilla, cuál es el diseño y organización de la cartilla, elaborar un plan de escritura que servirá de orientación y sentido para la cartilla, cuál es el propósito, cuál es el público objetivo, qué tema tratará, cuáles serán las secciones o páginas que tendrá, qué forma o estructura tendrá. 
       p Partiendo de esta información se podrá empezar a bocetar una versión preliminar de la cartilla.
     
@@ -658,7 +658,7 @@
           | Una infografía es una colección de imágenes, visualizaciones de datos, gráficos de barra y gráficos circulares (o de pastel) y texto simple (minimalista) que resume un tema para que se pueda entender fácilmente (Venngage, s.f.).
         .cajon.color-secundario.p-4.mb-4
           p Las infografías tienen como objetivo principal exponer conceptos complejos utilizando los gráficos como apoyos visuales con los cuales lograr acomodar la información de forma creativa y organizada, podría decirse que es una representación visual para transmitir un mensaje y para organizar los elementos que permiten entender el mensaje en coherencia con una narrativa visual.
-        p.text-black Al momento de optimizar el proceso de creación se requiere seguir un planteamiento, el cual está estructurado en fases divididas así:
+    p.text-black.mt-2 Al momento de optimizar el proceso de creación se requiere seguir un planteamiento, el cual está estructurado en fases divididas así:
 
     AcordionA.mt-5.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Recopilación de la información")
@@ -718,7 +718,7 @@
       
       .row(titulo="Diseño de los elementos infográficos")
         .col-md-6.mb-4.mb-md-0.p-5
-          p Para el desarrollo de esta etapa es importante contar con el apoyo de #[em software] de diseño y aplicaciones de diseño que utilizaran los actores en las respectivas escenas, los gráficos, textos, ilustraciones, diagramas, fotos e iconografías, son detalladamente elaboradas, con el fin de representar la información en sus lugares correspondientes anteriormente localizados en el espacio adecuado gracias al boceto.
+          p Para el desarrollo de esta etapa es importante contar con el apoyo de #[em software] de diseño y aplicaciones de diseño que utilizarán los actores en las respectivas escenas, los gráficos, textos, ilustraciones, diagramas, fotos e iconografías, son detalladamente elaboradas, con el fin de representar la información en sus lugares correspondientes anteriormente localizados en el espacio adecuado gracias al boceto.
 
         .col-md-6
           figure
@@ -853,4 +853,8 @@ export default {
   background-color: #ffd1a2
 .cajon.color-secundario:before
   background-color: #FFAC57
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: -22px
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  right: -22px
 </style>

@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Composición y armado de productos editoriales
+      h1 Introducción
 
         
     //-figure.mb-5
@@ -22,7 +22,7 @@
     figure.mb-4
       img(src='@/assets/curso/introduccion/img_fond-comple.svg', alt='Fondo introducción')
 
-    p.text-center.p-3 A continuación, podrá visualizar de qué se tratará este componente formativo:
+    p.text-center.p-3(style="font-weight:bold") A continuación, podrá visualizar de qué se tratará este componente formativo:
 
     
     

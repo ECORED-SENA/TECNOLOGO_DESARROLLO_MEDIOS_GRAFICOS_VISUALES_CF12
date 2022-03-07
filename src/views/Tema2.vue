@@ -12,7 +12,9 @@
     
     Separador
 
-    #t_2_1.titulo-segundo.color-secundario.mb-5
+    p(data-aos="fade-up") A continuación, se presenta cada uno.
+
+    #t_2_1.titulo-segundo.color-secundario.mb-5.mt-5
       h2 2.1 Introducción, definición e historia
 
     .row.mb-4
@@ -114,7 +116,7 @@
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías Sans Serif, de palo seco o lineales")
         h4 Tipografías #[em sans serif], de palo seco o lineales
 
-        p Este tipo de fuentes se identifican porque carecen de remate en sus trazos, ya que son tipografías rectas y presentan trazos limpios y uniformes, su primera aparición es en la revolución industrial las cueles se manejaban en carteleras y embalajes, su principal uso es en textos cortos y no densos puesto que no son de buena legibilidad por ello su lectura es compleja. Están muy asociadas a contextos actuales y modernos dando un aspecto limpio y sobrio como ejemplos de este tipo de tipografías #[em sans serif] son Arial, Open Sans, Century Gothic, Calibri, Avenir, Futura, Frutiguer, entre otras.
+        p Este tipo de fuentes se identifican porque carecen de remate en sus trazos, ya que son tipografías rectas y presentan trazos limpios y uniformes, su primera aparición es en la revolución industrial las cuales se manejaban en carteleras y embalajes, su principal uso es en textos cortos y no densos puesto que no son de buena legibilidad por ello su lectura es compleja. Están muy asociadas a contextos actuales y modernos dando un aspecto limpio y sobrio como ejemplos de este tipo de tipografías #[em sans serif] son Arial, Open Sans, Century Gothic, Calibri, Avenir, Futura, Frutiguer, entre otras.
 
 
         figure
@@ -147,8 +149,8 @@
         figure
           img.imgcarac(src='@/assets/curso/tema2/img-carac.png', alt='Texto 4')
       .col-md-8
-        p.text-black Imitación del trazado manual: 
-        span se puede hablar de dos tipos, caligráficas o manuales, las dos tienen la posibilidad de imitar cualquier variedad de un escrito, asociadas a escrituras de apuntes, caligrafía para niños, de pluma, que presentan variables en cada uno de sus trazos; cabe aclarar que estas tipografías nos son puntualmente de fantasía, ya que estas siguen un patrón.
+        p.text-black Imitación del trazado manual
+        span Se puede hablar de dos tipos, caligráficas o manuales, las dos tienen la posibilidad de imitar cualquier variedad de un escrito, asociadas a escrituras de apuntes, caligrafía para niños, de pluma, que presentan variables en cada uno de sus trazos; cabe aclarar que estas tipografías nos son puntualmente de fantasía, ya que estas siguen un patrón.
         p.mt-3.text-black Tipografía de escritura caligráfica
         span Se conocen comúnmente como escriptas, siendo un tipo de tipografía que imita estilos que provienen de métodos de escritura, dentro de estas características se pueden encontrar:
 
@@ -156,9 +158,9 @@
               li
                 ul
                   li 
-                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Encriptas formales:] (caligráficas) se caracterizan por cumplir un patrón que tienen las tipografías de escritura, con trazos muy regulares que simulan tipografías cursivas, puesto que a simple vista parecen escritas con una pluma, dentro de estas tipografías se pueden destacar #[em shelley script], #[em lynotipe zapfino], #[em snell roundhand], #[em chopin script].
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Escriptas formales:] (caligráficas) se caracterizan por cumplir un patrón que tienen las tipografías de escritura, con trazos muy regulares que simulan tipografías cursivas, puesto que a simple vista parecen escritas con una pluma, dentro de estas tipografías se pueden destacar #[em shelley script], #[em lynotipe zapfino], #[em snell roundhand], #[em chopin script].
                   li 
-                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Encriptas informales:] se conocen como escriptas personalizadas, ya que cuentan con trazos irregulares, estas a simple vista dan la impresión de ser escritas con una brocha, dentro de estas tipografías se pueden destacar Rage Italic, Mistral, Lucida Handwritting, Brush Script.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Escriptas informales:] se conocen como escriptas personalizadas, ya que cuentan con trazos irregulares, estas a simple vista dan la impresión de ser escritas con una brocha, dentro de estas tipografías se pueden destacar #[em Rage Italic], #[em Mistral], #[em Lucida Handwritting], #[em Brush Script].
     
     div.bgrlinet2.mb-5
       .row
@@ -171,13 +173,13 @@
               li
                 ul
                   li 
-                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Cuerpo:] Se mide en puntos tipográficos, es el tamaño de la letra.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Cuerpo] se mide en puntos tipográficos, es el tamaño de la letra.
                   li 
-                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Anchura del trazo:] De acuerdo con su anchura podrá catalogar en: redonda, fina, extrafina o negra o super negra.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Anchura del trazo] de acuerdo con su anchura podrá catalogar en: redonda, fina, extrafina o negra o super negra.
                   li 
-                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Inclinación del eje vertical:] Por lo general cuentan con una inclinación de 15%, Itálicas o cursivas. 
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Inclinación del eje vertical] por lo general cuentan con una inclinación de 15%, Itálicas o cursivas. 
                   li 
-                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Proporción:] Cuenta con eje vertical y horizontal, se cataloga en expandida, estrecha y redonda.
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Proporción] cuenta con eje vertical y horizontal, se cataloga en expandida, estrecha y redonda.
 
         .col-md-4.p-5
           figure
@@ -206,13 +208,13 @@
           
           .tarjeta.color-acento-contenido.p-3(x="99%" y="78%" numero="2")
             .h5.mb-2(style="color:#12263F;") Línea base
-            p(style="color:#12263F;") Sobre ella se asienta el cuerpo principal de las letras minúsculas dando base a todas las mayúsculas, debajo de la line de referencia se encuentra la línea paralela que se conoce como alineación menor, la cual se encarga de los trazos descendentes delimitándolos.
+            p(style="color:#12263F;") Sobre ella se asienta el cuerpo principal de las letras minúsculas dando base a todas las mayúsculas, debajo de la linea de referencia se encuentra la línea paralela que se conoce como alineación menor, la cual se encarga de los trazos descendentes delimitándolos.
 
     span.bgrh3.text-black.position-relative Partes y elementos de los caracteres               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
     div.mt-3.mb-3
-      p Se diferencian de la siguiente manera:
+      p #[strong Partes y elementos de los caracteres:] Se diferencian de la siguiente manera:
 
     .row
       ImagenInfografica.color-primario.mb-5
@@ -270,7 +272,7 @@
           span.bgrspan diferentes tipos de palabras y párrafos que se utilizan al diseñar textos,  
           | las funciones comunicativas de las partes individuales del texto se pueden distinguir utilizando un estilo tipográfico, lo que significa, entre otras cosas, un título, un subtítulo, una nota o una cita. Los estilos tipográficos, a su vez, permiten distinguir visualmente diferentes secciones del texto, estos incluyen fuente, tamaño, negrita, cursiva y subrayado, entre otros.
         p A continuación, se hará referencia de cada uno de los estilos tipográficos, los cuales son:
-        p Estilo de las romanas, estilos lineales o de palo seco, estilo incisas, estilo de escritura, estilo gótico, estilo no latinas, estilo de fantasía, estilo de diseño.
+        p(style="font-weight:bold;") Estilo de las romanas, estilos lineales o de palo seco, estilo incisas, estilo de escritura, estilo gótico, estilo no latinas, estilo de fantasía, estilo de diseño.
       .col-md-6
         figure
           img.img-2-4(src='@/assets/curso/tema2/img-2-4.png', alt='imagen 2-4')
@@ -284,7 +286,7 @@
     
     AcordionA.mb-5.mt-4(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Subestilo humanas")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Aparecen entre los años 1460 y 1470 en Italia con los primeros tipos de letras redondas, para 1470 surge un nuevo conjunto de tipos referenciados por la escritura humanística, de allí se deriva el termino (romana), los tipos humanísticos se conocen también como (venecianos) Este estilo de tipografía es de composición ancha y gran peso, y caja alta y bastante grande, los tipos Humanísticos no se utilizan en la actualidad para aplicar a textos continuos, se utilizan para realizar publicidad y textos breves.
           p Principales características del tipo Humanístico:
             ul.lista-ul.p-3
@@ -315,7 +317,7 @@
             img(src='@/assets/curso/tema2/img-abc1.svg', alt='imagen ABC1', width="589", height="255")
 
       .row(titulo="Subestilo antiguas o garaldas")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Se identifican como tipografías diseñadas durante el siglo XV y hasta finales del siglo XVII, allí se crearán los tipos legibles y muy populares que en la actualidad se utilizan para hacer un texto continuo, esta creación inicia en Italia y termina en Inglaterra, estos tipos se conocen como “Old Face” o “Garalde”.
           p Principales características de las tipografías Antiguas o Garaldas:
             ul.lista-ul.p-3
@@ -346,7 +348,7 @@
             img(src='@/assets/curso/tema2/img-abc2.svg', alt='imagen ABC2', width="625", height="250")
         
       .row(titulo="Subestilo de las reales o de transición")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Surgen en la última década del siglo XV, en 1692 se crea un nuevo tipo romano siendo pionero ya que de este tipo se creó sobre una cuadrícula, mostraba una serie de características novedosas en sus trazos y terminales planos, una menor anchura y excelente contraste entre trazos, a estos tipos se les denomino transición puesto que cuentan con características de las Garaldas y de las Didonas. Nace un nuevo diseño de fuente redonda, el tipo Baskerville.
           p Principales características de los tipos de transición:
             ul.lista-ul.p-3
@@ -373,7 +375,7 @@
             img(src='@/assets/curso/tema2/img-abc3.svg', alt='imagen ABC3', width="639", height="222")
       
       .row(titulo="Subestilo de las didonas o modernas")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Los nuevos materiales y la tecnología de la época permiten un refinamiento en el diseño y la creación de tipos, para 1784 la influencia del tipo Baskerville permite realizar una serie de cambios en sus trazos terminales rectos. Unos años después aparece el tipo Bodini que fácilmente impresionó por su majestuoso estilo neoclásico y su elegancia, haciendo de los textos cortos una cualidad de belleza clásica, sin embargo, no se apropió para los textos largos por sus trazos débiles y su fuerte modulación.
           p Principales características de los tipos Didones:
             ul.lista-ul.p-3
@@ -402,7 +404,7 @@
             img(src='@/assets/curso/tema2/img-abc4.svg', alt='imagen ABC4', width="625", height="230")
       
       .row(titulo="Subestilo de las mecanas o egipcias")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Nacen en 1817 en Inglaterra, se conocen también como (Mecanas o San #[em Serif]) de acuerdo con su tipo de rotulación fueron pensadas para trabajos netamente publicitarios por su estructura y trazos, su popularidad duro hasta el último cuarto del siglo XIX.  Para 1845 aparece un nuevo tipo egipcio llamado Clarendon presentando trazos finales enlazados llegando a representar un subgrupo muy pequeño dentro de los tipos de estilo egipcio, este tipo se utilizó bastante en la edición de periódicos. 
           p Principales características de los tipos egipcios:
             ul.lista-ul.p-3
@@ -421,8 +423,8 @@
                     i.fas.fa-angle-right
                     span Se pueden referenciar los siguientes estilos de fuentes egipcias: Wanted, Rockwel y Playbill.
                                    
-          figure
-            img(src='@/assets/curso/tema2/img-abc5.svg', alt='imagen ABC5', width="703", height="230")
+          figure.col-md-7.m-auto
+            img(src='@/assets/curso/tema2/img-abc5.png', alt='imagen ABC5', width="703", height="230")
 
     br
     span.bgrh3.text-black.position-relative.mt-5 Estilo de las lineales o de palo seco                
@@ -471,7 +473,7 @@
 
       .row(titulo="Subestilo de los humanísticos")
         .col-md-12.mb-4.mb-md-0
-          p Se basa en letras romanas, los cuales presentan trazos ligeros haciendo similitud a la caligrafía, lo cual hacía que se contrastaran con los tipos de palo seco del momento, como ejemplo de este tipo se puede nombrar el tipo Gill Sans siendo su primer rótulo una tienda de libros.
+          p Se basa en letras romanas, los cuales presentan trazos ligeros haciendo similitud a la caligrafía, lo cual hacía que se contrastarán con los tipos de palo seco del momento, como ejemplo de este tipo se puede nombrar el tipo Gill Sans siendo su primer rótulo una tienda de libros.
                
           figure
             img(src='@/assets/curso/tema2/img-abc2-3.svg', alt='imagen ABC2-3', width="601", height="246") 
@@ -511,27 +513,27 @@
     span.bgrh3.text-black.position-relative Góticas               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
-    .row.mt-4.mb-4
+    .row.mt-4.mb-4.mt-5
       .col-md-9
-        p se caracterizan por sus formas arcaicas de tipografía, civiles, góticas y medievales, las letras mayúsculas se adornan por signos caligráficos de connotación leve, la letra gótica es la más fuerte, las minúsculas manifiestan su origen de estar formadas a pluma, de igual forma, las letras góticas se consideran tipografías digitales, como ejemplo de este tipo se puede mencionar Goudy Text.
+        p Se caracterizan por sus formas arcaicas de tipografía, civiles, góticas y medievales, las letras mayúsculas se adornan por signos caligráficos de connotación leve, la letra gótica es la más fuerte, las minúsculas manifiestan su origen de estar formadas a pluma, de igual forma, las letras góticas se consideran tipografías digitales, como ejemplo de este tipo se puede mencionar Goudy Text.
       .col-md-3
         figure
           img(src='@/assets/curso/tema2/img-tipo4.svg', alt='tipo 4', width="295", height="100" )
     
-    span.bgrh3.text-black.position-relative No latinas               
+    span.bgrh3.text-black.position-relative.mt-5 No latinas               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
-    p.mt-4.mb-4 Este grupo de letras es exclusivamente heterogéneo, ya que se encarga de agrupar las versiones tipográficas de las escrituras que no son establecidas en los caracteres latinos. 
+    p.mt-4.mb-4.mt-5 Este grupo de letras es exclusivamente heterogéneo, ya que se encarga de agrupar las versiones tipográficas de las escrituras que no son establecidas en los caracteres latinos. 
 
     span.bgrh3.text-black.position-relative De fantasía               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
-    p.mt-4.mb-4 Están divididos en dos tipos, se caracterizan porque están fuera de normas, por lo general incorporan elementos variables de diversa naturaleza, se diferencian así:
+    p.mt-4.mb-4.mt-5 Están divididos en dos tipos, se caracterizan porque están fuera de normas, por lo general incorporan elementos variables de diversa naturaleza, se diferencian así:
       ul.lista-ul.p-3
               li
                 ul
                   li 
-                    p.mb-0 #[strong.colortext De diseño:] se elaboran partiendo de cualquier pretexto gráfico, de este tipo se pueden mencionar las esténcil o de plantilla.decorativos.
+                    p.mb-0 #[strong.colortext De diseño:] se elaboran partiendo de cualquier pretexto gráfico, de este tipo se pueden mencionar las esténcil o de plantilla.
                   li 
                     p.mb-0 #[strong.colortext Ornamentales:] se basan por la duplicidad de elementos que se les adiciona a los tipos decorativos.
 
@@ -546,7 +548,7 @@
         figure
           img.conten1-3(src='@/assets/curso/tema2/img-2-5.png', alt='imagen 2-5', width="379", height="349")
       
-      .col-md-6.pt-5
+      .col-md-6.pt-5(style="place-self:center;")
         p En el diseño de piezas gráficas con composiciones tipográficas se utilizan una serie de criterios que componen la maquetación, se podría decir que el más importante es el 
           span.bgrspan proceso de toma de decisiones al elegir el tipo de letra;  
           | en el uso de contrastes de cuerpo, estilo, tono y color; en el uso de signos y puntuación, de igual forma en la aplicación de diversas alineaciones y direccionalidad.
