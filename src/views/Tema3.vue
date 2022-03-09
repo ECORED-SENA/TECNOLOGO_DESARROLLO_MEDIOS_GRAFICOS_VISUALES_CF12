@@ -48,7 +48,7 @@
       .col-md-7.col-lg-7.col-sm-7
         p(data-aos="fade-up") Para  reforzar sus conceptos en este tema, se le invita a ver el video #[strong "Jerarquía tipográfica"].
       .col-md-3.col-sm-3.col-lg-3.text-center
-        a.boton.color-primario.me-3(href="#" target="_blank")
+        a.boton.color-primario.me-3(href="https://www.youtube.com/watch?v=u2eha348YVU&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA" target="_blank")
           span Ver video
           i.fas.fa-play
 

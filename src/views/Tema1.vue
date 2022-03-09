@@ -141,9 +141,9 @@
             h3.mb-1 Características del diseño editorial
             p.text-small A continuación, observe el video Conceptos básicos diseño editorial para tener una mayor contextualización de este tema, sus elementos, características, entre otros.  
           .col-md-3.col-sm-3
-            a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-              span Descargar
-              i.fas.fa-file-download
+            a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=jYcip58qPsk&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA" target="_blank")
+              span Ver video
+              i.fas.fa-play
 
     p La función principal del diseño editorial es la de maquetación y al momento de desarrollar una pieza gráfica, que esta pueda pasar por las diferentes etapas de ajustes, correcciones de diseño y su entorno, con el fin de llegar al resultado esperado; el diseño editorial cuenta con tres características principales: el texto, imágenes y retícula, diferenciados así:
 
