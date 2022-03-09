@@ -33,7 +33,7 @@
           .tarjeta.color-primario
             .p-4
               h2.text-center El texto
-              p Es un conjunto tipográfico determinado, el cual hace parte de toda publicación y se caracteriza por hacer parte de un estilo propio o familia tipográfica, es importante mencionar que cada uno de los diferentes estilos tipográficos se encarga de expresar conceptos definidos. (se debe tener en cuenta que los textos tipográficos dentro de una composición deben ser legibles y claros para el lector).
+              p.text-center Es un conjunto tipográfico determinado, el cual hace parte de toda publicación y se caracteriza por hacer parte de un estilo propio o familia tipográfica, es importante mencionar que cada uno de los diferentes estilos tipográficos se encarga de expresar conceptos definidos. (se debe tener en cuenta que los textos tipográficos dentro de una composición deben ser legibles y claros para el lector).
 
 
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -45,7 +45,7 @@
           .tarjeta.color-secundario
             .p-4
               h2.text-center Las imágenes
-              p Hacen referencia a un número de objetos determinados y su distribución espacial en la cual es presentado teniendo en cuenta su escala y tamaño representados por el color y forma esto permite expresar lo que se desea mostrar en un texto para así darle fuerza.
+              p.text-center Hacen referencia a un número de objetos determinados y su distribución espacial en la cual es presentado teniendo en cuenta su escala y tamaño representados por el color y forma esto permite expresar lo que se desea mostrar en un texto para así darle fuerza.
 
 
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -58,7 +58,7 @@
             .p-4
               h2.text-center Las márgenes y cuadrícula
 
-              p Son una parte fundamental a la hora de crear una composición ya que dependiendo de su ubicación y proporción dependerá la posición de los textos e imágenes en un arte gráfico final.
+              p.text-center Son una parte fundamental a la hora de crear una composición ya que dependiendo de su ubicación y proporción dependerá la posición de los textos e imágenes en un arte gráfico final.
 
       
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -71,7 +71,7 @@
             .p-4
               h2.text-center El formato
 
-              p Dependerá de la necesidad de un cliente objetivo, es decir que tamaño se puede utilizar, que tipo de papel y cuál será su posición (vertical – horizontal) optimizando al máximo su uso, si se tiene como referencia un pliego este permitirá más información con un porcentaje menor de páginas y una mejor distribución de cada pieza gráfica, o por el contrario un pliego pequeño tendrá menos información y más cantidad de páginas.
+              p.text-center Dependerá de la necesidad de un cliente objetivo, es decir que tamaño se puede utilizar, que tipo de papel y cuál será su posición (vertical – horizontal) optimizando al máximo su uso, si se tiene como referencia un pliego este permitirá más información con un porcentaje menor de páginas y una mejor distribución de cada pieza gráfica, o por el contrario un pliego pequeño tendrá menos información y más cantidad de páginas.
 
     .row.mb-5
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -84,7 +84,7 @@
             .p-4
               h2.text-center Espacios en blanco
 
-              p Cabe resaltar que cada publicación cuenta con espacios vacíos, los cuales permiten generar una impresión de alivio, de calma, de tranquilidad, a la vista de un espectador, no se trata de saturar un espacio visual grafico de textos e imágenes para mostrar un contenido, siempre debe ser equilibrado, para que este sea agradable a la vista.
+              p.text-center Cabe resaltar que cada publicación cuenta con espacios vacíos, los cuales permiten generar una impresión de alivio, de calma, de tranquilidad, a la vista de un espectador, no se trata de saturar un espacio visual grafico de textos e imágenes para mostrar un contenido, siempre debe ser equilibrado, para que este sea agradable a la vista.
 
 
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -97,7 +97,7 @@
             .p-4
               h2.text-center El contexto o concepto
 
-              p Se debe determinar a qué público está orientado el diseño, esto es lo más importante dentro de una composición editorial, de su desarrollo dependerá que una publicación cumpla las expectativas de un público determinado, puesto que cada mercado tiene distintas características.
+              p.text-center Se debe determinar a qué público está orientado el diseño, esto es lo más importante dentro de una composición editorial, de su desarrollo dependerá que una publicación cumpla las expectativas de un público determinado, puesto que cada mercado tiene distintas características.
 
 
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -110,7 +110,7 @@
             .p-4
               h2.text-center Color
 
-              p Se establece con un concepto claro por parte de los creadores y su público, la gama de colores estará presente detrás de cada edición. 
+              p.text-center Se establece con un concepto claro por parte de los creadores y su público, la gama de colores estará presente detrás de cada edición. 
 
       
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -123,7 +123,7 @@
             .p-4
               h2.text-center Equilibrio y armonía
 
-              p Antes de hacer la entrega del producto es importante verificar que esta contiene una sinergia en su totalidad dando un mensaje claro dentro de un contexto determinado, aquí se debe ser autocrítico y realizar los ajustes necesarios con el fin de hacer de un entregable un contenido atractivo al público.
+              p.text-center Antes de hacer la entrega del producto es importante verificar que esta contiene una sinergia en su totalidad dando un mensaje claro dentro de un contexto determinado, aquí se debe ser autocrítico y realizar los ajustes necesarios con el fin de hacer de un entregable un contenido atractivo al público.
     
     span.bgrh3.text-black.position-relative El diseño editorial                 
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
@@ -153,28 +153,29 @@
         .col-md-6
           img(src='@/assets/curso/tema1/img_infog.svg', alt='intro tema1')
     
-    p.text-center.mb-5 De igual forma, cuenta con tres componentes básicos: el target, la tipografía y los recursos económicos, representados así:
+    br
+    p.text-center.mb-3.mt-5(style="font-weight:bold;") De igual forma, cuenta con tres componentes básicos: el target, la tipografía y los recursos económicos, representados así:
 
     .row.mb-5.brgflyp
       .col-sm-6.col-xl-4.mb-4.mb-xl-0.p-4.contenflip
         .tarjeta.tarjeta-flip.flip1.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img(style="display:flex;flex-wrap:wrap;")
               img.brgflyp2.pt-5(src='@/assets/curso/tema1/imf_flyp1.svg', alt='intro tema1')
               h3.p-4.text-center.text-black El target
 
             .tarjeta-flip__contenido.p-2.p-xl-4
-              h3.text-center El target
+              h3.text-center.w-100 El target
               p Se debe realizar un análisis del mercado cuantitativo y cualitativo, definiendo el consumidor final (o potencial), para ello es importante conocer el tipo de lector (sus intereses y gustos) al cual estará dirigido el diseño editorial.
  
       .col-sm-6.col-xl-4.mb-4.mb-xl-0.p-4.contenflip
         .tarjeta.tarjeta-flip.flip1.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img(style="display:flex;flex-wrap:wrap;")
               img.brgflyp2.pt-5(src='@/assets/curso/tema1/imf_flyp2.svg', alt='intro tema1')
-              h3.p-4.text-center.text-black La tipografía
+              h3.p-4.text-center.text-black.w-100 La tipografía
             .tarjeta-flip__contenido.p-2.p-xl-4
               h3.text-center La tipografía
               p Esta debe ser afín al público objetivo, coherente a un estilo o marca, importante que sea tendencia, novedosa y fresca a simple vista, el éxito del diseño editorial dependerá en gran parte del tipo de tipografía a utilizar, por ello es indispensable escoger correctamente fuentes y tamaños.
@@ -184,9 +185,9 @@
         .tarjeta.tarjeta-flip.flip1.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img(style="display:flex;flex-wrap:wrap;")
               img.brgflyp2.pt-5(src='@/assets/curso/tema1/imf_flyp3.svg', alt='intro tema1')
-              h3.p-4.text-center.text-black Los recursos económicos
+              h3.p-4.text-center.text-black.w-100 Los recursos económicos
 
             .tarjeta-flip__contenido.p-2.p-xl-4
               h3.text-center Los recursos económicos
@@ -385,7 +386,7 @@
                 | Se podrá realizar la solicitud del ISBN posterior a la maquetación del libro ya impreso.
               li 
                 i.fas.fa-angle-right
-                | El trámite para obtener el código de barras de un libro solo se podrá hacer cuando ya se cuenta con el número ISBN, con el fin de poder comercializarlo
+                | El trámite para obtener el código de barras de un libro solo se podrá hacer cuando ya se cuenta con el número ISBN, con el fin de poder comercializarlo.
               li 
                 i.fas.fa-angle-right
                 | Cuando se cuenta con el ISBN se podrá tramitar y adquirir el número de depósito legal del libro.
@@ -524,10 +525,11 @@
         figure
           img.conten1-4(src='@/assets/curso/tema1/img-1-4.png', alt='imagen 1-4')
     
+    br
     span.bgrh3.text-black.position-relative Etapas para la realización de un catálogo                
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
         
-    ImagenInfografica.color-primario.mb-5.brgflyp
+    ImagenInfografica.color-primario.mb-5.brgflyp.mt-5
       template(v-slot:imagen)
         figure.mb-5.mt-2
           img.conten1-4-1.p-5(src='@/assets/curso/tema1/img-info.svg', alt='imagen 1-4')
@@ -584,7 +586,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-4
               img.brgflyp3.pt-5(src='@/assets/curso/tema1/flyp1.png', alt='intro tema1')
-              h3.p-4.text-center.text-black Plegable a dos cuerpos
+              h4.p-4.text-center.text-black Plegable a dos cuerpos
             .tarjeta-flip__contenido.p-4.p-xl-5.p-4
               h1 Plegable a dos cuerpos
               p Conocido principalmente como díptico, este tipo de folleto se hace con una sola hoja o folio con un solo pliegue en el medio. permitiéndole tener dos caras, delanteras y dos traseras, estas formas son similares a los libros, por lo que generalmente se usa un diseño similar en estos casos: una portada, dos lados con contenido y un reverso con un mensaje de cierre.
@@ -595,7 +597,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-4
               img.brgflyp3.pt-5(src='@/assets/curso/tema1/flyp2.png', alt='intro tema1')
-              h3.p-4.text-center.text-black Plegable a tres cuerpos
+              h4.p-4.text-center.text-black Plegable a tres cuerpos
             .tarjeta-flip__contenido.p-4.p-xl-5.p-4
               h1 Plegable a tres cuerpos
               p Se conocen como trípticos, son aquellos que tienen tres pliegues que dan como resultado seis caras, lo que permite presentar bastante información, se podrá realizar de varias formas el pliegue, algunos de ellos son: sobre (las caras están dobladas hacia adentro), acordeón (las caras están dobladas hacia adentro y hacia afuera, dando la idea de un acordeón) y ventana (solo la primera y la última cara están dobladas hacia adentro, dando la forma) de una ventana.
@@ -606,7 +608,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.p-4
               img.brgflyp3.pt-5(src='@/assets/curso/tema1/flyp3.png', alt='intro tema1')
-              h3.p-4.text-center.text-black Plegable a cuatro cuerpos
+              h4.p-4.text-center.text-black Plegable a cuatro cuerpos
             .tarjeta-flip__contenido.p-4.p-xl-5.p-4
               h1 Plegable a cuatro cuerpos
               p También llamado cuadríptico, es uno de los tipos de plegado menos utilizados, ya que necesita cuatro pliegues para tener sus ocho caras. Por tal razón, puede contener más información que un pliegue de tres partes. 
