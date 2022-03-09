@@ -101,7 +101,7 @@
     .row.cont_magic2
       .col-md-8.p-5
         p.mt-3(data-aos="fade-up") La fuente es de naturaleza mixta, por un lado, tiene un componente puramente lingüístico y funcional, y, por otro lado, un fuerte componente visual y expresivo, esta duplicación, que parece muy obvia, facilitará por completo los resultados, determinar qué bando prevalecerá sobre el otro, exigirá tomar una serie de decisiones sobre en qué medida, finalmente, dará forma y carácter al trabajo.
-        p En el mundo de los gráficos existe una división importante cuando se trata de letras, fuentes editoriales y fuentes creativas, la primera sección recopila problemas tipográficos centrados en la legibilidad, con respecto a nombres, tamaños de letra, espaciado entre letras y palabras, espaciado entre líneas, anchos de columna y más, en otras palabras, la edición de fuentes primero debe tener en cuenta los factores que mejoran el proceso de lectura, por otro lado, la tipografía creativa entiende la comunicación de una forma diferente, como si fuera una metáfora visual, donde el texto actúa no solo como lenguaje, sino también como imagen, es importante comprender que los dos enfoques son completamente compatibles y no se verán completamente separados.
+        p En el mundo de los gráficos existe una división importante cuando se trata de letras, fuentes editoriales y #[strong fuentes creativas, la primera sección recopila problemas tipográficos centrados en la legibilidad], con respecto a nombres, tamaños de letra, espaciado entre letras y palabras, espaciado entre líneas, anchos de columna y más, en otras palabras, la edición de fuentes primero debe tener en cuenta los factores que mejoran el proceso de lectura, por otro lado, la tipografía creativa entiende la comunicación de una forma diferente, como si fuera una metáfora visual, donde el texto actúa no solo como lenguaje, sino también como imagen, es importante comprender que los dos enfoques son completamente compatibles y no se verán completamente separados.
       .col-md-4
         img(src="@/assets/curso/tema3/12.png" data-aos="fade-right" style="height:100%;")
 
@@ -152,20 +152,20 @@
           img(src='@/assets/curso/tema3/16.png', alt='')
 
       .tarjeta.color-acento-botones.p-3(x="25%" y="82%" numero="1")
-        .h5.mb-2 1. PostScript tipo 1 (Adobe)
-        p Esta es la primera tecnología tipográfica vectorial y describe los caracteres como contornos precisos abstractos utilizando curvas de Bézier cúbicas. Las fuentes PostScript de tipo 1 reflejan dos archivos contiguos, uno para visualización en pantalla y otro para impresión. La introducción del formato tipo 1 incluyó la novedad de mostrar tipos en cualquier tamaño.
+        .h5.mb-2 1. #[em PostScript] tipo 1 (Adobe)
+        p Esta es la primera tecnología tipográfica vectorial y describe los caracteres como contornos precisos abstractos utilizando curvas de Bézier cúbicas. Las fuentes #[em PostScript] de tipo 1 reflejan dos archivos contiguos, uno para visualización en pantalla y otro para impresión. La introducción del formato tipo 1 incluyó la novedad de mostrar tipos en cualquier tamaño.
       .tarjeta.color-acento-botones.p-3(x="36%" y="53%" numero="2")
-        .h5.mb-2 2. TrueType (Apple)
-        p Apple introdujo el formato TrueType, que, a diferencia de PostScript, maneja una descripción única para la visualización en pantalla y para la impresión, TrueType se convirtió en el formato estándar para la industria multimedia, mientras que los Type 1 continuaron utilizándose principalmente en la industria gráfica.
+        .h5.mb-2 2. TrueType (#[em Apple])
+        p #[em Apple] introdujo el formato TrueType, que, a diferencia de #[em PostScript], maneja una descripción única para la visualización en pantalla y para la impresión, TrueType se convirtió en el formato estándar para la industria multimedia, mientras que los Type 1 continuaron utilizándose principalmente en la industria gráfica.
       .tarjeta.color-acento-botones.p-3(x="50%" y="45%" numero="3")
         .h5.mb-2 3. OpenType (Adobe y Microsoft)
-        p Surge a finales de los 90, es el primer formato verdaderamente multiplataforma, este nuevo formato ofrece una arquitectura autónoma (un solo archivo para cada fuente), rasterización PostScript óptima siendo compatible con todos los sistemas operativos actuales sin #[em software] adicional, lo que facilita mucho la administración de fuentes.
+        p Surge a finales de los 90, es el primer formato verdaderamente multiplataforma, este nuevo formato ofrece una arquitectura autónoma (un solo archivo para cada fuente), rasterización #[em PostScript] óptima siendo compatible con todos los sistemas operativos actuales sin #[em software] adicional, lo que facilita mucho la administración de fuentes.
       .tarjeta.color-acento-botones.p-3(x="64%" y="52%" numero="4")
         .h5.mb-2 4. OpenType se basa en la codificación internacional Unicode
         p Que asigna 2 bytes por carácter, lo que permite más de 65.000 glifos por fuente (las tecnologías PS1 y TrueType se limitaron a 256 glifos) Con esta función, las fuentes OTF (OpenType Font) amplían el rango convencional de caracteres alfanuméricos y pueden mostrar una gran cantidad de caracteres especiales en la misma fuente: minúsculas, minúsculas, de igual forma, son compatibles con las funciones tipográficas características de los programas de diseño modernos, como el reemplazo automático de caracteres por ligaduras o la selección automática de una variante para texto continuo o presentación, dependiendo de si creamos un marco de texto en 8 o 72 puntos.
       .tarjeta.color-acento-botones.p-3(x="74%" y="82%" numero="5")
         .h5.mb-2 5. Variables OpenType
-        p Estos registros de fuentes son desarrollados colectivamente por cuatro de las empresas de tecnología más influyentes (Google, Apple, Microsoft y Adobe) y presentados por Typekit en uno de los eventos tipográficos más grandes del mundo en 2016, La característica principal de estas fuentes es que pueden comportarse como múltiples fuentes, pero en un solo archivo OpenType, son una evolución natural en la tipografía. y reflejar cada vez más los desarrollos en el diseño #[em web] receptivo.
+        p Estos registros de fuentes son desarrollados colectivamente por cuatro de las empresas de tecnología más influyentes (Google, #[em Apple], #[em Microsoft] y Adobe) y presentados por Typekit en uno de los eventos tipográficos más grandes del mundo en 2016, La característica principal de estas fuentes es que pueden comportarse como múltiples fuentes, pero en un solo archivo #[em OpenType], son una evolución natural en la tipografía. y reflejar cada vez más los desarrollos en el diseño #[em web] receptivo.
 
     Separador
 
@@ -206,8 +206,9 @@
     p.mt-4(data-aos="fade-up") Ofrecen varias funciones y beneficios que le dan al diseño homogeneidad, armonía, consistencia y crea una estética sutil y ordenada, ya que es un elemento esencial del diseño gráfico que brinda claridad, eficiencia, economía y continuidad en el diseño de proyectos, y consta de diferentes partes:
 
     .row.mt-5
-      .col-md-3(style="place-self:center;")
-        img(src='@/assets/curso/tema3/19.png' data-aos="fade-right")
+      .col-md-3
+        .p-5(style="background-color:#ffd1a2;height:100%;display:flex;align-items:center;")
+          img(src='@/assets/curso/tema3/19.png' data-aos="fade-right")
       .col-md-9
         TabsA.color-acento-contenido
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Márgenes")
@@ -229,8 +230,9 @@
     h5.text-center.mt-4 Existen diferentes tipos de retículas, que se explican en detalle a continuación:
 
     .row.mt-4
-      .col-md-3(style="place-self:center;")
-        img(src='@/assets/curso/tema3/20.png' data-aos="fade-right")
+      .col-md-3
+        .p-5(style="background-color:#ffd1a2;height:100%;display:flex;align-items:center;")
+          img(src='@/assets/curso/tema3/20.png' data-aos="fade-right")
       .col-md-9
         TabsA.color-acento-contenido
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Retícula manuscrita")
@@ -389,6 +391,11 @@ export default {
   background-color: #1FA4AF
   color: white
   font-weight: bold
-.tabs-a.color-acento-contenido .col-lg-8.col-xl-9
-  place-self: center
+.tabs-a__content-item.tabs-a__content-item--active
+  height: 100%
+  background-color: #FFF3BF
+  border-radius: 20px
+.tarjeta.color-acento-contenido--borde
+  border: none;
+  background-color: transparent
 </style>

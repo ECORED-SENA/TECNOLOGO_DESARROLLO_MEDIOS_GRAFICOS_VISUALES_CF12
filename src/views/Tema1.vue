@@ -736,7 +736,7 @@
       
       .row(titulo="8. Difusión, seguimiento y medición")
         .col-md-6.mb-4.mb-md-0.p-5
-          p Los medios de comunicación anteriormente determinados (medios visuales y difusión) servirán de estandarte para dar circulación al material infográfico, con el fin de obtener óptimos resultados de acuerdo con los lugares de difusión del material, la difusión además podrá ser física o virtual de acuerdo con los medios offline u online que se utilicen para llevarla a cabo.
+          p Los medios de comunicación anteriormente determinados (medios visuales y difusión) servirán de estandarte para dar circulación al material infográfico, con el fin de obtener óptimos resultados de acuerdo con los lugares de difusión del material, la difusión además podrá ser física o virtual de acuerdo con los medios #[em offline] u #[em online] que se utilicen para llevarla a cabo.
 
         .col-md-6
           figure

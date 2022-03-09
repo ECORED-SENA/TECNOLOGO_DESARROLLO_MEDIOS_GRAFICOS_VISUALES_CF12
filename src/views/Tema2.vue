@@ -214,7 +214,7 @@
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
     div.mt-3.mb-3
-      p #[strong Partes y elementos de los caracteres:] Se diferencian de la siguiente manera:
+      p #[strong Partes y elementos de los caracteres:] se clasifican por cada una de sus cualidades, las cuales están diferenciadas de la siguiente manera:
 
     .row
       ImagenInfografica.color-primario.mb-5
@@ -313,8 +313,8 @@
                   li 
                     i.fas.fa-angle-right
                     span Se pueden referenciar los siguientes estilos de fuente humanista: ITC Berkeley Old Style, Kennerley, Clister, Erasmus, Jenson, Centaur, Stempel Schneidler, ITC Golden Type.
-          figure
-            img(src='@/assets/curso/tema2/img-abc1.svg', alt='imagen ABC1', width="589", height="255")
+          figure.col-md-6.m-auto
+            img(src='@/assets/curso/tema2/img-abc1.png', alt='imagen ABC1')
 
       .row(titulo="Subestilo antiguas o garaldas")
         .col-md-12.mb-4.mb-md-0.ps-5
@@ -344,8 +344,8 @@
                   li 
                     i.fas.fa-angle-right
                     span Se pueden referenciar los siguientes estilos de fuente antigua: Times New Roman. Garamond, Bembo, Caslon.
-          figure
-            img(src='@/assets/curso/tema2/img-abc2.svg', alt='imagen ABC2', width="625", height="250")
+          figure.col-md-6.m-auto
+            img(src='@/assets/curso/tema2/img-abc2.png', alt='imagen ABC2')
         
       .row(titulo="Subestilo de las reales o de transición")
         .col-md-12.mb-4.mb-md-0.ps-5
@@ -366,13 +366,13 @@
                     span Los trazos finales ascendentes de las letras de caja baja son levemente oblicuos (en ocasiones podrían ser horizontales) y los trazos inferiores por lo general son horizontales casi horizontales.
                   li 
                     i.fas.fa-angle-right
-                    span Los trazos finales por lo general son encuadrados y angulosos.
+                    span Los trazos finales por lo general son encuadrado Surgen en la última década del siglo XV, en 1692 se crea un nuevo tipo romano siendo pionero ya que de este tipos y angulosos.
                   li 
                     i.fas.fa-angle-right
                     span Se pueden referenciar los siguientes estilos de fuentes reales o de transición: ITC Stone #[em Serif], Century Schoolbook, Cochin, Cheltenham, Baskerville, Olympian, Corona, Melior, meridien.
                  
-          figure
-            img(src='@/assets/curso/tema2/img-abc3.svg', alt='imagen ABC3', width="639", height="222")
+          figure.col-md-6.m-auto
+            img(src='@/assets/curso/tema2/img-abc3.png', alt='imagen ABC3' )
       
       .row(titulo="Subestilo de las didonas o modernas")
         .col-md-12.mb-4.mb-md-0.ps-5
@@ -400,12 +400,12 @@
                     i.fas.fa-angle-right
                     span Se pueden referenciar los siguientes estilos de fuentes modernas: New Baskerville, Didot, Bodoni.
                  
-          figure
-            img(src='@/assets/curso/tema2/img-abc4.svg', alt='imagen ABC4', width="625", height="230")
+          figure.col-md-6.m-auto
+            img(src='@/assets/curso/tema2/img-abc4.png', alt='imagen ABC4')
       
       .row(titulo="Subestilo de las mecanas o egipcias")
         .col-md-12.mb-4.mb-md-0.ps-5
-          p Nacen en 1817 en Inglaterra, se conocen también como (Mecanas o San #[em Serif]) de acuerdo con su tipo de rotulación fueron pensadas para trabajos netamente publicitarios por su estructura y trazos, su popularidad duro hasta el último cuarto del siglo XIX.  Para 1845 aparece un nuevo tipo egipcio llamado Clarendon presentando trazos finales enlazados llegando a representar un subgrupo muy pequeño dentro de los tipos de estilo egipcio, este tipo se utilizó bastante en la edición de periódicos. 
+          p Nacen en 1817 en Inglaterra, se conocen también como (Mecanas o San #[em Serif]) de acuerdo con su tipo de rotulación fueron pensadas para trabajos netamente publicitarios por su estructura y trazos, su popularidad duró hasta el último cuarto del siglo XIX.  Para 1845 aparece un nuevo tipo egipcio llamado Clarendon presentando trazos finales enlazados llegando a representar un subgrupo muy pequeño dentro de los tipos de estilo egipcio, este tipo se utilizó bastante en la edición de periódicos. 
           p Principales características de los tipos egipcios:
             ul.lista-ul.p-3
               li
@@ -424,7 +424,7 @@
                     span Se pueden referenciar los siguientes estilos de fuentes egipcias: Wanted, Rockwel y Playbill.
                                    
           figure.col-md-7.m-auto
-            img(src='@/assets/curso/tema2/img-abc5.png', alt='imagen ABC5', width="703", height="230")
+            img(src='@/assets/curso/tema2/img-abc5.png', alt='imagen ABC5')
 
     br
     span.bgrh3.text-black.position-relative.mt-5 Estilo de las lineales o de palo seco                
@@ -434,7 +434,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Subestilos grotescos y neogrotescos")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Fueron producidos en el Siglo XIX, en un principio se crearon para trabajos de rotulación y publicidad, con el pasar de los años fueron ajustados para trabajarlos en textos continuos, como referencia de estos tipos se pueden mencionar Estándar, Univers, Helvética.
           p Principales características de los tipos grotesco:
             ul.lista-ul.p-3
@@ -450,11 +450,11 @@
                     i.fas.fa-angle-right
                     span Presenta una liviana cuadratura en las curvas.
                  
-          figure
-            img(src='@/assets/curso/tema2/img-abc2-1.svg', alt='imagen ABC2-1', width="654", height="256")
+          figure.col-md-6.m-auto
+            img(src='@/assets/curso/tema2/img-abc2-1.png', alt='imagen ABC2-1')
 
       .row(titulo="Subestilo de geométricos")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Para 1920 surge un estilo de Palo Seco sobrio bastante funcional él fue conocido como geométrico, constituidos a partir de figuras geométricas básicas y líneas rectas tales como el rectángulo y el círculo, el tipo más referenciado es el Futura, ya que cuenta con una buena gama de pesos, cursivas y anchos haciéndose muy popular en publicaciones educativas y publicaciones infantiles, otro ejemplo de tipo es Avant Garde.
           p Principales características de los tipos geométricos:
             ul.lista-ul.p-3
@@ -468,15 +468,15 @@
                     span No cuentan con remates y su modulación es muy baja.
      
                
-          figure
-            img(src='@/assets/curso/tema2/img-abc2-2.svg', alt='imagen ABC2-2', width="563", height="205")
+          figure.col-md-6.m-auto
+            img(src='@/assets/curso/tema2/img-abc2-2.png', alt='imagen ABC2-2')
 
       .row(titulo="Subestilo de los humanísticos")
-        .col-md-12.mb-4.mb-md-0
+        .col-md-12.mb-4.mb-md-0.ps-5
           p Se basa en letras romanas, los cuales presentan trazos ligeros haciendo similitud a la caligrafía, lo cual hacía que se contrastarán con los tipos de palo seco del momento, como ejemplo de este tipo se puede nombrar el tipo Gill Sans siendo su primer rótulo una tienda de libros.
                
-          figure
-            img(src='@/assets/curso/tema2/img-abc2-3.svg', alt='imagen ABC2-3', width="601", height="246") 
+          figure.col-md-6.m-auto
+            img(src='@/assets/curso/tema2/img-abc2-3.png', alt='imagen ABC2-3') 
 
     span.bgrh3.text-black.position-relative Incisas               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
@@ -488,7 +488,7 @@
         figure
           img(src='@/assets/curso/tema2/img-tipo1.svg', alt='tipo 1', width="295", height="100" )
     
-    span.bgrh3.text-black.position-relative ●	Escritura               
+    span.bgrh3.text-black.position-relative Escritura               
       img.hijotext(src='@/assets/curso/tema1/imgtext.svg', alt='intro tema1')
     
     div.mt-4.mb-4   
