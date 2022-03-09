@@ -663,7 +663,7 @@
     p.text-black.mt-2 Al momento de optimizar el proceso de creación se requiere seguir un planteamiento, el cual está estructurado en fases divididas así:
 
     AcordionA.mt-5.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Recopilación de la información")
+      .row(titulo="1. Recopilación de la información")
         .col-md-6.mb-4.mb-md-0.p-5
           p Para la recolección de la información se deben tener claras las fuentes de investigación, definiendo ¿qué aspectos se deben representar? y ¿cuál es el mensaje para transmitir?, esto influye para determinar qué elementos actuarán como enlace conductor de acuerdo con la jerarquía de gráficos llevados a un guion.
 
@@ -671,7 +671,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-1.png', alt='Texto que describa la imagen')
             
-      .row(titulo="Determinar los objetivos")
+      .row(titulo="2. Determinar los objetivos")
         .col-md-6.mb-4.mb-md-0.p-5
           p Desde la creación de los contenidos se debe tener claro cuál es objetivo para cumplir en su interacción con el público, enfocados en:
             ul.lista-ul.p-3
@@ -694,7 +694,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-2.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Medios y vías de difusión")
+      .row(titulo="3. Medios y vías de difusión")
         .col-md-6.mb-4.mb-md-0.p-5
           p Esta fase es muy importante, ya que se deben escoger acertadamente los canales de comunicación (medios masivos) donde se propagará el contenido infográfico para llegar a un usuario o público objetivo, de igual forma, se debe considerar un formato en donde se podrán recopilar los elementos que se necesitarán tales como, textos, fotos, ilustraciones, diagramas, iconografías y más.
 
@@ -702,15 +702,15 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-3.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Soporte y formato")
+      .row(titulo="4. Soporte y formato")
         .col-md-6.mb-4.mb-md-0.p-5
-          p Se debe priorizar el tipo de material que se encargará de unir los diferentes elementos y el formato con sus respectivas dimensiones, ya que por medio de este se visualizara la información, es importante mencionar que el soporte puede ser físico o virtual, esto implicará que se tenga claro el mecanismo adecuado para la difusión.  
+          p Se debe priorizar el tipo de material que se encargará de unir los diferentes elementos y el formato con sus respectivas dimensiones, ya que por medio de este se visualizará la información, es importante mencionar que el soporte puede ser físico o virtual, esto implicará que se tenga claro el mecanismo adecuado para la difusión.  
 
         .col-md-6
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-4.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Croquis o bocetos")
+      .row(titulo="5. Croquis o bocetos")
         .col-md-6.mb-4.mb-md-0.p-5
           p En el espacio proyectual de la infografía se habla de croquis y planos porque es donde se organizan los elementos para su visualización arquitectónica, por otro lado, el boceto se orienta a escenario artístico, aquí se busca tener el mejor canal de comunicación, el cual optimice la manera de narrar los hechos descritos gráficamente en la infografía.
 
@@ -718,7 +718,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-5.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Diseño de los elementos infográficos")
+      .row(titulo="6. Diseño de los elementos infográficos")
         .col-md-6.mb-4.mb-md-0.p-5
           p Para el desarrollo de esta etapa es importante contar con el apoyo de #[em software] de diseño y aplicaciones de diseño que utilizarán los actores en las respectivas escenas, los gráficos, textos, ilustraciones, diagramas, fotos e iconografías, son detalladamente elaboradas, con el fin de representar la información en sus lugares correspondientes anteriormente localizados en el espacio adecuado gracias al boceto.
 
@@ -726,7 +726,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-6.png', alt='Texto que describa la imagen')
 
-      .row(titulo="Presentación y reflexión")
+      .row(titulo="7. Presentación y reflexión")
         .col-md-6.mb-4.mb-md-0.p-5
           p En esta etapa la infografía sale a escena, se hace un chequeo final para que no falte detalle alguno, y que la información que se da es percibida de manera clara, fluida y sin interrupciones, con el fin de ayudar su comprensión.
 
@@ -734,7 +734,7 @@
           figure
             img.contenacord(src='@/assets/curso/tema1/img_sly2-7.png', alt='Texto que describa la imagen')
       
-      .row(titulo="Difusión, seguimiento y medición")
+      .row(titulo="8. Difusión, seguimiento y medición")
         .col-md-6.mb-4.mb-md-0.p-5
           p Los medios de comunicación anteriormente determinados (medios visuales y difusión) servirán de estandarte para dar circulación al material infográfico, con el fin de obtener óptimos resultados de acuerdo con los lugares de difusión del material, la difusión además podrá ser física o virtual de acuerdo con los medios offline u online que se utilicen para llevarla a cabo.
 
