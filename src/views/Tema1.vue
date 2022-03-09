@@ -157,19 +157,19 @@
     p.text-center.mb-3.mt-5(style="font-weight:bold;") De igual forma, cuenta con tres componentes básicos: el target, la tipografía y los recursos económicos, representados así:
 
     .row.mb-5.brgflyp
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0.p-4.contenflip
+      .col-sm-6.col-md-4.col-xl-4.mb-4.mb-xl-0.p-4
         .tarjeta.tarjeta-flip.flip1.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(style="display:flex;flex-wrap:wrap;")
               img.brgflyp2.pt-5(src='@/assets/curso/tema1/imf_flyp1.svg', alt='intro tema1')
-              h3.p-4.text-center.text-black El target
+              h3.p-4.text-center.text-black.w-100 El target
 
             .tarjeta-flip__contenido.p-2.p-xl-4
-              h3.text-center.w-100 El target
+              h3.text-center El target
               p Se debe realizar un análisis del mercado cuantitativo y cualitativo, definiendo el consumidor final (o potencial), para ello es importante conocer el tipo de lector (sus intereses y gustos) al cual estará dirigido el diseño editorial.
  
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0.p-4.contenflip
+      .col-sm-6.col-md-4.col-xl-4.mb-4.mb-xl-0.p-4
         .tarjeta.tarjeta-flip.flip1.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -181,7 +181,7 @@
               p Esta debe ser afín al público objetivo, coherente a un estilo o marca, importante que sea tendencia, novedosa y fresca a simple vista, el éxito del diseño editorial dependerá en gran parte del tipo de tipografía a utilizar, por ello es indispensable escoger correctamente fuentes y tamaños.
 
 
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0.p-4.contenflip
+      .col-sm-6.col-md-4.col-xl-4.mb-4.mb-xl-0.p-4
         .tarjeta.tarjeta-flip.flip1.color-secundario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
