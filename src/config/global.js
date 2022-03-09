@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Producción de editoriales y tipografía',
     descripcionCurso:
       'La tipografía está al servicio de la humanidad, es fiel amiga en la imprenta, la litografía y en el maravilloso mundo de las bellas artes. Es un recurso indispensable en los medios digitales, así como un recurso recurrente en la vida diaria de los medios impresos.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
