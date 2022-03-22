@@ -120,55 +120,55 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: '3.1 Tipografía, rotulación y caligrafía',
+            titulo: 'Tipografía, rotulación y caligrafía',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: '3.2 Forma y función de la tipografía',
+            titulo: 'Forma y función de la tipografía',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: '3.3 Factor lingüístico y gráfico',
+            titulo: 'Factor lingüístico y gráfico',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: '3.4 Medidas tipográficas',
+            titulo: 'Medidas tipográficas',
             hash: 't_3_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.5',
-            titulo: '3.5 Tipografía digital',
+            titulo: 'Tipografía digital',
             hash: 't_3_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.6',
-            titulo: '3.6 Jerarquía y legibilidad',
+            titulo: 'Jerarquía y legibilidad',
             hash: 't_3_6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.7',
-            titulo: '3.7 Módulos y retícula',
+            titulo: 'Módulos y retícula',
             hash: 't_3_7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.8',
-            titulo: '3.8 Creación vectorial',
+            titulo: 'Creación vectorial',
             hash: 't_3_8',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.9',
-            titulo: '3.9 Correcciones',
+            titulo: 'Correcciones',
             hash: 't_3_9',
           },
         ],
@@ -177,7 +177,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -221,7 +221,7 @@ export default {
         'https://blog.aulaformativa.com/pasos-lograr-mejor-jerarquia-tipografica/',
     },
     {
-      referencia: 'Ecdidis Estudio. (2021). ¿Qué es el diseño editorial?.',
+      referencia: 'Ecdisis Estudio. (2021). ¿Qué es el diseño editorial?.',
       link: 'https://ecdisis.com/que-es-el-diseno-editorial/',
     },
     {

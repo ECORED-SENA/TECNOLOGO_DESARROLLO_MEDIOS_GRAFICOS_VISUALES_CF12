@@ -33,7 +33,7 @@
             figure
               img(src='@/assets/curso/tema3/5.png', alt='Rotulación')
 
-      .py-4.py-md-5(titulo="Letras" :icono="require('@/assets/curso/tema3/6.png')")
+      .py-4.py-md-5(titulo="Caligrafía" :icono="require('@/assets/curso/tema3/6.png')")
         .row
           .col-md-7.mb-4.mb-md-0
             p En los últimos años, la tipografía, la caligrafía y las letras se han vuelto muy populares entre los diseñadores y artistas, aunque todavía existe cierta confusión sobre el significado de estos términos, mientras que la caligrafía se refiere a la creación de letras utilizando la herramienta de escritura, con la que se dibuja una línea para cada parte básica de la letra, que podría realizarse con un lápiz, un pincel, un bolígrafo de tinta, esto significa que la caligrafía está relacionada con el acto de escribir.
@@ -85,7 +85,7 @@
       .col-md-6
         p(data-aos="fade-up") El texto puede ser sólido, líquido, cadáver o sangre, como activo, el texto tiene más integridad y entidad que los elementos que lo rodean, ya sean imágenes, pies de página, encabezados, números de página o botones, logotipos y menús, los diseñadores a menudo tratan el contenido del texto como coherente, dándole la apariencia de material cohesivo distribuido en áreas de un documento, en los medios digitales, los textos largos a menudo se dividen en partes más pequeñas que pueden ser traducidas por motores de búsqueda o por hipervínculos. (Lupton, 2011, pág. 87).
 
-        p.mt-4(data-aos="fade-up") En la función existen dos formas de orientar las fuentes según su función: el editor de tipos, figuras de acción y Ia impresión creativa, para este caso la atención se centrara principalmente en la redacción de tipografías o caracteres comerciales: la regla, en el mejor de los casos, se debe aplicar a la redacción de tipografías, porque es difícil restringir la libertad de expresión que la tipografía debe ser creativa, es cierto que en la tipografía creativa no se puede actuar libremente y sin ningún control, porque al final el resultado es siempre el resultado lógico de la aplicación de conocimientos y de una condición particular que inspira la creatividad adecuada,  (Montesinos Hortona, 2000, pág. 121).
+        p.mt-4(data-aos="fade-up") En la función existen dos formas de orientar las fuentes según su función: el editor de tipos, figuras de acción y Ia impresión creativa, para este caso la atención se centrará principalmente en la redacción de tipografías o caracteres comerciales: la regla, en el mejor de los casos, se debe aplicar a la redacción de tipografías, porque es difícil restringir la libertad de expresión que la tipografía debe ser creativa, es cierto que en la tipografía creativa no se puede actuar libremente y sin ningún control, porque al final el resultado es siempre el resultado lógico de la aplicación de conocimientos y de una condición particular que inspira la creatividad adecuada,  (Montesinos Hortona, 2000, pág. 121).
       .col-md-6
         img(src="@/assets/curso/tema3/11.png" data-aos="fade-right")
 
@@ -141,9 +141,9 @@
         img(src="@/assets/curso/tema3/15.png" data-aos="fade-right")
       .col-md-7
         p(data-aos="fade-up") Es un conjunto de gráficos vectoriales que se pueden escalar sin perder calidad, gracias a la información adicional codificada en la propia fuente, el origen de los caracteres electrónicos se remonta a 1965 cuando se encajó el tubo de rayos catódicos como fuente de iluminación y el escalado de letras pasó de óptico a electrónico. Este sistema, que no funcionaba para la integración de imágenes y texto, pronto quedó en el olvido puesto que no permitía ver en la pantalla lo que salía a través de la impresora.
-        p.mt-4(data-aos="fade-up") En 1985 se marca una revolución a nivel mundial en el entorno de los gráficos y la tipografía con la aparición del lenguaje Adobe #[em postscript], el computador personal con interfaz gráfica #[em Macintosh], la impresora #[em Apple LaserWriter] y la aplicación Aldus de #[em PageMaker]. Esto marcaría el inicio de lo que se conoce como autoedición, también conocida como publicación electrónica o autoedición, consistente en el uso conjunto de una computadora personal, un programa, un lenguaje y una impresora.
+        p.mt-4(data-aos="fade-up") En 1985 se marca una revolución a nivel mundial en el entorno de los gráficos y la tipografía con la aparición del lenguaje Adobe #[em PostScript], el computador personal con interfaz gráfica #[em Macintosh], la impresora #[em Apple LaserWriter] y la aplicación Aldus de #[em PageMaker]. Esto marcaría el inicio de lo que se conoce como autoedición, también conocida como publicación electrónica o autoedición, consistente en el uso conjunto de una computadora personal, un programa, un lenguaje y una impresora.
 
-    p.mt-5(data-aos="fade-up") #[em Postscript] es un lenguaje de representación de páginas para crear gráficos vectoriales en la autoedición, fue diseñado para transmitir cualquier tipo de contexto gráfico a un dispositivo de salida porque trata el texto, los gráficos vectoriales y las imágenes fotográficas como datos del mismo tipo, es la tecnología que permite que todo el #[em software] involucrado en el proceso de autoedición hable y comprenda el mismo idioma.
+    p.mt-5(data-aos="fade-up") #[em PostScript] es un lenguaje de representación de páginas para crear gráficos vectoriales en la autoedición, fue diseñado para transmitir cualquier tipo de contexto gráfico a un dispositivo de salida porque trata el texto, los gráficos vectoriales y las imágenes fotográficas como datos del mismo tipo, es la tecnología que permite que todo el #[em software] involucrado en el proceso de autoedición hable y comprenda el mismo idioma.
     p.mt-4(data-aos="fade-up") Aunque las primeras fuentes digitales fueron mapas de bits, es decir, matrices de píxeles o imágenes rasterizadas, las fuentes actuales son todas fuentes vectoriales. En la actualidad se encuentran los siguientes formatos de fuentes digitales:
 
     ImagenInfografica.color-secundario.mt-5.col-md-9.m-auto
@@ -165,7 +165,7 @@
         p Que asigna 2 bytes por carácter, lo que permite más de 65.000 glifos por fuente (las tecnologías PS1 y TrueType se limitaron a 256 glifos) Con esta función, las fuentes OTF (OpenType Font) amplían el rango convencional de caracteres alfanuméricos y pueden mostrar una gran cantidad de caracteres especiales en la misma fuente: minúsculas, minúsculas, de igual forma, son compatibles con las funciones tipográficas características de los programas de diseño modernos, como el reemplazo automático de caracteres por ligaduras o la selección automática de una variante para texto continuo o presentación, dependiendo de si creamos un marco de texto en 8 o 72 puntos.
       .tarjeta.color-acento-botones.p-3(x="74%" y="82%" numero="5")
         .h5.mb-2 5. Variables OpenType
-        p Estos registros de fuentes son desarrollados colectivamente por cuatro de las empresas de tecnología más influyentes (Google, #[em Apple], #[em Microsoft] y Adobe) y presentados por Typekit en uno de los eventos tipográficos más grandes del mundo en 2016, La característica principal de estas fuentes es que pueden comportarse como múltiples fuentes, pero en un solo archivo #[em OpenType], son una evolución natural en la tipografía. y reflejar cada vez más los desarrollos en el diseño #[em web] receptivo.
+        p Estos registros de fuentes son desarrollados colectivamente por cuatro de las empresas de tecnología más influyentes (Google, #[em Apple], #[em Microsoft] y Adobe) y presentados por Typekit en uno de los eventos tipográficos más grandes del mundo en 2016, La característica principal de estas fuentes es que pueden comportarse como múltiples fuentes, pero en un solo archivo #[em OpenType], son una evolución natural en la tipografía, y reflejar cada vez más los desarrollos en el diseño #[em web] receptivo.
 
     Separador
 
@@ -240,7 +240,7 @@
             p Es más simple y su función principal es incluir texto largo y continuo, tiene un bloque de texto, notas al pie y una subestructura para incluir títulos de capítulos, notas al pie, paginación y más.
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Retícula de columnas")
             h4 Retícula de columnas
-            p Son las más comunes, se dividide en dos o tres columnas, estas columnas están reservadas para texto e imágenes en gráficos, este tipo de retícula se usa a menudo para maquetar varias publicaciones, como revistas o periódicos.
+            p Son las más comunes, se divide en dos o tres columnas, estas columnas están reservadas para texto e imágenes en gráficos, este tipo de retícula se usa a menudo para maquetar varias publicaciones, como revistas o periódicos.
           .tarjeta.color-acento-contenido--borde.p-4(titulo="Retícula modular")
             h4 Retícula modular
             p Este tipo de retícula consiste en una cuadrícula de columnas con muchas líneas horizontales que dividen las columnas en filas, esta división también crea celdas llamadas módulos, esta se utiliza para planificar y diseñar información tabular, así como tablas, formularios, sistemas de navegación o líneas de tiempo.
@@ -263,7 +263,7 @@
 
     .row
       .col-md-8
-        p(data-aos="fade-up") La ilustración vectorial es una técnica para crear gráficos digitalmente, con la ayuda del ordenador y #[em software] adecuados para la creación de ilustraciones, este tipo de equipos permite crear todo tipo de líneas, formas geométricas a partir de vectores programados, dicho esto, parece que la ilustración vectorial se tratará de crear gráficos en una computadora utilizando técnicas que son complejas y al alcance de unos pocos, pero no lo es ya que existen muchos programas con los que puede crear diseños vectoriales listos para usar y facilitar el trabajo, solo es necesario dominar los conceptos básicos y practicar hasta que domine todas las herramientas, opciones y técnicas que se pueden  usar; con un poco de práctica la ilustración vectorial no solo será simple, sino también muy versátil, además, los diseños que se obtendrán de esta forma serán de altísima calidad.
+        p(data-aos="fade-up") La ilustración vectorial es una técnica para crear gráficos digitalmente, con la ayuda del ordenador y #[em software] adecuados para la creación de ilustraciones, este tipo de equipos permite crear todo tipo de líneas, formas geométricas a partir de vectores programados, dicho esto, parece que la ilustración vectorial se tratará de crear gráficos en una computadora utilizando técnicas que son complejas y al alcance de unos pocos, pero no lo es, ya que existen muchos programas con los que puede crear diseños vectoriales listos para usar y facilitar el trabajo, solo es necesario dominar los conceptos básicos y practicar hasta que domine todas las herramientas, opciones y técnicas que se pueden  usar; con un poco de práctica la ilustración vectorial no solo será simple, sino también muy versátil, además, los diseños que se obtendrán de esta forma serán de altísima calidad.
 
         .mt-4
         span.bgrh3.text-black.position-relative Qué se necesita para practicar la ilustración vectorial

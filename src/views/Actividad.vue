@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Complete las oraciones
-        p.mb-4 Estimado aprendiz con el fin de poner en práctica y hacer un breve recorrido por las temáticas aprendidas del CF 012 Producción de editoriales y tipografía, realizaremos el siguiente ejercicio teórico practico, vamos a la practica.
+        p.mb-4 Estimado aprendiz, con el fin de poner en práctica y hacer un breve recorrido por las temáticas aprendidas del CF 012 Producción de editoriales y tipografía, realizaremos el siguiente ejercicio teórico práctico, vamos a la práctica.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
