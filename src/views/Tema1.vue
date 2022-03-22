@@ -19,7 +19,7 @@
     
     .cajon.color-secundario.p-5.mb-4
       p La composición en el área de las artes visuales logra satisfacer algunas necesidades prácticas y estéticas, es la manera en la que se comunica y se ordenan los diferentes elementos conceptuales, técnicos y visuales con los que un creador (diseñador, ilustrador, escritor, entre otros) necesita para la creación de una estructura visual en el diseño de piezas gráficas impresas, conformadas por la estructura compositiva y la planeación.
-      sapn La composición comprende la relación y las diferentes elecciones entre tamaños, coleres, texturas, alineamientos, pesos.
+      sapn La composición comprende la relación y las diferentes elecciones entre tamaños, colores, texturas, alineamientos, pesos.
     
     p.text-center.mb-4(style="font-weight:bold;") Al momento de diseñar una composición es importante tener en cuenta los siguientes elementos:
 
@@ -71,7 +71,7 @@
             .p-4
               h2.text-center El formato
 
-              p.text-center Dependerá de la necesidad de un cliente objetivo, es decir que tamaño se puede utilizar, que tipo de papel y cuál será su posición (vertical – horizontal) optimizando al máximo su uso, si se tiene como referencia un pliego este permitirá más información con un porcentaje menor de páginas y una mejor distribución de cada pieza gráfica, o por el contrario un pliego pequeño tendrá menos información y más cantidad de páginas.
+              p.text-center Dependerá de la necesidad de un cliente objetivo, es decir qué tamaño se puede utilizar, qué tipo de papel y cuál será su posición (vertical – horizontal) optimizando al máximo su uso, si se tiene como referencia un pliego este permitirá más información con un porcentaje menor de páginas y una mejor distribución de cada pieza gráfica, o por el contrario un pliego pequeño tendrá menos información y más cantidad de páginas.
 
     .row.mb-5
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -84,7 +84,7 @@
             .p-4
               h2.text-center Espacios en blanco
 
-              p.text-center Cabe resaltar que cada publicación cuenta con espacios vacíos, los cuales permiten generar una impresión de alivio, de calma, de tranquilidad, a la vista de un espectador, no se trata de saturar un espacio visual grafico de textos e imágenes para mostrar un contenido, siempre debe ser equilibrado, para que este sea agradable a la vista.
+              p.text-center Cabe resaltar que cada publicación cuenta con espacios vacíos, los cuales permiten generar una impresión de alivio, de calma, de tranquilidad, a la vista de un espectador, no se trata de saturar un espacio visual gráfico de textos e imágenes para mostrar un contenido, siempre debe ser equilibrado, para que este sea agradable a la vista.
 
 
       .col-md-3.col-lg.mb-5.mb-lg-0
@@ -141,7 +141,7 @@
             h3.mb-1 Características del diseño editorial
             p.text-small A continuación, observe el video Conceptos básicos diseño editorial para tener una mayor contextualización de este tema, sus elementos, características, entre otros.  
           .col-md-3.col-sm-3
-            a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=jYcip58qPsk&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA" target="_blank")
+            a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=YyOHdz8abrs" target="_blank")
               span Ver video
               i.fas.fa-play
 
@@ -213,7 +213,7 @@
       .row
         .col-md-10
           h3 Materiales
-          p Son todos los materiales y recursos físicos planeados para la publicación al momento de ser diseñada, entre ellos están, tipos de papel y sus diversos calibres, cartón y su gama diversa, cartulinas entre otros, dichos materiales hacen parte de la creación y diseño de tapas, paginas, divisiones, del componente externo del diseño editorial.
+          p Son todos los materiales y recursos físicos planeados para la publicación al momento de ser diseñada, entre ellos están, tipos de papel y sus diversos calibres, cartón y su gama diversa, cartulinas entre otros, dichos materiales hacen parte de la creación y diseño de tapas, páginas, divisiones, del componente externo del diseño editorial.
         .col-md-2
           figure
           img.contenpaso(src='@/assets/curso/tema1/img-paso2.svg', alt='paso 2')
@@ -229,7 +229,7 @@
       .row
         .col-md-10
           h3 Marcos de las páginas, bordes y sangrías
-          p Con el fin de darle a una publicación un nivel profesional, al momento de empezar el diseño ya deben estar definidos que tipo de marcos de página a utilizar, esto a gusto del diseñador y el contexto requerido, el tipo de tamaño del borde de acuerdo con las páginas, y la sangría que se aplicara al diseño editorial.
+          p Con el fin de darle a una publicación un nivel profesional, al momento de empezar el diseño ya deben estar definidos que tipo de marcos de página a utilizar, esto a gusto del diseñador y el contexto requerido, el tipo de tamaño del borde de acuerdo con las páginas, y la sangría que se aplicará al diseño editorial.
         .col-md-2
           figure
           img.contenpaso(src='@/assets/curso/tema1/img-paso4.svg', alt='paso 4')
@@ -311,7 +311,7 @@
         .row
           .col-md-7.mb-4.mb-md-0.p-5
             h2 Revisión de autores
-            p En este espacio los autores realizan los ajustes y cambios antes solicitados, los cuales son incorporados de acuerdo con el pedido específico del corrector y editor, con el fin dar continuidad al proceso de producción.
+            p En este espacio los autores realizan los ajustes y cambios antes solicitados, los cuales son incorporados de acuerdo con el pedido específico del corrector y editor, con el fin de dar continuidad al proceso de producción.
       
           .col-md-4
             figure
@@ -329,7 +329,7 @@
         .row
           .col-md-7.mb-4.mb-md-0.p-5
             h2 Corrección de pruebas
-            p Aquí se hace énfasis en revisar con cautela los textos adecuados a los formatos de páginas, es decir, los espacios, la ubicación de elementos textuales y no textuales, los cortes de palabras los recursos gráficos entre otros, esta corrección de pruebas está a cargo de un corrector de estilo quíen es supervisado por el editor.
+            p Aquí se hace énfasis en revisar con cautela los textos adecuados a los formatos de páginas, es decir, los espacios, la ubicación de elementos textuales y no textuales, los cortes de palabras los recursos gráficos entre otros, esta corrección de pruebas está a cargo de un corrector de estilo quien es supervisado por el editor.
       
           .col-md-4
             figure
@@ -403,7 +403,7 @@
       .col-md-7
         p Es una publicación periódica con textos e imágenes sobre varias materias o sobre una especialmente (RAE, 2021).
         p La revista es una publicación que por lo general se realiza semanal o mensualmente, su objetivo 
-          span.bgrspan principal es cautivar a un al lector por medio del entretenimiento;  
+          span.bgrspan principal es cautivar al lector por medio del entretenimiento;  
           | las revistas cuentan con una clasificación que está determinada de la siguiente forma: revistas informativas, revista de apoyo, revistas científicas, revistas de entretenimiento, revistas de farándula y revistas digitales.
       .col-md-5
         figure
@@ -455,7 +455,7 @@
       
       .row(titulo="Plegado y encuadernado")
         .col-md-6.mb-4.mb-md-0.p-5
-          p Esta fase responsabilidad del departamento de distribución y producción, después del proceso de producción el cual es la fase final, se procede a realizar el cortado de páginas, inclusión de material publicitario, los pliegues y finalmente el encuadernado, pegado de etiquetas y embalaje, después de todo este proceso todo el material (ejemplares) se apilan de acuerdo con su destino, se cargan en estibas para facilitar su traslado a los vehículos encargados de su entrega final.
+          p Esta fase es responsabilidad del departamento de distribución y producción, después del proceso de producción el cual es la fase final, se procede a realizar el cortado de páginas, inclusión de material publicitario, los pliegues y finalmente el encuadernado, pegado de etiquetas y embalaje, después de todo este proceso todo el material (ejemplares) se apilan de acuerdo con su destino, se cargan en estibas para facilitar su traslado a los vehículos encargados de su entrega final.
 
         .col-md-6
           figure
@@ -499,13 +499,13 @@
 
           p.text-small(numero="3" titulo="Redacción") Es el escenario donde todo periodista escribe una noticia, crónica, reportaje, columna, es una etapa de trabajo individual en el que el periódico debe estar provisto de títulos y subtítulos textuales, así como de cada una de sus secciones claramente definidas, dependerá del editor de cada sección la jerarquía asociada con el mensaje o la información.
 
-          p.text-small(numero="4" titulo="Edición") En esta etapa del proceso los editores son los encargados de editar cada sección, ya que son ellos quienes conocen cada tema y pueden corroborar la veracidad de la información, después de esta acción el contenido se le entrega al director general, quien hace una última revisión y aprueba definitivamente los textos, en esta etapa se ajustan y determinan los textos del periódico. Es en esta fase se anexan puntos, tildes, signos de interrogación etc, se elimina información, se corroboran los datos y se estandariza la información sin perder el estilo que todo periodista ha impreso en ella.
+          p.text-small(numero="4" titulo="Edición") En esta etapa del proceso los editores son los encargados de editar cada sección, ya que son ellos quienes conocen cada tema y pueden corroborar la veracidad de la información, después de esta acción el contenido se le entrega al director general, quien hace una última revisión y aprueba definitivamente los textos, en esta etapa se ajustan y determinan los textos del periódico. En esta fase se anexan puntos, tildes, signos de interrogación etc, se elimina información, se corroboran los datos y se estandariza la información sin perder el estilo que todo periodista ha impreso en ella.
 
           p.text-small(numero="5" titulo="Diagramación") Esta etapa tiende ser compleja, puesto que implica que todo contenido sea fácil de leer, que la estructura del texto sea correcta y proporcionada, que las imágenes sean comprensibles y coherentes con el texto o la información ya que son el apoyo, el responsable de esto es el departamento de diseño. Al crear la maquetación se deben tener en cuenta aspectos como el marco tipográfico, la paginación, el encabezado, el título, el subtítulo, la fuente (letra) y su tamaño, espacios, gráficos, fotos e ilustraciones.
 
           p.text-small(numero="6" titulo="Caja tipográfica") Este término se utiliza únicamente en el campo de los medios impresos; se refiere al marco de una página que contiene información, títulos e imágenes (semejante a los márgenes de un cuaderno), el marco tipográfico permite definir el espacio disponible y adecuado para un texto, una vez definida la caja tipográfica, es posible determinar la numeración de las páginas, el tamaño de la caja tipográfica varía de acuerdo con la orientación del diseñador y el contenido que se desee mostrar.
 
-          p.text-small(numero="7" titulo="Impresión") En esta etapa se debe tener en cuenta la cantidad de colores con los que se va a producir el periódico “monocromo (un color) y policromía (más de dos colores), dicha información debe ser comunicada claramente a la persona encargada de realizar la impresión con el fin de tener claro qué tipo de máquina utilizar, determinando las tintas, colores y porcentajes requeridos. la impresión es un proceso rápido debido a la prisa asociada con la publicación, ya que se realiza a altas horas de la noche en anticipación a todas las noticias de última hora.
+          p.text-small(numero="7" titulo="Impresión") En esta etapa se debe tener en cuenta la cantidad de colores con los que se va a producir el periódico "monocromo" (un color) y policromía (más de dos colores), dicha información debe ser comunicada claramente a la persona encargada de realizar la impresión con el fin de tener claro qué tipo de máquina utilizar, determinando las tintas, colores y porcentajes requeridos. la impresión es un proceso rápido debido a la prisa asociada con la publicación, ya que se realiza a altas horas de la noche en anticipación a todas las noticias de última hora.
 
           p.text-small(numero="8" titulo="Distribución") La etapa final y su objetivo principal es hacerlo llegar a todos los públicos, la distribución se puede realizar por; suscripción, en tiendas, librerías, supermercados, entre otros, la publicidad es una parte importante de la distribución, ya que es la manera en la que se da a conocer su existencia.
 
@@ -783,7 +783,7 @@ export default {
       {
         titulo: 'Directorio',
         texto:
-          'Se encarga de ampliar e identificar los contenidos de la portada, se ubica dentro la estructura interna de la revista.',
+          'Se encarga de ampliar e identificar los contenidos de la portada, se ubica dentro de la estructura interna de la revista.',
         imagen: require('@/assets/curso/tema1/slyd5.png'),
       },
       {

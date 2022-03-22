@@ -116,7 +116,7 @@
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías Sans Serif, de palo seco o lineales")
         h4 Tipografías #[em sans serif], de palo seco o lineales
 
-        p Este tipo de fuentes se identifican porque carecen de remate en sus trazos, ya que son tipografías rectas y presentan trazos limpios y uniformes, su primera aparición es en la revolución industrial las cuales se manejaban en carteleras y embalajes, su principal uso es en textos cortos y no densos puesto que no son de buena legibilidad por ello su lectura es compleja. Están muy asociadas a contextos actuales y modernos dando un aspecto limpio y sobrio como ejemplos de este tipo de tipografías #[em sans serif] son Arial, Open Sans, Century Gothic, Calibri, Avenir, Futura, Frutiguer, entre otras.
+        p Este tipo de fuentes se identifican porque carecen de remate en sus trazos, ya que son tipografías rectas y presentan trazos limpios y uniformes, su primera aparición es en la revolución industrial las cuales se manejaban en carteleras y embalajes, su principal uso es en textos cortos y no densos puesto que no son de buena legibilidad por ello su lectura es compleja. Están muy asociadas a contextos actuales y modernos dando un aspecto limpio y sobrio, como ejemplos de este tipo de tipografías #[em sans serif] son Arial, Open Sans, Century Gothic, Calibri, Avenir, Futura, Frutiguer, entre otras.
 
 
         figure
@@ -125,7 +125,7 @@
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Tipografías Script o cursivas")
         h4 Tipografías Script o cursivas
 
-        p Son llamadas así por su aspecto de forma manual, ya que tienden a semejar la escritura realizada a mano, por lo general cuentan con florituras o uniones lo que hace que se unan con otras letras, se utilizan comúnmente para realizar frases cortas o firmas, puesto que por su forma en un texto largo dificultaría su legibilidad y lectura, este tipo de fuentes brindan un aspecto de cercanía, creatividad y elegancia como ejemplos de este tipo de tipografías se pueden mencionar; Gótica, Gran Vives, Edwardian Script, Brush.
+        p Son llamadas así por su aspecto de forma manual, ya que tienden a semejar la escritura realizada a mano, por lo general cuentan con florituras o uniones lo que hace que se unan con otras letras, se utilizan comúnmente para realizar frases cortas o firmas, puesto que por su forma en un texto largo dificultaría su legibilidad y lectura, este tipo de fuentes brindan un aspecto de cercanía, creatividad y elegancia, como ejemplos de este tipo de tipografías se pueden mencionar; Gótica, Gran Vives, Edwardian Script, Brush.
 
         figure
           img.contentext(src='@/assets/curso/tema2/text3.svg', alt='Texto 3')
@@ -177,7 +177,7 @@
                   li 
                     p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Anchura del trazo] de acuerdo con su anchura podrá catalogar en: redonda, fina, extrafina o negra o super negra.
                   li 
-                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Inclinación del eje vertical] por lo general cuentan con una inclinación de 15%, Itálicas o cursivas. 
+                    p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Inclinación del eje vertical] por lo general cuentan con una inclinación de 15 %, Itálicas o cursivas. 
                   li 
                     p.mb-0 #[i.fas.fa-angle-right] #[strong.colortext Proporción] cuenta con eje vertical y horizontal, se cataloga en expandida, estrecha y redonda.
 
@@ -312,7 +312,7 @@
                     span Cuentan con un peso y color determinado en su aspecto general.
                   li 
                     i.fas.fa-angle-right
-                    span Se pueden referenciar los siguientes estilos de fuente humanista: ITC Berkeley Old Style, Kennerley, Clister, Erasmus, Jenson, Centaur, Stempel Schneidler, ITC Golden Type.
+                    span Se pueden referenciar los siguientes estilos de fuente humanista: #[i ITC Berkeley Old Style, Kennerley, Clister, Erasmus, Jenson, Centaur, Stempel Schneidler, ITC Golden Type].
           figure.col-md-6.m-auto
             img(src='@/assets/curso/tema2/img-abc1.png', alt='imagen ABC1')
 
@@ -349,7 +349,7 @@
         
       .row(titulo="Subestilo de las reales o de transición")
         .col-md-12.mb-4.mb-md-0.ps-5
-          p Surgen en la última década del siglo XV, en 1692 se crea un nuevo tipo romano siendo pionero ya que de este tipo se creó sobre una cuadrícula, mostraba una serie de características novedosas en sus trazos y terminales planos, una menor anchura y excelente contraste entre trazos, a estos tipos se les denomino transición puesto que cuentan con características de las Garaldas y de las Didonas. Nace un nuevo diseño de fuente redonda, el tipo Baskerville.
+          p Surgen en la última década del siglo XV, en 1692 se crea un nuevo tipo romano siendo pionero ya que este tipo se creó sobre una cuadrícula, mostraba una serie de características novedosas en sus trazos y terminales planos, una menor anchura y excelente contraste entre trazos, a estos tipos se les denominó transición puesto que cuentan con características de las Garaldas y de las Didonas. Nace un nuevo diseño de fuente redonda, el tipo #[i Baskerville].
           p Principales características de los tipos de transición:
             ul.lista-ul.p-3
               li
@@ -363,27 +363,27 @@
                     span Tienen un contraste, el cual se da entre los trazos gruesos y finos.
                   li 
                     i.fas.fa-angle-right
-                    span Los trazos finales ascendentes de las letras de caja baja son levemente oblicuos (en ocasiones podrían ser horizontales) y los trazos inferiores por lo general son horizontales casi horizontales.
+                    span Los trazos finales ascendentes de las letras de caja baja son levemente oblicuos (en ocasiones podrían ser horizontales) y los trazos inferiores por lo general son casi horizontales.
                   li 
                     i.fas.fa-angle-right
-                    span Los trazos finales por lo general son encuadrado Surgen en la última década del siglo XV, en 1692 se crea un nuevo tipo romano siendo pionero ya que de este tipos y angulosos.
+                    span Los trazos finales por lo general son encuadrados, surgen en la última década del siglo XV, en 1962 se crea un nuevo tipo romano siendo pionero ya que de este tipo se creó sobre una cuadrícula, mostrando características novedosas en sus trazos y terminales planos.
                   li 
                     i.fas.fa-angle-right
-                    span Se pueden referenciar los siguientes estilos de fuentes reales o de transición: ITC Stone #[em Serif], Century Schoolbook, Cochin, Cheltenham, Baskerville, Olympian, Corona, Melior, meridien.
+                    span Se pueden referenciar los siguientes estilos de fuentes reales o de transición: #[i ITC Stone #[em Serif], Century Schoolbook, Cochin, Cheltenham, Baskerville, Olympian, Corona, Melior, meridien.]
                  
           figure.col-md-6.m-auto
             img(src='@/assets/curso/tema2/img-abc3.png', alt='imagen ABC3' )
       
       .row(titulo="Subestilo de las didonas o modernas")
         .col-md-12.mb-4.mb-md-0.ps-5
-          p Los nuevos materiales y la tecnología de la época permiten un refinamiento en el diseño y la creación de tipos, para 1784 la influencia del tipo Baskerville permite realizar una serie de cambios en sus trazos terminales rectos. Unos años después aparece el tipo Bodini que fácilmente impresionó por su majestuoso estilo neoclásico y su elegancia, haciendo de los textos cortos una cualidad de belleza clásica, sin embargo, no se apropió para los textos largos por sus trazos débiles y su fuerte modulación.
+          p Los nuevos materiales y la tecnología de la época permiten un refinamiento en el diseño y la creación de tipos, para 1784 la influencia del tipo #[i Baskerville] permite realizar una serie de cambios en sus trazos terminales rectos. Unos años después aparece el tipo #[i Bodoni] que fácilmente impresionó por su majestuoso estilo neoclásico y su elegancia, haciendo de los textos cortos una cualidad de belleza clásica, sin embargo, no se apropió para los textos largos por sus trazos débiles y su fuerte modulación.
           p Principales características de los tipos Didones:
             ul.lista-ul.p-3
               li
                 ul
                   li 
                     i.fas.fa-angle-right
-                    span Su modulación por general es vertical.
+                    span Su modulación por lo general es vertical.
                   li 
                     i.fas.fa-angle-right
                     span Cuenta con un contraste fuerte que se da entre trazos gruesos y finos.
@@ -398,14 +398,14 @@
                     span Cuentan con un espacio estrecho entre letra y letra.
                   li 
                     i.fas.fa-angle-right
-                    span Se pueden referenciar los siguientes estilos de fuentes modernas: New Baskerville, Didot, Bodoni.
+                    span Se pueden referenciar los siguientes estilos de fuentes modernas: #[i New Baskerville, Didot, Bodoni.]
                  
           figure.col-md-6.m-auto
             img(src='@/assets/curso/tema2/img-abc4.png', alt='imagen ABC4')
       
       .row(titulo="Subestilo de las mecanas o egipcias")
         .col-md-12.mb-4.mb-md-0.ps-5
-          p Nacen en 1817 en Inglaterra, se conocen también como (Mecanas o San #[em Serif]) de acuerdo con su tipo de rotulación fueron pensadas para trabajos netamente publicitarios por su estructura y trazos, su popularidad duró hasta el último cuarto del siglo XIX.  Para 1845 aparece un nuevo tipo egipcio llamado Clarendon presentando trazos finales enlazados llegando a representar un subgrupo muy pequeño dentro de los tipos de estilo egipcio, este tipo se utilizó bastante en la edición de periódicos. 
+          p Nacen en 1817 en Inglaterra, se conocen también como (Mecanas o #[em San Serif]) de acuerdo con su tipo de rotulación fueron pensadas para trabajos netamente publicitarios por su estructura y trazos, su popularidad duró hasta el último cuarto del siglo XIX.  Para 1845 aparece un nuevo tipo egipcio llamado #[i Clarendon] presentando trazos finales enlazados llegando a representar un subgrupo muy pequeño dentro de los tipos de estilo egipcio, este tipo se utilizó bastante en la edición de periódicos. 
           p Principales características de los tipos egipcios:
             ul.lista-ul.p-3
               li
@@ -421,7 +421,7 @@
                     span La forma de los trazos finales son del mismo grosor que las astas, la mayoría cuentan con trazos finales cuadrangulares que no se enlazan, a excepción del tipo Clarendon.
                   li 
                     i.fas.fa-angle-right
-                    span Se pueden referenciar los siguientes estilos de fuentes egipcias: Wanted, Rockwel y Playbill.
+                    span Se pueden referenciar los siguientes estilos de fuentes egipcias: #[i Wanted, Rockwel y Playbill.]
                                    
           figure.col-md-7.m-auto
             img(src='@/assets/curso/tema2/img-abc5.png', alt='imagen ABC5')
@@ -435,7 +435,7 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Subestilos grotescos y neogrotescos")
         .col-md-12.mb-4.mb-md-0.ps-5
-          p Fueron producidos en el Siglo XIX, en un principio se crearon para trabajos de rotulación y publicidad, con el pasar de los años fueron ajustados para trabajarlos en textos continuos, como referencia de estos tipos se pueden mencionar Estándar, Univers, Helvética.
+          p Fueron producidos en el siglo XIX, en un principio se crearon para trabajos de rotulación y publicidad, con el pasar de los años fueron ajustados para trabajarlos en textos continuos, como referencia de estos tipos se pueden mencionar Estándar, #[i Univers], Helvética.
           p Principales características de los tipos grotesco:
             ul.lista-ul.p-3
               li
@@ -455,7 +455,7 @@
 
       .row(titulo="Subestilo de geométricos")
         .col-md-12.mb-4.mb-md-0.ps-5
-          p Para 1920 surge un estilo de Palo Seco sobrio bastante funcional él fue conocido como geométrico, constituidos a partir de figuras geométricas básicas y líneas rectas tales como el rectángulo y el círculo, el tipo más referenciado es el Futura, ya que cuenta con una buena gama de pesos, cursivas y anchos haciéndose muy popular en publicaciones educativas y publicaciones infantiles, otro ejemplo de tipo es Avant Garde.
+          p Para 1920 surge un estilo de palo seco sobrio bastante funcional el cual fue conocido como geométrico, constituidos a partir de figuras geométricas básicas y líneas rectas tales como el rectángulo y el círculo, el tipo más referenciado es el Futura, ya que cuenta con una buena gama de pesos, cursivas y anchos haciéndose muy popular en publicaciones educativas y publicaciones infantiles, otro ejemplo de tipo es #[i Avant Garde.]
           p Principales características de los tipos geométricos:
             ul.lista-ul.p-3
               li
@@ -473,7 +473,7 @@
 
       .row(titulo="Subestilo de los humanísticos")
         .col-md-12.mb-4.mb-md-0.ps-5
-          p Se basa en letras romanas, los cuales presentan trazos ligeros haciendo similitud a la caligrafía, lo cual hacía que se contrastarán con los tipos de palo seco del momento, como ejemplo de este tipo se puede nombrar el tipo Gill Sans siendo su primer rótulo una tienda de libros.
+          p Se basa en letras romanas, los cuales presentan trazos ligeros haciendo similitud a la caligrafía, lo cual hacía que se contrastaran con los tipos de palo seco del momento, como ejemplo de este tipo se puede nombrar el tipo #[i Gill Sans] siendo su primer rótulo una tienda de libros.
                
           figure.col-md-6.m-auto
             img(src='@/assets/curso/tema2/img-abc2-3.png', alt='imagen ABC2-3') 
@@ -483,7 +483,7 @@
     
     .row.mt-4.mb-4
       .col-md-9
-        p Son formas intermedias entre las tradicionales romanas y las del palo seco. Son los asientos de la letra mayúscula y se reducen a una forma triangular muy fina, lo mismo ocurre en minúsculas, no se puede hablar de #[em serif], sino de un valor gráfico que hace referencia a un ensanchamiento de la línea al final de la línea, la cursiva, como en las lineales, se diferencia de las rectas por una simple inclinación, es decir, no hay cursiva, como ejemplo de este tipo se puede nombrar Óptima, Albertus, Formata.
+        p Son formas intermedias entre las tradicionales romanas y las del palo seco. Son los asientos de la letra mayúscula y se reducen a una forma triangular muy fina, lo mismo ocurre en minúsculas, no se puede hablar de #[em serif], sino de un valor gráfico que hace referencia a un ensanchamiento de la línea al final de la línea, la cursiva, como en las lineales, se diferencia de las rectas por una simple inclinación, es decir, no hay cursiva, como ejemplo de este tipo se puede nombrar Óptima, #[i Albertus, Formata].
       .col-md-3
         figure
           img(src='@/assets/curso/tema2/img-tipo1.svg', alt='tipo 1', width="295", height="100" )
@@ -502,7 +502,7 @@
                   li 
                     p.mb-0 #[strong.colortext Caligráficas:] inspiradas en la escritura caligráfica, se connotan a la escritura personal e intercambios epistolares, como ejemplo de este tipo se puede mencionar la Mistral, se caracteriza por su trazo manual y por tener caracteres sueltos o enlazados.
                   li 
-                    p.mb-0 #[strong.colortext Manuales:] son formas de escritura manual normal y su apariencia final dependerá del instrumento con las que fueron trazadas, marcador o pincel, dan una apariencia de espontaneidad e informalidad, como ejemplo de este tipo se puede mencionar Comic sans.
+                    p.mb-0 #[strong.colortext Manuales:] son formas de escritura manual normal y su apariencia final dependerá del instrumento con las que fueron trazadas, marcador o pincel, dan una apariencia de espontaneidad e informalidad, como ejemplo de este tipo se puede mencionar #[i Comic sans].
 
       .col-md-3
         figure
@@ -515,7 +515,7 @@
     
     .row.mt-4.mb-4.mt-5
       .col-md-9
-        p Se caracterizan por sus formas arcaicas de tipografía, civiles, góticas y medievales, las letras mayúsculas se adornan por signos caligráficos de connotación leve, la letra gótica es la más fuerte, las minúsculas manifiestan su origen de estar formadas a pluma, de igual forma, las letras góticas se consideran tipografías digitales, como ejemplo de este tipo se puede mencionar Goudy Text.
+        p Se caracterizan por sus formas arcaicas de tipografía, civiles, góticas y medievales, las letras mayúsculas se adornan por signos caligráficos de connotación leve, la letra gótica es la más fuerte, las minúsculas manifiestan su origen de estar formadas a pluma, de igual forma, las letras góticas se consideran tipografías digitales, como ejemplo de este tipo se puede mencionar #[i Goudy Text].
       .col-md-3
         figure
           img(src='@/assets/curso/tema2/img-tipo4.svg', alt='tipo 4', width="295", height="100" )
