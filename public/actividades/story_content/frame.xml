@@ -1196,7 +1196,6 @@
       <string id="three_image_camera_left">cámara movida a la izquierda</string>
       <string id="three_image_camera_down">cámara movida hacia abajo</string>
       <string id="three_image_camera_up">cámara movida hacia arriba</string>
-      <string id="three_image_tooltip">descripción emergente</string>
       <string id="three_image_label">etiqueta</string>
       <string id="three_image_interaction">interacción de la imagen de 360 grados</string>
       <string id="three_image_marker">marcador</string>
@@ -1211,15 +1210,9 @@
       <string id="three_image_play_audio">reproducir audio</string>
       <string id="three_image_play_video">reproducir video</string>
       <string id="three_image_video">video</string>
+      <string id="three_image_view_image">ver imagen</string>
       <string id="three_image_video_volume">volumen del video</string>
       <string id="three_image_instructions">Utiliza las teclas W, A, S y D para moverte por la imagen de 360 grados. Presiona la tecla TAB para saltar a los marcadores interactivos y los puntos calientes.</string>
-      <string id="three_image_count_of_total">%count% de %total%</string>
-      <string id="acc_three_image_step_count_of_total">paso %count% de %total%</string>
-      <string id="three_image_total_items">%total% ítems</string>
-      <string id="three_image_total_item">%total% ítem</string>
-      <string id="acc_three_image_count_of_total_items_visited">%count% de %total% ítems visitados</string>
-      <string id="three_image_count_of_total_visited">%count% de %total% visitados</string>
-      <string id="acc_three_image_count_of_total_item_visited">%count% de %total% ítems visitados</string>
       <string id="three_image_item">ítem</string>
       <string id="three_image_items">ítems</string>
       <string id="three_image_of">de</string>
@@ -1278,7 +1271,7 @@
         <slidelink slideid="_player.6iPYYXYye9N" displaytext="Escena sin título" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6iPYYXYye9N.60B7h4FKhhU" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.61QjZz5VdmN" displaytext="1. El diseño editorial es una rama del diseño gráfico, dentro de un proceso editorial, este se encarga de la ___________________ y ____________________ de cualquier tipo de pieza literaria.&#xD;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.61QjZz5VdmN" displaytext="1. El diseño editorial es una rama del diseño gráfico, dentro de un proceso editorial, este se encarga de la ___________________ y ____________________ de cualquier tipo de pieza literaria." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.6GEmKRb6Erj" displaytext="2. Cuando se habla de caja tipográfica se hace alusión a el campo de medios impresos, el cual hace énfasis en los marcos de páginas los cuales contienen _________________________ y ________________________adecuándose al marco tipográfico y su espacio de creación de un texto." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.6bezAiRQCnX" displaytext="3. Al momento de hablar de estilos tipográficos se hace referencia a los diferentes tipos de ________________ y ____________________ que se utilizan al crear textos, con el fin de distinguir un estilo tipográfico." expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.6q2QgWO4OzW" displaytext="4. Tipo es la técnica y el arte de _________________ y _________________ tipos con el fin de comunicar un mensaje, de igual forma se encarga del estudio y categorización de las distintas fuentes tipográficas." expand="false" type="slide" />
