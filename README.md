@@ -1,6 +1,6 @@
-# **sena-base-2021 v5.1.0**
+# **Producción de editoriales y tipografía**
 
-## **Producción de editoriales y tipografía**
+## **Enlace GitHubPages**
 
 [https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
 
