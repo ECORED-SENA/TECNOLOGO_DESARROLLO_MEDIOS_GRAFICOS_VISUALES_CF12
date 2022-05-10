@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/TECNOLOGO_DESARROLLO_MEDIOS_GRAFICOS_VISUALES_CF12/](https://ecored-sena.github.io/TECNOLOGO_DESARROLLO_MEDIOS_GRAFICOS_VISUALES_CF12/)
 
 #
 
